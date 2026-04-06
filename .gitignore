@@ -1,0 +1,7 @@
+*.db-wal
+*.db-shm
+*.db
+*.vsidx
+.vs/PokopiaCityPlanner.slnx/copilot-chat/743154ea/sessions/ff734e3c-18e1-4ed1-ba6b-15180d346c5f
+.vs/ProjectSettings.json
+.vs/slnx.sqlite
