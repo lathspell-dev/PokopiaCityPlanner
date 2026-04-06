@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Pidgey",
+    "image": "data/images/pidgey-full.png",
+    "icon": "data/icons/pidgey-icon.png",
+    "originalAreas": ["bosque", "ciudad"],
+    "preferredFood": "Semillas",
+    "specialities": ["Vuelo en bandas"],
+    "environment": "Aire",
+    "preferences": ["rapido", "volador"]
+  },
+  {
+    "name": "Scyther",
+    "image": "data/images/scyther-full.png",
+    "icon": "data/icons/scyther-icon.png",
+    "originalAreas": ["ciudad", "bosque"],
+    "preferredFood": "Restos",
+    "specialities": ["Excavaci�n ligera"],
+    "environment": "Subsuelo",
+    "preferences": ["fuerte"]
+  },
+  {
+    "name": "Zubat",
+    "image": "data/images/zubat-full.png",
+    "icon": "data/icons/zubat-icon.png",
+    "originalAreas": ["cuevas", "montana"],
+    "preferredFood": "Insectos",
+    "specialities": ["Ecolocaci�n"],
+    "environment": "Oscuridad",
+    "preferences": ["volador"]
+  },
+  {
+    "name": "Eevee",
+    "image": "data/images/eevee-full.png",
+    "icon": "data/icons/eevee-icon.png",
+    "originalAreas": ["bosque", "ciudad"],
+    "preferredFood": "Bayas",
+    "specialities": ["Evoluci�n adaptable"],
+    "environment": "Mixto",
+    "preferences": ["rapido", "fuerte"]
+  },
+  {
+    "name": "Pikachu",
+    "image": "data/images/pikachu-full.png",
+    "icon": "data/icons/pikachu-icon.png",
+    "originalAreas": ["bosque", "pradera"],
+    "preferredFood": "Bayas",
+    "specialities": ["Descarga el�ctrica"],
+    "environment": "Bosque abierto",
+    "preferences": ["rapido"]
+  },
+  {
+    "name": "Bulbasaur",
+    "image": "data/images/bulbasaur-full.png",
+    "icon": "data/icons/bulbasaur-icon.png",
+    "originalAreas": ["bosque", "pradera"],
+    "preferredFood": "Frutas",
+    "specialities": ["Fotos�ntesis"],
+    "environment": "Plantas",
+    "preferences": ["fuerte"]
+  },
+  {
+    "name": "Charmander",
+    "image": "data/images/charmander-full.png",
+    "icon": "data/icons/charmander-icon.png",
+    "originalAreas": ["montana", "ciudad"],
+    "preferredFood": "Carne",
+    "specialities": ["Llama controlada"],
+    "environment": "Rocas calientes",
+    "preferences": ["fuerte"]
+  },
+  {
+    "name": "Squirtle",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": ["lago", "ciudad"],
+    "preferredFood": "Algas",
+    "specialities": ["Caparaz�n protector"],
+    "environment": "Agua",
+    "preferences": ["rapido"]
+  }
+]
