@@ -1,4 +1,0 @@
-:root{--bg:#f7f8fb;--accent:#0366d6;--text:#111}
-body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);margin:0;padding:2rem}
-header h1{color:var(--accent);margin:0 0 .5rem}
-section{background:#fff;padding:1rem;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.06)}

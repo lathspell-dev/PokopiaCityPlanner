@@ -1,0 +1,303 @@
+:root {
+    --gap: 12px;
+    --bg: #0f1724;
+    --panel: #0b1220;
+    --muted: #a8b0bf;
+    --accent: #7dd3fc;
+}
+
+* {
+    box-sizing: border-box
+}
+
+html, body, #app {
+    height: 100%;
+    margin: 0;
+    font-family: Inter,Segoe UI,Helvetica,Arial,sans-serif;
+    background: linear-gradient(180deg,#071028 0%, #021020 100%);
+    color: #e6eef8
+}
+
+.page {
+    display: grid;
+    grid-template-rows: 60% 40%;
+    height: 100vh;
+    gap: var(--gap);
+    padding: var(--gap)
+}
+
+/* TOP: habitat */
+.top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--gap);
+    min-height: 0
+}
+
+.habitat-display {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #041226;
+    box-shadow: 0 6px 20px rgba(0,0,0,.6)
+}
+
+    .habitat-display .habitat-bg {
+        position: absolute;
+        inset: 0;
+        background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=000');
+        background-size: cover;
+        background-position: center;
+        filter: brightness(.6);
+        transform: scale(1.02)
+    }
+
+/* pokemons encima */
+.pokemon-pin {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    outline: none;
+    transition: transform .15s ease;
+}
+
+    .pokemon-pin img {
+        width: 96px;
+        height: 96px;
+        border-radius: 12px;
+        border: 3px solid rgba(255,255,255,.06);
+        display: block;
+        box-shadow: 0 8px 18px rgba(0,0,0,.6)
+    }
+
+    .pokemon-pin:focus, .pokemon-pin:hover {
+        transform: translate(-50%,-50%) scale(1.08)
+    }
+
+/* tooltip/menú que aparece bajo la imagen */
+/* Ajustado para aparecer justo debajo (top) y animar con opacidad/translateY */
+.pokemon-tooltip {
+    position: absolute;
+    left: 50%;
+    top: calc(100% + 8px); /* justo debajo de la imagen */
+    transform: translateX(-50%) translateY(6px);
+    min-width: 160px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    background: linear-gradient(180deg,rgba(6,11,20,.98),rgba(3,7,12,.95));
+    box-shadow: 0 6px 22px rgba(0,0,0,.6);
+    color: var(--muted);
+    font-size: 13px;
+    text-align: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .15s, transform .15s;
+    z-index: 10
+}
+
+.pokemon-pin:hover .pokemon-tooltip,
+.pokemon-pin:focus .pokemon-tooltip {
+    transform: translateX(-50%) translateY(0); /* subir un poco desde la posición inicial */
+    opacity: 1;
+    pointer-events: auto
+}
+
+/* habitat stats */
+.habitat-stats {
+    background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01));
+    border-radius: 10px;
+    padding: 16px;
+    overflow: auto
+}
+
+    .habitat-stats h2 {
+        margin: 0 0 12px 0;
+        font-size: 18px;
+        color: var(--accent)
+    }
+
+.stats-category {
+    margin-bottom: 10px
+}
+
+    .stats-category h3 {
+        margin: 8px 0;
+        color: #cfeafb;
+        font-size: 13px
+    }
+
+/* Ahora las etiquetas fluyen en línea y se envuelven cuando hace falta */
+.stat-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+/* Badges solo ocupan lo necesario y muestran imágenes a la izquierda */
+.stat-badge {
+    display: inline-flex;      /* shrink-to-fit */
+    flex: 0 0 auto;            /* no crecer, no encoger más allá de su contenido */
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,.03);
+    padding: 6px 8px;          /* ligeramente más compactos */
+    border-radius: 12px;
+    color: var(--muted);
+    white-space: nowrap;       /* evitar salto de línea interno */
+    margin-bottom: 6px;        /* fallback para navegadores sin gap en flex-wrap */
+}
+
+/* forzar orden: imágenes a la izquierda, nombre a la derecha */
+.stat-pokemons {
+    order: 0;
+    display: inline-flex;
+    align-items: center;
+}
+.stat-name {
+    order: 1;
+    font-weight: 600
+}
+
+.stat-pokemons img {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    margin-right: 6px; /* mover separación hacia la derecha (imágenes a la izquierda) */
+    vertical-align: middle;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0,0,0,.5)
+}
+
+/* BOTTOM: search */
+.bottom {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 12px;
+    min-height: 0
+}
+
+.filters {
+    background: rgba(255,255,255,.02);
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center
+}
+
+.filter-row {
+    display: flex;
+    gap: 8px;
+    width: 100%
+}
+
+/* Inputs y selects con aspecto unificado y legible */
+.filter-row input, .filter-row select {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,.06);
+    background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01));
+    color: #e6eef8;
+    min-width: 140px;
+    font-size: 14px;
+    outline: none;
+    box-shadow: none;
+    transition: box-shadow .12s, border-color .12s, background .12s;
+}
+
+/* personalizado: flecha y espaciado para el select */
+.filter-row select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-right: 36px; /* espacio para la flecha */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%237dd3fc' stroke-width='1.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px 8px;
+}
+
+/* hide IE/Edge default arrow */
+.filter-row select::-ms-expand {
+    display: none;
+}
+
+/* opciones del select (mejor contraste en navegadores que lo soportan) */
+.filter-row select option {
+    background: #021226;
+    color: #e6eef8;
+}
+
+/* foco más visible */
+.filter-row input:focus, .filter-row select:focus {
+    border-color: rgba(125,211,252,0.9);
+    box-shadow: 0 4px 18px rgba(125,211,252,0.06);
+}
+
+/* botón limpiar */
+.filter-row button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 0;
+    background: var(--accent);
+    color: #012;
+    cursor: pointer
+}
+
+/* grid de pokemons */
+.pokemon-grid {
+    background: linear-gradient(180deg, rgba(255,255,255,.01), rgba(255,255,255,.00));
+    padding: 12px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(140px,1fr));
+    gap: 12px;
+    overflow: auto
+}
+
+.poke-card {
+    background: rgba(255,255,255,.02);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: transform .12s
+}
+
+    .poke-card img {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        object-fit: cover
+    }
+
+    .poke-card:hover {
+        transform: translateY(-6px)
+    }
+
+.poke-name {
+    font-weight: 700;
+    color: #dff8ff
+}
+
+.poke-meta {
+    font-size: 12px;
+    color: var(--muted)
+}
+
+@media (max-width:900px) {
+    .page {
+        grid-template-rows: 55% 45%
+    }
+
+    .top {
+        grid-template-columns: 1fr
+    }
+
+    .habitat-stats {
+        order: 2
+    }
+}

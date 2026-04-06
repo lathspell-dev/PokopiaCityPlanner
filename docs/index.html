@@ -1,29 +1,153 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Mi sitio en GitHub Pages</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Pokopia City Planner — Maqueta</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <h1>Proyecto desplegado en GitHub Pages</h1>
-    <p>Plantilla estática mínima.</p>
-  </header>
+    <div id="app" class="page">
+        <!-- TOP: habitat -->
+        <header class="top">
+            <section class="habitat-display" aria-label="Habitat display">
+                <div class="habitat-bg"></div>
 
-  <main>
-    <section>
-      <h2>Bienvenido</h2>
-      <p>Editar <code>index.html</code> y subir al repositorio.</p>
-    </section>
-  </main>
+                <!-- ejemplo hasta 4 pokemons posicionados -->
+                <div class="pokemon-pin" style="left: 12%; top: 20%;" data-id="1" data-name="Pikachu" tabindex="0">
+                    <img src="https://via.placeholder.com/96x96?text=P1" alt="Pikachu">
+                    <div class="pokemon-tooltip">Pikachu — Nivel 12<br>Tipo: Eléctrico</div>
+                </div>
 
-  <footer>
-    <small>© abril 2026</small>
-  </footer>
-  <script>
-    console.log('Sitio desplegado en GitHub Pages');
-  </script>
+                <div class="pokemon-pin" style="left: 46%; top: 40%;" data-id="2" data-name="Bulbasaur" tabindex="0">
+                    <img src="https://via.placeholder.com/96x96?text=P2" alt="Bulbasaur">
+                    <div class="pokemon-tooltip">Bulbasaur — Nivel 8<br>Tipo: Planta</div>
+                </div>
+
+                <div class="pokemon-pin" style="left: 70%; top: 18%;" data-id="3" data-name="Charmander" tabindex="0">
+                    <img src="https://via.placeholder.com/96x96?text=P3" alt="Charmander">
+                    <div class="pokemon-tooltip">Charmander — Nivel 10<br>Tipo: Fuego</div>
+                </div>
+
+                <div class="pokemon-pin" style="left: 58%; top: 66%;" data-id="4" data-name="Squirtle" tabindex="0">
+                    <img src="https://via.placeholder.com/96x96?text=P4" alt="Squirtle">
+                    <div class="pokemon-tooltip">Squirtle — Nivel 9<br>Tipo: Agua</div>
+                </div>
+            </section>
+
+            <aside class="habitat-stats" aria-label="Habitat stats">
+                <h2>Estadísticas del hábitat</h2>
+
+                <div class="stats-category">
+                    <h3>Comunes</h3>
+                    <div class="stat-list">
+                        <div class="stat-badge">
+                            <span class="stat-name">Hierba</span>
+                            <div class="stat-pokemons">
+                                <img src="https://via.placeholder.com/28?text=1" alt="">
+                                <img src="https://via.placeholder.com/28?text=2" alt="">
+                            </div>
+                        </div>
+
+                        <div class="stat-badge">
+                            <span class="stat-name">Piedra</span>
+                            <div class="stat-pokemons">
+                                <img src="https://via.placeholder.com/28?text=3" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-category">
+                    <h3>Únicas</h3>
+                    <div class="stat-list">
+                        <div class="stat-badge">
+                            <span class="stat-name">Luz lunar</span>
+                            <div class="stat-pokemons">
+                                <img src="https://via.placeholder.com/28?text=4" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-category">
+                    <h3>Comida</h3>
+                    <div class="stat-list">
+                        <div class="stat-badge">
+                            <span class="stat-name">Frutas</span>
+                            <div class="stat-pokemons">
+                                <img src="https://via.placeholder.com/28?text=1" alt="">
+                                <img src="https://via.placeholder.com/28?text=2" alt="">
+                                <img src="https://via.placeholder.com/28?text=3" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-category">
+                    <h3>Entorno</h3>
+                    <div class="stat-list">
+                        <div class="stat-badge">
+                            <span class="stat-name">Rocas</span>
+                            <div class="stat-pokemons">
+                                <img src="https://via.placeholder.com/28?text=3" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nueva categoría: Especialidades -->
+                <div class="stats-category">
+                    <h3>Especialidades</h3>
+                    <div class="stat-list">
+                        <div class="stat-badge">
+                            <span class="stat-name">Baile nocturno</span>
+                            <div class="stat-pokemons">
+                                <img src="https://via.placeholder.com/28?text=5" alt="">
+                            </div>
+                        </div>
+
+                        <div class="stat-badge">
+                            <span class="stat-name">Camuflaje</span>
+                            <div class="stat-pokemons">
+                                <img src="https://via.placeholder.com/28?text=6" alt="">
+                                <img src="https://via.placeholder.com/28?text=7" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Especialidades -->
+
+            </aside>
+        </header>
+
+        <!-- BOTTOM: search area -->
+        <main class="bottom" aria-label="Search area">
+            <section class="filters">
+                <div class="filter-row">
+                    <input id="filter-name" placeholder="Filtrar por nombre" type="text">
+                    <select id="filter-area">
+                        <option value="">Área original</option>
+                        <option value="bosque">Bosque</option>
+                        <option value="ciudad">Ciudad</option>
+                        <option value="montana">Montaña</option>
+                    </select>
+                    <select id="filter-trait">
+                        <option value="">Rasgos</option>
+                        <option value="rapido">Rápido</option>
+                        <option value="fuerte">Fuerte</option>
+                        <option value="volador">Volador</option>
+                    </select>
+                    <button id="clear-filters" type="button">Limpiar</button>
+                </div>
+            </section>
+
+            <section class="pokemon-grid" id="pokemon-grid" aria-live="polite">
+                <!-- mock de pokemons: grid rellenado desde JS -->
+            </section>
+        </main>
+    </div>
+
+    <script src="js/site.js"></script>
 </body>
 </html>
