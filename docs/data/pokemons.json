@@ -508,5 +508,555 @@
     "specialities": [ "Cortar madera", "Construccion" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Decoraciones florales", "Cosas que parecen comida", "Cosas para entrenar" ]
+  },
+  {
+    "name": "Volbeat",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Dulce",
+    "specialities": [ "Entretener" ],
+    "environment": "Oscuro",
+    "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas brillantes", "Cosas cuquis", "Cosas para disfrutar juntos" ]
+  },
+  {
+    "name": "Illumise",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Acido",
+    "specialities": [ "Entretener" ],
+    "environment": "Oscuro",
+    "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas brillantes", "Cosas cuquis", "Cosas para disfrutar juntos" ]
+  },
+  {
+    "name": "Gulpin",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Picante",
+    "specialities": [ "Almacenar" ],
+    "environment": "Humedo",
+    "preferences": [ "Cosas cuquis", "Cosas que parecen comida", "Cosas esfericas", "Cosas donde meter cosas", "Cosas coloridas" ]
+  },
+  {
+    "name": "Swalot",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Riscos Rocosos" ],
+    "preferredFood": "Amargo",
+    "specialities": [ "Almacenar" ],
+    "environment": "Humedo",
+    "preferences": [ "Basura", "Cosas que parecen comida", "Cosas esfericas", "Cosas donde meter cosas", "Cosas coloridas" ]
+  },
+  {
+    "name": "Cacnea",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Picante",
+    "specialities": [ "Abonar" ],
+    "environment": "Seco",
+    "preferences": [ "Cosas de la naturaleza", "Decoraciones florales", "Cosas cuquis", "Cosas esfericas", "Cosas puntiagudas" ]
+  },
+  {
+    "name": "Cacturne",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Seco",
+    "specialities": [ "Abonar", "Producir (Rama gruesa)" ],
+    "environment": "Seco",
+    "preferences": [ "Cosas de la naturaleza", "Cosas que evocan viento", "Cosas lujosas", "Cosas brillantes", "Cosas puntiagudas" ]
+  },
+  {
+    "name": "Combee",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Dulce",
+    "specialities": [ "Producir (Miel)" ],
+    "environment": "Iluminado",
+    "preferences": [ "Cosas de la naturaleza", "Cosas que evocan viento", "Cosas de madera", "Cosas agrupadas", "Cosas para disfrutar juntos" ]
+  },
+  {
+    "name": "Vespiquen",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Dulce",
+    "specialities": [ "Reunir miel", "Rastrear" ],
+    "environment": "Iluminado",
+    "preferences": [ "Cosas de la naturaleza", "Cosas que evocan viento", "Cosas de madera", "Cosas agrupadas", "Cosas complicadas" ]
+  },
+  {
+    "name": "Shellos oeste",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "??",
+    "specialities": [ "Humedecer" ],
+    "environment": "Humedo",
+    "preferences": [ "??", "??", "??", "??", "??" ]
+  },
+  {
+    "name": "Shellos este",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Seco",
+    "specialities": [ "Humedecer" ],
+    "environment": "Humedo",
+    "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas para limpiar", "Cosas coloridas", "Cosas donde meter cosas" ]
+  },
+  {
+    "name": "Gastrodon oeste",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Especial" ],
+    "preferredFood": "Acido",
+    "specialities": [ "Humedecer", "Negociar" ],
+    "environment": "Humedo",
+    "preferences": [ "Cosas que evocan agua", "Cosas que evocan tierra", "Cosas que evocan mar", "Cosas para limpiar", "Cosas donde meter cosas" ]
+  },
+  {
+    "name": "Gastrodon este",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Especial" ],
+    "preferredFood": "Seco",
+    "specialities": [ "Humedecer", "Negociar" ],
+    "environment": "Humedo",
+    "preferences": [ "Cosas que evocan agua", "Cosas que evocan tierra", "Cosas que evocan mar", "Cosas para limpiar", "Cosas donde meter cosas" ]
+  },
+  {
+    "name": "Drifloon",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril", "Islas Aisladas" ],
+    "preferredFood": "Amargo",
+    "specialities": [ "Islas Ensueño" ],
+    "environment": "Calentito",
+    "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Cosas que evocan viento", "Cosas cuquis", "Cosas esfericas" ]
+  },
+  {
+    "name": "Drifblim",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Islas Aisladas" ],
+    "preferredFood": "Amargo",
+    "specialities": [ "Islas Ensueño" ],
+    "environment": "Calentito",
+    "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Cosas que evocan viento", "Cosas que se menean", "Cosas que giran" ]
+  },
+  {
+    "name": "Drillbur",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Acido",
+    "specialities": [ "Rastrear" ],
+    "environment": "Oscuro",
+    "preferences": [ "Cosas que evocan tierra", "Cosas de piedra", "Cosas de la naturaleza", "Cosas que alegran la vista", "Cosas puntiagudas" ]
+  },
+  {
+    "name": "Excadrill",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Acido",
+    "specialities": [ "Rastrear", "Cortar madera" ],
+    "environment": "Oscuro",
+    "preferences": [ "Cosas que evocan tierra", "Cosas con metal", "Cosas para entrenar", "Cosas que alegran la vista", "Cosas puntiagudas" ]
+  },
+  {
+    "name": "Timburr",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Picante",
+    "specialities": [ "Construir" ],
+    "environment": "Iluminado",
+    "preferences": [ "Cosas para entrenar", "Herramientas de construccion", "Cosas de madera", "Cosas alargadas", "Cosas cuadradas" ]
+  },
+  {
+    "name": "Gurdurr",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Picante",
+    "specialities": [ "Construir" ],
+    "environment": "Iluminado",
+    "preferences": [ "Cosas para entrenar", "Herramientas de construccion", "Cosas con metal", "Cosas alargadas", "Cosas para disfrutar juntos" ]
+  },
+  {
+    "name": "Conkeldurr",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Islas Aisladas" ],
+    "preferredFood": "Picante",
+    "specialities": [ "Construir", "Pulverizar" ],
+    "environment": "Iluminado",
+    "preferences": [ "Cosas para entrenar", "Herramientas de construccion", "Cosas de piedra", "Cosas alargadas", "Cosas para disfrutar juntos" ]
+  },
+  {
+    "name": "Litwick",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Amargo",
+    "specialities": [ "Quemar" ],
+    "environment": "Calentito",
+    "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Cosas que evocan fuego", "Cosas que se menean", "Cosas cuadradas" ]
+  },
+  {
+    "name": "Lampent",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Amargo",
+    "specialities": [ "Quemar" ],
+    "environment": "Calentito",
+    "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Cosas que evocan fuego", "Cosas que se menean", "Cosas donde meter cosas" ]
+  },
+  {
+    "name": "Chandelure",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Seco",
+    "specialities": [ "Quemar" ],
+    "environment": "Calentito",
+    "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Cosas que evocan fuego", "Cosas que se menean", "Cosas que alegran la vista" ]
+  },
+  {
+    "name": "Axew",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Dulce",
+    "specialities": [ "Cortar madera" ],
+    "environment": "Oscuro",
+    "preferences": [ "Cosas que evocan fuego", "Cosas lujosas", "Cosas que evocan tierra", "Cosas duras", "Cosas puntiagudas" ]
+  },
+  {
+    "name": "Fraxure",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Picante",
+    "specialities": [ "Cortar madera" ],
+    "environment": "Oscuro",
+    "preferences": [ "Cosas que evocan fuego", "Cosas lujosas", "Cosas que evocan tierra", "Cosas para entrenar", "Cosas puntiagudas" ]
+  },
+  {
+    "name": "Haxorus",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Acido",
+    "specialities": [ "Cortar madera", "Producir (Tronco pequeño)" ],
+    "environment": "Oscuro",
+    "preferences": [ "Cosas que evocan fuego", "Cosas lujosas", "Cosas que evocan tierra", "Cosas para entrenar", "Cosas puntiagudas" ]
+  },
+  {
+    "name": "Goomy",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Dulce",
+    "specialities": [ "Humedecer" ],
+    "environment": "Humedo",
+    "preferences": [ "Cosas que evocan agua", "Cosas lujosas", "Cosas de la naturaleza", "Cosas para limpiar", "Cosas curativas" ]
+  },
+  {
+    "name": "Sliggoo",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Dulce",
+    "specialities": [ "Humedecer" ],
+    "environment": "Humedo",
+    "preferences": [ "Cosas que evocan agua", "Cosas lujosas", "Cosas blanditas", "Cosas para limpiar", "Cosas curativas" ]
+  },
+  {
+    "name": "Goodra",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Acido",
+    "specialities": [ "Humedecer", "Negociar" ],
+    "environment": "Humedo",
+    "preferences": [ "Cosas que evocan agua", "Cosas lujosas", "Cosas para entrenar", "Cosas para limpiar", "Cosas curativas" ]
+  },
+  {
+    "name": "Cramorant",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Amargo",
+    "specialities": [ "Volar", "Humedecer" ],
+    "environment": "Humedo",
+    "preferences": [ "Cosas que evocan viento", "Cosas que evocan agua", "Cosas que evocan mar", "Cosas alargadas", "Cosas que parecen comida" ]
+  },
+  {
+    "name": "Pichu",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Dulce",
+    "specialities": [ "Electrificar" ],
+    "environment": "Iluminado",
+    "preferences": [ "Cosas electricas", "Cosas con cristal", "Cosas cuquis", "Decoraciones florales", "Cosas con tela" ]
+  },
+  {
+    "name": "Palidachu",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Dulce",
+    "specialities": [ "Iluminar" ],
+    "environment": "Iluminado",
+    "preferences": [ "Cosas electricas", "Cosas con cristal", "Cosas cuquis", "Cosas curativas", "Cosas con texto" ]
+  },
+  {
+    "name": "Pikachu",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Estepa Esteril" ],
+    "preferredFood": "Acido",
+    "specialities": [ "Electrificar" ],
+    "environment": "Iluminado",
+    "preferences": [ "Cosas electricas", "Cosas con cristal", "Cosas para disfrutar juntos", "Cosas esfericas", "Medios de transporte" ]
+  },
+  {
+    "name": "Raichu",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Islas Aisladas" ],
+    "preferredFood": "Acido",
+    "specialities": [ "Electrificar", "Entretener" ],
+    "environment": "Iluminado",
+    "preferences": [ "Cosas electricas", "Cosas con cristal", "Cosas para disfrutar juntos", "Cosas esfericas", "Cosas para jugar" ]
+  },
+  {
+    "name": "Zubat",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Picante",
+    "specialities": [ "Rastrear" ],
+    "environment": "Oscuro",
+    "preferences": [ "Cosas horripilantes", "Cosas que evocan viento", "Cosas de madera", "Cosas ruidosas", "Cosas complicadas" ]
+  },
+  {
+    "name": "Golbat",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Picante",
+    "specialities": [ "Rastrear" ],
+    "environment": "Oscuro",
+    "preferences": [ "Cosas horripilantes", "Cosas que evocan viento", "Cosas de madera", "Cosas ruidosas", "Cosas complicadas" ]
+  },
+  {
+    "name": "Crobat",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Seco",
+    "specialities": [ "Rastrear", "Cortar madera" ],
+    "environment": "Oscuro",
+    "preferences": [ "Cosas horripilantes", "Cosas que evocan viento", "Cosas de madera", "Basura", "Cosas que alegran la vista" ]
+  },
+  {
+    "name": "Meowth",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Picante",
+    "specialities": [ "Negociar" ],
+    "environment": "Fresquito",
+    "preferences": [ "Cosas donde meter cosas", "Cosas para disfrutar juntos", "Cosas brillantes", "Cosas con cristal", "Cosas lujosas" ]
+  },
+  {
+    "name": "Persian",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Islas Aisladas" ],
+    "preferredFood": "Acido",
+    "specialities": [ "Negociar", "Rastrear" ],
+    "environment": "Fresquito",
+    "preferences": [ "Cosas donde meter cosas", "Cosas para disfrutar juntos", "Cosas brillantes", "Cosas que alegran la vista", "Cosas lujosas" ]
+  },
+  {
+    "name": "Psyduck",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Seco",
+    "specialities": [ "Rastrear" ],
+    "environment": "Humedo",
+    "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas extrañas", "Cosas complicadas", "Cosas curativas" ]
+  },
+  {
+    "name": "Golduck",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Seco",
+    "specialities": [ "Rastrear" ],
+    "environment": "Humedo",
+    "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas extrañas", "Cosas complicadas", "Cosas puntiagudas" ]
+  },
+  {
+    "name": "Growlithe",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Dulce",
+    "specialities": [ "Quemar", "Rastrear" ],
+    "environment": "Calentito",
+    "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas que evocan viento", "Cosas con texto", "Decoraciones florales" ]
+  },
+  {
+    "name": "Arcanine",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Especial", "Islas Aisladas" ],
+    "preferredFood": "Picante",
+    "specialities": [ "Quemar", "Rastrear" ],
+    "environment": "Calentito",
+    "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas que evocan viento", "Cosas que alegran la vista", "Cosas con simbolos" ]
+  },
+  {
+    "name": "Farfetch'd",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Picante",
+    "specialities": [ "Cortar madera", "Construir" ],
+    "environment": "Calentito",
+    "preferences": [ "Cosas blanditas", "Cosas que evocan viento", "Cosas de madera", "Cosas alargadas", "Cosas para entrenar" ]
+  },
+  {
+    "name": "Grimer",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Especial" ],
+    "preferredFood": "Amargo",
+    "specialities": [ "Producir (Basura reciclable)" ],
+    "environment": "Oscuro",
+    "preferences": [ "Basura", "Cosas horripilantes", "Cosas agrupadas", "Cosas brillantes", "Cosas donde meter cosas" ]
+  },
+  {
+    "name": "Muk",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Especial" ],
+    "preferredFood": "Amargo",
+    "specialities": [ "Producir (Basura reciclable)" ],
+    "environment": "Oscuro",
+    "preferences": [ "Basura", "Cosas horripilantes", "Cosas agrupadas", "Cosas brillantes", "Cosas coloridas" ]
+  },
+  {
+    "name": "Gastly",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Picante",
+    "specialities": [ "Organizar", "Negociar" ],
+    "environment": "Oscuro",
+    "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Basura", "Cosas donde meter cosas", "Cosas para disfrutar juntos" ]
+  },
+  {
+    "name": "Haunter",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Picante",
+    "specialities": [ "Organizar", "Negociar" ],
+    "environment": "Oscuro",
+    "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Basura", "Cosas que se menean", "Cosas para disfrutar juntos" ]
+  },
+  {
+    "name": "Gengar",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Dulce",
+    "specialities": [ "Organizar", "Negociar" ],
+    "environment": "Oscuro",
+    "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Basura", "Medios de transporte", "Cosas para disfrutar juntos" ]
+  },
+  {
+    "name": "Voltorb",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Amargo",
+    "specialities": [ "Electrificar", "Explotar" ],
+    "environment": "Iluminado",
+    "preferences": [ "Cosas electricas", "Cosas brillantes", "Cosas esfericas", "Cosas coloridas", "Cosas que giran" ]
+  },
+  {
+    "name": "Electrode",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Acido",
+    "specialities": [ "Electrificar", "Explotar" ],
+    "environment": "Iluminado",
+    "preferences": [ "Cosas electricas", "Cosas brillantes", "Cosas esfericas", "Cosas para jugar", "Cosas que giran" ]
+  },
+  {
+    "name": "Exeggcute",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Picante",
+    "specialities": [ "Abonar", "Teletransportar" ],
+    "environment": "Iluminado",
+    "preferences": [ "Cosas de la naturaleza", "Cosas extrañas", "Cosas agrupadas", "Cosas que alegran la vista", "Cosas para disfrutar juntos" ]
+  },
+  {
+    "name": "Exeggutor",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Seco",
+    "specialities": [ "Abonar", "Teletransportar" ],
+    "environment": "Iluminado",
+    "preferences": [ "Cosas de la naturaleza", "Cosas extrañas", "Cosas agrupadas", "Cosas que alegran la vista", "Cosas de madera" ]
+  },
+  {
+    "name": "Happiny",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Dulce",
+    "specialities": [ "Negociar" ],
+    "environment": "Iluminado",
+    "preferences": [ "Cosas blanditas", "Cosas con tela", "Cosas curativas", "Cosas esfericas", "Cosas donde meter cosas" ]
+  },
+  {
+    "name": "Chansey",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Dulce",
+    "specialities": [ "Negociar" ],
+    "environment": "Iluminado",
+    "preferences": [ "Cosas blanditas", "Cosas con tela", "Cosas curativas", "Cosas esfericas", "Cosas para disfrutar juntos" ]
+  },
+  {
+    "name": "Blissey",
+    "image": "data/images/squirtle-full.png",
+    "icon": "data/icons/squirtle-icon.png",
+    "originalAreas": [ "Bahia Borrasco" ],
+    "preferredFood": "Acido",
+    "specialities": [ "Negociar", "Producir (Piedra)" ],
+    "environment": "Iluminado",
+    "preferences": [ "Cosas blanditas", "Cosas con tela", "Cosas curativas", "Cosas esfericas", "Cosas para disfrutar juntos" ]
   }
 ]
