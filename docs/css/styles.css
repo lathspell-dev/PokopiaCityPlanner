@@ -4,6 +4,10 @@
     --panel: #0b1220;
     --muted: #a8b0bf;
     --accent: #7dd3fc;
+    --special-bg: rgba(255,205,75,0.06); /* fondo para pokémon "Especial" en la búsqueda */
+    --special-border: rgba(255,205,75,0.16);
+    --stat-title-size: 15px;
+    --stat-name-size: 13px;
 }
 
 * {
@@ -123,7 +127,8 @@ html, body, #app {
     .stats-category h3 {
         margin: 8px 0;
         color: #cfeafb;
-        font-size: 13px
+        font-size: var(--stat-title-size); /* ligeramente mayor que las stats */
+        font-weight: 700;
     }
 
 /* Ahora las etiquetas fluyen en línea y se envuelven cuando hace falta */
@@ -146,6 +151,7 @@ html, body, #app {
     color: var(--muted);
     white-space: nowrap;       /* evitar salto de línea interno */
     margin-bottom: 6px;        /* fallback para navegadores sin gap en flex-wrap */
+    font-size: var(--stat-name-size);
 }
 
 /* forzar orden: imágenes a la izquierda, nombre a la derecha */
@@ -156,7 +162,9 @@ html, body, #app {
 }
 .stat-name {
     order: 1;
-    font-weight: 600
+    font-weight: 600;
+    font-size: var(--stat-name-size);
+    color: #e6f9ff;
 }
 
 .stat-pokemons img {
@@ -264,7 +272,8 @@ html, body, #app {
     align-items: center;
     gap: 8px;
     cursor: pointer;
-    transition: transform .12s
+    transition: transform .12s, background .12s, border-color .12s;
+    border: 1px solid transparent;
 }
 
     .poke-card img {
@@ -278,6 +287,14 @@ html, body, #app {
         transform: translateY(-6px)
     }
 
+/* Destacar pokémon con área "Especial" en la búsqueda */
+.poke-card.special-area {
+    background: var(--special-bg);
+    border-color: var(--special-border);
+    box-shadow: 0 6px 18px rgba(255,205,75,0.04);
+}
+
+/* texto del nombre */
 .poke-name {
     font-weight: 700;
     color: #dff8ff

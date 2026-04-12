@@ -48,6 +48,12 @@ function normalizePath(s) {
   species.forEach(p => {
     p._image = normalizePath(p.image);
     p._icon = normalizePath(p.icon);
+    // Normalizar originalAreas a array para trabajar consistentemente
+    if (!p.originalAreas) p._areas = [];
+    else if (Array.isArray(p.originalAreas)) p._areas = p.originalAreas.map(a => String(a).trim());
+    else p._areas = [String(p.originalAreas).trim()];
+    // trim name to avoid mismatches por espacios
+    p._name = String(p.name || '').trim();
   });
 
   // Estado del habitat (lista de species objetos)
@@ -58,44 +64,101 @@ function normalizePath(s) {
   const pins = Array.from(document.querySelectorAll('.pokemon-pin'));
   const habitatStats = document.querySelector('.habitat-stats');
 
+  // filtros DOM
+  const inputName = document.getElementById('filter-name');
+  const selectArea = document.getElementById('filter-area');
+  const selectTrait = document.getElementById('filter-trait');
+  const btnClear = document.getElementById('clear-filters');
+
   // Inicio: ocultar pins (habitat vacío)
   pins.forEach(pin => pin.style.display = 'none');
+
+  // Util: comprobar si specie tiene area (case-insensitive)
+  function hasArea(specie, area) {
+    if (!area) return true;
+    const needle = String(area).trim().toLowerCase();
+    for (const a of (specie._areas || [])) {
+      if (String(a).trim().toLowerCase() === needle) return true;
+    }
+    return false;
+  }
+
+  // Aplicar filtros y devolver lista
+  function getFilteredSpecies() {
+    const nameFilter = (inputName && inputName.value || '').trim().toLowerCase();
+    const areaFilter = (selectArea && selectArea.value || '').trim(); // exact values like "Estepa Esteril"
+    const traitFilter = (selectTrait && selectTrait.value || '').trim().toLowerCase();
+
+    return species.filter(p => {
+      // Excluir species ya en habitat (comparar por _name normalizado)
+      const inHabitat = habitat.some(h => (h._name || '').toLowerCase() === (p._name || '').toLowerCase());
+      if (inHabitat) return false;
+
+      // Nombre
+      if (nameFilter) {
+        if (!String(p._name || '').toLowerCase().includes(nameFilter)) return false;
+      }
+
+      // Trait (si existe en preferences)
+      if (traitFilter) {
+        const prefs = (p.preferences || []).map(x => String(x).toLowerCase());
+        if (!prefs.includes(traitFilter)) return false;
+      }
+
+      // Área: if areaFilter set, include if specie has the area OR has "Especial" in its areas
+      if (areaFilter) {
+        const isEspecial = (p._areas || []).some(a => String(a).trim().toLowerCase() === 'especial');
+        if (isEspecial) return true;
+        if (!hasArea(p, areaFilter)) return false;
+      }
+
+      return true;
+    });
+  }
 
   // Render del grid (excluye especies que estén en el hábitat)
   function renderGrid(items) {
     grid.innerHTML = '';
-    const inHabitatNames = new Set(habitat.map(s => s.name));
+    // items assumed already filtered in getFilteredSpecies
     items.forEach(p => {
-      if (inHabitatNames.has(p.name)) return; // no mostrar si ya está en el hábitat
       const card = document.createElement('div');
       card.className = 'poke-card';
       card.tabIndex = 0;
 
+      // marcar si es "Especial" para destacar
+      const isEspecial = (p._areas || []).some(a => String(a).trim().toLowerCase() === 'especial');
+      if (isEspecial) card.classList.add('special-area');
+
       const img = document.createElement('img');
       img.src = p._image || 'https://via.placeholder.com/160?text=No+Img';
-      img.alt = p.name;
+      img.alt = p._name || p.name;
       img.addEventListener('error', () => { img.src = 'https://via.placeholder.com/160?text=No+Img'; });
 
       const nameDiv = document.createElement('div');
       nameDiv.className = 'poke-name';
-      nameDiv.textContent = p.name;
+      nameDiv.textContent = p._name || p.name;
 
-      const primaryArea = (p.originalAreas && p.originalAreas[0]) || '';
-      const primaryPref = (p.preferences && p.preferences[0]) || '';
-      const meta = document.createElement('div');
-      meta.className = 'poke-meta';
-      meta.textContent = `${primaryArea} • ${primaryPref}`;
-
-      card.append(img, nameDiv, meta);
+      // Only image and name per request (no meta)
+      card.append(img, nameDiv);
 
       // Click en la card: intentar añadir al hábitat
       card.addEventListener('click', () => {
-        if (habitat.find(h => h.name === p.name)) return;
+        // compare normalized trimmed names to avoid invisible mismatch
+        const already = habitat.find(h => (String(h._name || '').trim().toLowerCase()) === (String(p._name || '').trim().toLowerCase()));
+        if (already) return;
         if (habitat.length >= 4) {
           console.log('Máximo 4 pokémon en el hábitat');
           return;
         }
         addToHabitat(p);
+      });
+
+      // keyboard support
+      card.addEventListener('keydown', (ev) => {
+        if (ev.key === 'Enter' || ev.key === ' ') {
+          ev.preventDefault();
+          card.click();
+        }
       });
 
       grid.appendChild(card);
@@ -105,24 +168,26 @@ function normalizePath(s) {
   // Añadir especie al hábitat: asignar al primer pin vacío
   function addToHabitat(specie) {
     if (habitat.length >= 4) return;
-    const emptyIndex = pins.findIndex(pin => pin.style.display === 'none');
+    const emptyIndex = pins.findIndex(pin => pin.style.display === 'none' || pin.getAttribute('data-name') === null);
     if (emptyIndex === -1) return;
     const pin = pins[emptyIndex];
     const imgEl = pin.querySelector('img');
     const tooltip = pin.querySelector('.pokemon-tooltip');
 
+    const displayName = String(specie._name || specie.name || '').trim();
+
     // Asignar datos visuales
     imgEl.src = specie._image || 'https://via.placeholder.com/96?text=No';
-    imgEl.alt = specie.name;
-    pin.setAttribute('data-name', specie.name);
-    pin.setAttribute('data-id', specie.name);
+    imgEl.alt = displayName;
+    pin.setAttribute('data-name', displayName);
+    pin.setAttribute('data-id', displayName);
 
-    // Tooltip con la info requerida
+    // Tooltip simplified (kept, but doesn't affect searchbar)
     const environment = specie.environment || '';
     const preferences = (specie.preferences || []).join(', ');
     const food = specie.preferredFood || '';
     const specialities = (specie.specialities || []).join(', ');
-    tooltip.innerHTML = `<strong>${specie.name}</strong><br>
+    tooltip.innerHTML = `<strong>${displayName}</strong><br>
       <small>Entorno: ${environment}</small><br>
       <small>Preferencias: ${preferences}</small><br>
       <small>Comida: ${food}</small><br>
@@ -131,7 +196,7 @@ function normalizePath(s) {
     // Mostrar pin
     pin.style.display = '';
     // Click en pin elimina al pokemon
-    const onClick = () => removeFromHabitat(specie.name);
+    const onClick = () => removeFromHabitat(displayName);
     // remover handler previo si existe
     pin.replaceWith(pin.cloneNode(true)); // quick clean: replace element to remove old handlers
     const newPin = Array.from(document.querySelectorAll('.pokemon-pin'))[emptyIndex];
@@ -139,10 +204,10 @@ function normalizePath(s) {
     const newImg = newPin.querySelector('img');
     const newTooltip = newPin.querySelector('.pokemon-tooltip');
     newImg.src = specie._image || 'https://via.placeholder.com/96?text=No';
-    newImg.alt = specie.name;
+    newImg.alt = displayName;
     newTooltip.innerHTML = tooltip.innerHTML;
-    newPin.setAttribute('data-name', specie.name);
-    newPin.setAttribute('data-id', specie.name);
+    newPin.setAttribute('data-name', displayName);
+    newPin.setAttribute('data-id', displayName);
     newPin.style.display = '';
     newPin.addEventListener('click', onClick);
     newPin.addEventListener('keydown', (ev) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); onClick(); } });
@@ -151,18 +216,20 @@ function normalizePath(s) {
     const pinNodes = Array.from(document.querySelectorAll('.pokemon-pin'));
     for (let i = 0; i < pins.length; i++) pins[i] = pinNodes[i];
 
+    // push the original species object (keeping _name/_areas normalized)
     habitat.push(specie);
     updateHabitatStats();
-    renderGrid(species);
+    renderGrid(getFilteredSpecies());
   }
 
   // Quitar del hábitat por nombre
   function removeFromHabitat(name) {
-    const idx = habitat.findIndex(h => h.name === name);
+    const normalized = String(name || '').trim().toLowerCase();
+    const idx = habitat.findIndex(h => String(h._name || h.name || '').trim().toLowerCase() === normalized);
     if (idx === -1) return;
-    habitat.splice(idx, 1);
+    const removed = habitat.splice(idx, 1)[0];
     // ocultar primer pin cuyo data-name == name
-    const pinToHide = pins.find(p => p.getAttribute('data-name') === name);
+    const pinToHide = pins.find(p => (p.getAttribute('data-name') || '').trim().toLowerCase() === normalized);
     if (pinToHide) {
       const imgEl = pinToHide.querySelector('img');
       const tooltip = pinToHide.querySelector('.pokemon-tooltip');
@@ -179,7 +246,7 @@ function normalizePath(s) {
       for (let i = 0; i < pins.length; i++) pins[i] = pinNodes[i];
     }
     updateHabitatStats();
-    renderGrid(species);
+    renderGrid(getFilteredSpecies());
   }
 
   // Construir un stat-badge DOM node {name, icons[]}
@@ -192,7 +259,7 @@ function normalizePath(s) {
     speciesList.forEach(s => {
       const im = document.createElement('img');
       im.src = s._icon || 'https://via.placeholder.com/28?text=?';
-      im.alt = s.name;
+      im.alt = s._name || s.name;
       im.addEventListener('error', () => { im.src = 'https://via.placeholder.com/28?text=?'; });
       pokemonsDiv.appendChild(im);
     });
@@ -346,8 +413,23 @@ function normalizePath(s) {
     }
   }
 
+  // Hook filtros: actualizar vista al cambiar filtros
+  function refreshView() {
+    const filtered = getFilteredSpecies();
+    renderGrid(filtered);
+  }
+  if (inputName) inputName.addEventListener('input', refreshView);
+  if (selectArea) selectArea.addEventListener('change', refreshView);
+  if (selectTrait) selectTrait.addEventListener('change', refreshView);
+  if (btnClear) btnClear.addEventListener('click', () => {
+    if (inputName) inputName.value = '';
+    if (selectArea) selectArea.value = '';
+    if (selectTrait) selectTrait.value = '';
+    refreshView();
+  });
+
   // Inicial render
-  renderGrid(species);
+  renderGrid(getFilteredSpecies());
   updateHabitatStats();
 
 })();
