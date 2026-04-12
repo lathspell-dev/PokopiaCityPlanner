@@ -26,8 +26,8 @@ async function loadSpecies() {
 
   console.warn('No se encontró pokemons.json en rutas esperadas, usando fallback interno.');
   return [
-    { name: 'Pikachu', image: 'https://via.placeholder.com/160?text=Pikachu', icon: 'https://via.placeholder.com/28?text=P', originalAreas: ['bosque'], preferredFood: 'Bayas', specialities: ['Descarga'], environment: 'Bosque', preferences: ['rapido'] },
-    { name: 'Bulbasaur', image: 'https://via.placeholder.com/160?text=Bulbasaur', icon: 'https://via.placeholder.com/28?text=B', originalAreas: ['pradera'], preferredFood: 'Frutas', specialities: ['Fotosíntesis'], environment: 'Plantas', preferences: ['fuerte'] }
+  //  { name: 'Pikachu', image: 'https://via.placeholder.com/160?text=Pikachu', icon: 'https://via.placeholder.com/28?text=P', originalAreas: ['bosque'], preferredFood: 'Bayas', specialities: ['Descarga'], environment: 'Bosque', preferences: ['rapido'] },
+  //  { name: 'Bulbasaur', image: 'https://via.placeholder.com/160?text=Bulbasaur', icon: 'https://via.placeholder.com/28?text=B', originalAreas: ['pradera'], preferredFood: 'Frutas', specialities: ['Fotosíntesis'], environment: 'Plantas', preferences: ['fuerte'] }
   ];
 }
 
@@ -131,9 +131,9 @@ function normalizePath(s) {
       if (isEspecial) card.classList.add('special-area');
 
       const img = document.createElement('img');
-      img.src = p._image || 'https://via.placeholder.com/160?text=No+Img';
+        img.src = p._image;// || 'https://via.placeholder.com/160?text=No+Img';
       img.alt = p._name || p.name;
-      img.addEventListener('error', () => { img.src = 'https://via.placeholder.com/160?text=No+Img'; });
+      //img.addEventListener('error', () => { img.src = 'https://via.placeholder.com/160?text=No+Img'; });
 
       const nameDiv = document.createElement('div');
       nameDiv.className = 'poke-name';
