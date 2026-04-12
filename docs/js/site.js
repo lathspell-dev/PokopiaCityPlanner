@@ -67,7 +67,8 @@ function normalizePath(s) {
   // filtros DOM
   const inputName = document.getElementById('filter-name');
   const selectArea = document.getElementById('filter-area');
-  const selectTrait = document.getElementById('filter-trait');
+  //const selectTrait = document.getElementById('filter-trait');
+  const selectTrait = null; // deshabilitado por ahora, no hay traits en el JSON
   const btnClear = document.getElementById('clear-filters');
 
   // Inicio: ocultar pins (habitat vacío)
@@ -87,7 +88,7 @@ function normalizePath(s) {
   function getFilteredSpecies() {
     const nameFilter = (inputName && inputName.value || '').trim().toLowerCase();
     const areaFilter = (selectArea && selectArea.value || '').trim(); // exact values like "Estepa Esteril"
-    const traitFilter = (selectTrait && selectTrait.value || '').trim().toLowerCase();
+    const traitFilter = "";// (selectTrait && selectTrait.value || '').trim().toLowerCase();
 
     return species.filter(p => {
       // Excluir species ya en habitat (comparar por _name normalizado)
@@ -348,22 +349,43 @@ function normalizePath(s) {
     }
 
     // ---- Unicas: preferencias que solo un pokemon tenga ----
-    const uniquePrefs = [];
-    Object.keys(prefMap).forEach(pref => {
-      const indices = Array.from(prefMap[pref] || []);
-      if (indices.length === 1) uniquePrefs.push({ pref, owner: indices[0] });
-    });
-    // priorizar aquellos cuyo owner tenga menor coverage
-    uniquePrefs.sort((a, b) => coverage[a.owner] - coverage[b.owner]);
     const maxUnicas = 4;
+    const chosenPrefs = [];
     const unicasList = catMap['únicas'] || catMap['unicas'];
     if (unicasList) {
-      uniquePrefs.slice(0, maxUnicas).forEach(u => {
-        const ownerSpecie = habitat[u.owner];
-        const badge = buildBadge(u.pref, [ownerSpecie]);
+    for (let i = 0; i < maxUnicas; i++) {
+        const uniquePrefs = [];
+        Object.keys(prefMap).forEach(pref => {
+            if (selectedCommons.includes(pref) || chosenPrefs.includes(pref)) return; // skip already chosen commons
+            const indices = Array.from(prefMap[pref] || []);
+            if (indices.length === 1) uniquePrefs.push({ pref, owner: indices[0] });
+        });
+        if (uniquePrefs.length === 0) break;
+        uniquePrefs.sort((a, b) => coverage[a.owner] - coverage[b.owner]);
+        const chosenPref = uniquePrefs[0];
+        const ownerSpecie = habitat[chosenPref.owner];
+        const badge = buildBadge(chosenPref.pref, [ownerSpecie]);
         unicasList.appendChild(badge);
-      });
+        coverage[chosenPref.owner]++;
+        chosenPrefs.push(chosenPref.pref);// marcar como cubierto para balancear siguientes
+      }
     }
+    //const uniquePrefs = [];
+    //Object.keys(prefMap).forEach(pref => {
+    //  const indices = Array.from(prefMap[pref] || []);
+    //  if (indices.length === 1) uniquePrefs.push({ pref, owner: indices[0] });
+    //});
+    //// priorizar aquellos cuyo owner tenga menor coverage
+    //uniquePrefs.sort((a, b) => coverage[a.owner] - coverage[b.owner]);
+    
+    //const unicasList = catMap['únicas'] || catMap['unicas'];
+    //if (unicasList) {
+    //  uniquePrefs.slice(0, maxUnicas).forEach(u => {
+    //    const ownerSpecie = habitat[u.owner];
+    //    const badge = buildBadge(u.pref, [ownerSpecie]);
+    //    unicasList.appendChild(badge);
+    //  });
+    //}
 
     // ---- Comida: agrupar por preferredFood ----
     const comidaMap = {};
