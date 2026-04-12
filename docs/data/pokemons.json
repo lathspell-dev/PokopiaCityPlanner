@@ -1,8 +1,8 @@
 ﻿[
     {
-        "name":  "Bulbasuar",
-        "image":  "data/images/bulbasuar-full.png",
-        "icon":  "data/icons/bulbasuar-icon.png",
+        "name":  "Bulbasaur",
+        "image":  "data/images/bulbasaur-full.png",
+        "icon":  "data/icons/bulbasaur-icon.png",
         "originalAreas":  "Estepa Esteril",
         "preferredFood":  "Dulce",
         "specialities":  "Abonar",
@@ -786,9 +786,9 @@
         "VariantNum":  0
     },
     {
-        "name":  "Drillbur",
-        "image":  "data/images/drillbur-full.png",
-        "icon":  "data/icons/drillbur-icon.png",
+        "name":  "Drilbur",
+        "image":  "data/images/drilbur-full.png",
+        "icon":  "data/icons/drilbur-icon.png",
         "originalAreas":  "Estepa Esteril",
         "preferredFood":  "Acido",
         "specialities":  "Rastrear",
@@ -930,9 +930,9 @@
         "VariantNum":  0
     },
     {
-        "name":  "Sligoo",
-        "image":  "data/images/sligoo-full.png",
-        "icon":  "data/icons/sligoo-icon.png",
+        "name":  "Sliggoo",
+        "image":  "data/images/sliggoo-full.png",
+        "icon":  "data/icons/sliggoo-icon.png",
         "originalAreas":  "Estepa Esteril",
         "preferredFood":  "Dulce",
         "specialities":  "Humedecer",
@@ -1794,9 +1794,9 @@
         "VariantNum":  0
     },
     {
-        "name":  "Tatsugiri Curvado (naranja)",
-        "image":  "data/images/tatsugiri curvado (naranja)-full.png",
-        "icon":  "data/icons/tatsugiri curvado (naranja)-icon.png",
+        "name":  "Tatsugiri Curvado",
+        "image":  "data/images/tatsugiri curvado-full.png",
+        "icon":  "data/icons/tatsugiri curvado-icon.png",
         "originalAreas":  "Bahia Borrasca",
         "preferredFood":  "Acido",
         "specialities":  "Negociar",
@@ -1806,9 +1806,9 @@
         "VariantNum":  0
     },
     {
-        "name":  "Tatsugiri Languido (rojo)",
-        "image":  "data/images/tatsugiri languido (rojo)-full.png",
-        "icon":  "data/icons/tatsugiri languido (rojo)-icon.png",
+        "name":  "Tatsugiri Languido",
+        "image":  "data/images/tatsugiri languido-full.png",
+        "icon":  "data/icons/tatsugiri languido-icon.png",
         "originalAreas":  "Bahia Borrasca",
         "preferredFood":  "Dulce",
         "specialities":  "Negociar",
@@ -1818,9 +1818,9 @@
         "VariantNum":  1
     },
     {
-        "name":  "Tatsugiri Recto (amarilo)",
-        "image":  "data/images/tatsugiri recto (amarilo)-full.png",
-        "icon":  "data/icons/tatsugiri recto (amarilo)-icon.png",
+        "name":  "Tatsugiri Recto",
+        "image":  "data/images/tatsugiri recto-full.png",
+        "icon":  "data/icons/tatsugiri recto-icon.png",
         "originalAreas":  "Bahia Borrasca",
         "preferredFood":  "Picante",
         "specialities":  "Negociar",
@@ -1926,9 +1926,9 @@
         "VariantNum":  0
     },
     {
-        "name":  "Digglet",
-        "image":  "data/images/digglet-full.png",
-        "icon":  "data/icons/digglet-icon.png",
+        "name":  "Diglett",
+        "image":  "data/images/diglett-full.png",
+        "icon":  "data/icons/diglett-icon.png",
         "originalAreas":  "Riscos Rocosos",
         "preferredFood":  "Amargo",
         "specialities":  "Entretener",
@@ -2130,9 +2130,9 @@
         "VariantNum":  0
     },
     {
-        "name":  "Tyrantitar",
-        "image":  "data/images/tyrantitar-full.png",
-        "icon":  "data/icons/tyrantitar-icon.png",
+        "name":  "Tyranitar",
+        "image":  "data/images/tyranitar-full.png",
+        "icon":  "data/icons/tyranitar-icon.png",
         "originalAreas":  "Riscos Rocosos",
         "preferredFood":  "Picante",
         "specialities":  ["Pulverizar", "Demoler"],
@@ -2682,9 +2682,9 @@
         "VariantNum":  0
     },
     {
-        "name":  "Mime Jr.",
-        "image":  "data/images/mime jr.-full.png",
-        "icon":  "data/icons/mime jr.-icon.png",
+        "name":  "Mime Jr",
+        "image":  "data/images/mime jr-full.png",
+        "icon":  "data/icons/mime jr-icon.png",
         "originalAreas":  "Islas Aisladas",
         "preferredFood":  "Dulce",
         "specialities":  "Organizar",
@@ -2694,9 +2694,9 @@
         "VariantNum":  0
     },
     {
-        "name":  "Mr. Mime",
-        "image":  "data/images/mr. mime-full.png",
-        "icon":  "data/icons/mr. mime-icon.png",
+        "name":  "Mr Mime",
+        "image":  "data/images/mr mime-full.png",
+        "icon":  "data/icons/mr mime-icon.png",
         "originalAreas":  "Islas Aisladas",
         "preferredFood":  "Amargo",
         "specialities":  ["Organizar", "Construir"],
@@ -2924,9 +2924,9 @@
         "VariantNum":  0
     },
     {
-        "name":  "Minum",
-        "image":  "data/images/minum-full.png",
-        "icon":  "data/icons/minum-icon.png",
+        "name":  "Minun",
+        "image":  "data/images/minun-full.png",
+        "icon":  "data/icons/minun-icon.png",
         "originalAreas":  "Islas Aisladas",
         "preferredFood":  "Picante",
         "specialities":  "Electrificar",
@@ -3180,9 +3180,9 @@
         "VariantNum":  0
     },
     {
-        "name":  "Rokidee",
-        "image":  "data/images/rokidee-full.png",
-        "icon":  "data/icons/rokidee-icon.png",
+        "name":  "Rookidee",
+        "image":  "data/images/rookidee-full.png",
+        "icon":  "data/icons/rookidee-icon.png",
         "originalAreas":  "Islas Aisladas",
         "preferredFood":  "Acido",
         "specialities":  "Cortar madera",
