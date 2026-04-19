@@ -35,9 +35,7 @@ html, body, #app {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: var(--gap);
-    min-height: 400px;
-    max-height: 480px;
-    height: fit-content;
+    height: 450px;
 }
 
 .habitat-display {
