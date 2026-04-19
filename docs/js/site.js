@@ -135,7 +135,7 @@ function normalizePath(s) {
             if (areaFilter) {
                 if (!excludeEspecial) {
                     const isEspecial = (p._areas || []).some(a => String(a).trim().toLowerCase() === 'especial');
-                    if (!isEspecial || !hasArea(p, areaFilter)) return false;
+                    if (!isEspecial && !hasArea(p, areaFilter)) return false;
                 }
             }
 
