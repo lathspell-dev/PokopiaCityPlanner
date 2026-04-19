@@ -24,7 +24,7 @@ html, body, #app {
 
 .page {
     display: grid;
-    grid-template-rows: 60% 40%;
+    /*grid-template-rows: 60% 40%;*/
     height: 100vh;
     gap: var(--gap);
     padding: var(--gap);
