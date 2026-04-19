@@ -127,6 +127,7 @@ html, body, #app {
 
 .stats-category {
     margin-bottom: 10px;
+    min-height:73px;
 }
 
     .stats-category h3 {

@@ -70,6 +70,7 @@ function normalizePath(s) {
     const selectArea = document.getElementById('filter-area');
     //const selectTrait = document.getElementById('filter-trait');
     const selectTrait = null; // deshabilitado por ahora, no hay traits en el JSON
+    const excludeNeutralsCheckbox = document.getElementById("exclude-neutrals");
     const btnClear = document.getElementById('clear-filters');
 
     // Inicio: ocultar pins (habitat vacío)
@@ -90,6 +91,7 @@ function normalizePath(s) {
         const nameFilter = (inputName && inputName.value || '').trim().toLowerCase();
         const areaFilter = (selectArea && selectArea.value || '').trim(); // exact values like "Estepa Esteril"
         const traitFilter = "";// (selectTrait && selectTrait.value || '').trim().toLowerCase();
+        const excludeNeutrals = excludeNeutralsCheckbox && excludeNeutralsCheckbox.checked;
 
         return species.filter(p => {
             // Excluir species ya en habitat (comparar por _name normalizado)
@@ -117,8 +119,10 @@ function normalizePath(s) {
 
             // Área: if areaFilter set, include if specie has the area OR has "Especial" in its areas
             if (areaFilter) {
-                const isEspecial = (p._areas || []).some(a => String(a).trim().toLowerCase() === 'especial');
-                if (isEspecial) return true;
+                if (!excludeNeutrals) {
+                    const isEspecial = (p._areas || []).some(a => String(a).trim().toLowerCase() === 'especial');
+                    if (isEspecial) return true;
+                }
                 if (!hasArea(p, areaFilter)) return false;
             }
 
@@ -139,16 +143,13 @@ function normalizePath(s) {
             const areaFilter = (selectArea && selectArea.value || '').trim();
             if (areaFilter && !hasArea(p, areaFilter)) {
                 card.classList.add('special-area');
-                //const isEspecial = (p._areas || []).some(a => String(a).trim().toLowerCase() === 'especial');
-                //if (isEspecial) card.classList.add('special-area');
             }
             else {
                 card.classList.remove('special-area');
             }
             const img = document.createElement('img');
-            img.src = p._image;// || 'https://via.placeholder.com/160?text=No+Img';
+            img.src = p._image;
             img.alt = p._name || p.name;
-            //img.addEventListener('error', () => { img.src = 'https://via.placeholder.com/160?text=No+Img'; });
 
             const nameDiv = document.createElement('div');
             nameDiv.className = 'poke-name';
