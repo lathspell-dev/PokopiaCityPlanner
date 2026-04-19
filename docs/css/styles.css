@@ -205,6 +205,7 @@ html, body, #app {
     display: flex;
     gap: 8px;
     width: 100%;
+    align-items: center;
 }
 
 /* Inputs y selects con aspecto unificado y legible */
@@ -223,10 +224,6 @@ html, body, #app {
 
 .filter-row input[type="checkbox"]{
     min-width: 0;
-}
-
-.filter-row div{
-    align-items: center;
 }
 
 .filter-row div label{
