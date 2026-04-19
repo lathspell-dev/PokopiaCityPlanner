@@ -44,6 +44,7 @@ function normalizePath(s) {
 (async () => {
     const species = await loadSpecies();
     const specialitySet = new Set();
+    const litterSet = new Set();
 
     // Normalizar rutas de imagen/icon en memoria
     species.forEach(p => {
@@ -56,13 +57,16 @@ function normalizePath(s) {
         // trim name to avoid mismatches por espacios
         p._name = String(p.name || '').trim();
         p._displayName = String(p.displayName || '').trim();
-        for (const specality of (p.specialities || [])) {
-            console.log(p._name, ": ", specality);
-            if (specality.startsWith("Producir")) {
+        for (const speciality of (p.specialities || [])) {
+            console.log(p._name, ": ", speciality);
+            if (speciality.startsWith("Producir")) {
                 specialitySet.add("Producir");
+                const material = getLitterMaterial(speciality);
+                if (material)
+                    litterSet.add(material);
             }
             else {
-                specialitySet.add(specality);
+                specialitySet.add(speciality);
             }
         }
     });
@@ -88,6 +92,15 @@ function normalizePath(s) {
         option.textContent = speciality;
         selectSpeciality.appendChild(option);
     }
+
+    const selectLitter = document.getElementById('filter-speciality-litter');
+    for (const litter of Array.from(litterSet).sort()) {
+        const option = document.createElement("option");
+        option.value = litter;
+        option.textContent = litter;
+        selectLitter.appendChild(option);
+    }
+
     //const selectTrait = null; // deshabilitado por ahora, no hay traits en el JSON
     const excludeEspecialDiv = document.getElementById('exclude-especial-div');
     const excludeEspecialCheckbox = document.getElementById("exclude-especial");
@@ -95,6 +108,13 @@ function normalizePath(s) {
 
     // Inicio: ocultar pins (habitat vacío)
     pins.forEach(pin => pin.style.display = 'none');
+
+    function getLitterMaterial(litterSpeciality) {
+        const litterRegex = /Producir \(([^()]+)\)/;
+        const matches = (litterSpeciality.match(litterRegex) || []);
+        if (matches.length > 1) return matches[1];
+        return null;
+    }
 
     // Util: comprobar si specie tiene area (case-insensitive)
     function hasArea(specie, area) {
@@ -111,6 +131,7 @@ function normalizePath(s) {
         const nameFilter = (inputName && inputName.value || '').trim().toLowerCase();
         const areaFilter = (selectArea && selectArea.value || '').trim(); // exact values like "Estepa Esteril"
         const specialityFilter = (selectSpeciality && selectSpeciality.value || '').trim();
+        const litterFilter = (selectLitter && selectLitter.value || '').trim();
         const excludeEspecial = excludeEspecialCheckbox && excludeEspecialCheckbox.checked;
 
         return species.filter(p => {
@@ -142,7 +163,9 @@ function normalizePath(s) {
             if (specialityFilter) {
                 const specialities = (p.specialities || []).map(x => String(x).toLowerCase());
                 if (specialityFilter === "Producir") {
-                    return specialities.some(s => s.startsWith("producir"));
+                    if (!litterFilter && !specialities.some(s => s.startsWith("producir"))) return false;
+                    const litterFilterCombined = (speciality + " (" + litterFilter + ")").toLowerCase();
+                    if (!specialities.some(s => s.toLowerCase() === litterFilterCombined)) return false;
                 }
                 if (!specialities.includes(specialityFilter.toLowerCase())) return false;
             }
@@ -482,15 +505,16 @@ function normalizePath(s) {
     }
 
     function selectAreaChanged() {
-        if (selectArea.value === "") {
-            excludeEspecialDiv.style.display = 'none';
-        } else {
-            excludeEspecialDiv.style.display = 'block';
-        }
+        excludeEspecialDiv.style.display = selectArea.value === "" ? 'none' : 'block';
         refreshView();
     }
 
     function selectSpecialityChanged() {
+        selectLitter.style.display = selectSpeciality.value === "Producir" ? 'inline-block' : 'none';
+        refreshView();
+    }
+
+    function selectSpecialityLitterChanged() {
         refreshView();
     }
 
@@ -504,11 +528,16 @@ function normalizePath(s) {
         selectArea.addEventListener('change', selectAreaChanged);
         if (excludeEspecialDiv) excludeEspecialDiv.style.display = selectArea.value === "" ? 'none' : 'block';
     }
-    if (selectSpeciality) selectSpeciality.addEventListener('change', selectSpecialityChanged);
+    if (selectLitter) selectLitter.addEventListener('change', selectSpecialityLitterChanged);
+    if (selectSpeciality) {
+        selectSpeciality.addEventListener('change', selectSpecialityChanged);
+        selectLitter.style.display = selectSpeciality.value === "Producir" ? 'inline-block' : 'none';
+    }
     if (btnClear) btnClear.addEventListener('click', () => {
         if (inputName) inputName.value = '';
         if (selectArea) selectArea.value = '';
         if (selectSpeciality) selectSpeciality.value = '';
+        if (selectLitter) selectLitter.value = '';
         if (excludeEspecialCheckbox) excludeEspecialCheckbox.checked = false;
         refreshView();
     });

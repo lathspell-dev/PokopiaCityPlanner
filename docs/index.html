@@ -126,6 +126,12 @@
             <section class="filters">
                 <div class="filter-row">
                     <input id="filter-name" placeholder="Filtrar por nombre" type="text">
+                    <select id="filter-speciality">
+                        <option value="" selected hidden>Especialidad</option>
+                    </select>
+                    <select id="filter-speciality-litter">
+                        <option value="" selected hidden>Material producido</option>
+                    </select>
                     <select id="filter-area">
                         <option value="" selected hidden>Área original</option>
                         <option value="Estepa Esteril">Estepa Esteril</option>
@@ -134,11 +140,8 @@
                         <option value="Islas Aisladas">Islas Aisladas</option>
                         <option value="Islas Aisladas">Pradera Paleta</option>
                     </select>
-                    <select id="filter-speciality">
-                        <option value="" selected hidden>Especialidad</option>
-                    </select>
                     <div id="exclude-especial-div">
-                        <input id="exclude-especial" type="checkbox"/>
+                        <input id="exclude-especial" type="checkbox" />
                         <label for="exclude-especial">Excluir habitats neutrales</label>
                     </div>
                     <button id="clear-filters" type="button">Limpiar</button>
