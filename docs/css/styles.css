@@ -295,6 +295,7 @@ html, body, #app {
     cursor: pointer;
     transition: transform .12s, background .12s, border-color .12s;
     border: 1px solid transparent;
+    position: relative;
 }
 
     .poke-card img {
@@ -316,14 +317,13 @@ html, body, #app {
 }
 
 .compatibility-indicator {
-    height: 25px;
-    width: 25px;
+    height: 10px;
+    width: 10px;
     background-color: green;
     border-radius: 50%;
-    z-index: 9;
-    position: relative;
-    top: 20px;
-    right: 45px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
 /* texto del nombre */
