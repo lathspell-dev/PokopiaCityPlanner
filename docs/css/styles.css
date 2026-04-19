@@ -221,12 +221,8 @@ html, body, #app {
     transition: box-shadow .12s, border-color .12s, background .12s;
 }
 
-.filter-row div {
-    padding: 8px 12px;
-}
-
-.filter-row div input{
-    padding: 2px;
+.filter-row input[type="checkbox"]{
+    min-width: 0;
 }
 
 .filter-row div label{
