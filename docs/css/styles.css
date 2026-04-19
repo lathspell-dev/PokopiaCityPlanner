@@ -49,7 +49,7 @@ html, body, #app {
     .habitat-display .habitat-bg {
         position: absolute;
         inset: 0;
-        background-image: url("/PokopiaCityPlanner/data/backgrounds/Estepa-Esteril.png");
+        background-image: url("../data/backgrounds/Estepa-Esteril.png");
         background-size: cover;
         background-position: center;
         filter: brightness(1);
