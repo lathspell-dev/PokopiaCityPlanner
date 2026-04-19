@@ -162,9 +162,13 @@ function normalizePath(s) {
 
             if (specialityFilter) {
                 const specialities = (p.specialities || []).map(x => String(x).toLowerCase());
+                console.log("Checking speciality filter: ", specialityFilter, "against", p._name, "with specialities", specialities);
                 if (specialityFilter.toLowerCase() === "producir") {
+                    console.log("Speciality filter is 'Producir', checking litter filter: ", litterFilter);
+                    console.log(specialities.some(s => s.toLowerCase().startsWith("producir")));
                     if (!litterFilter && !specialities.some(s => s.toLowerCase().startsWith("producir"))) return false;
                     const litterFilterCombined = ("Producir (" + litterFilter + ")").toLowerCase();
+                    console.log("Looking for combined filter: ", litterFilterCombined);
                     if (!specialities.some(s => s.toLowerCase() === litterFilterCombined)) return false;
                 }
                 if (!specialities.includes(specialityFilter.toLowerCase())) return false;
