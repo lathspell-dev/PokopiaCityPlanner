@@ -70,7 +70,7 @@ function normalizePath(s) {
     const selectArea = document.getElementById('filter-area');
     //const selectTrait = document.getElementById('filter-trait');
     const selectTrait = null; // deshabilitado por ahora, no hay traits en el JSON
-    const excludeNeutralsCheckbox = document.getElementById("exclude-neutrals");
+    const excludeNeutralsCheckbox = document.getElementById("exclude-especial");
     const btnClear = document.getElementById('clear-filters');
 
     // Inicio: ocultar pins (habitat vacío)
