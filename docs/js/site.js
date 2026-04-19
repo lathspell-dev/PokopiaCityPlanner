@@ -480,9 +480,12 @@ function normalizePath(s) {
     }
 
     if (inputName) inputName.addEventListener('input', inputNameChanged);
-    if (selectArea) selectArea.addEventListener('change', selectAreaChanged);
-    if (selectTrait) selectTrait.addEventListener('change', selectTraitChanged);
     if (excludeEspecialCheckbox) excludeEspecialCheckbox.addEventListener('change', excludeNeutralsChanged);
+    if (selectArea) {
+        selectArea.addEventListener('change', selectAreaChanged);
+        if (excludeEspecialDiv) excludeEspecialDiv.style.display = selectArea.value === "" ? 'none' : 'block';
+    }
+    if (selectTrait) selectTrait.addEventListener('change', selectTraitChanged);
     if (btnClear) btnClear.addEventListener('click', () => {
         if (inputName) inputName.value = '';
         if (selectArea) selectArea.value = '';
@@ -492,7 +495,7 @@ function normalizePath(s) {
     });
 
     // Inicial render
-    renderGrid(getFilteredSpecies());
+    refreshView();
     updateHabitatStats();
 
 })();
