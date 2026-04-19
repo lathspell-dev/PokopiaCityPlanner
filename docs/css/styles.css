@@ -43,7 +43,8 @@ html, body, #app {
     border-radius: 10px;
     overflow: hidden;
     background: #041226;
-    box-shadow: 0 6px 20px rgba(0,0,0,.6)
+    box-shadow: 0 6px 20px rgba(0,0,0,.6);
+    height: 400px
 }
 
     .habitat-display .habitat-bg {
@@ -53,7 +54,8 @@ html, body, #app {
         background-size: cover;
         background-position: center;
         filter: brightness(1);
-        transform: scale(1.02)
+        transform: scale(1.02);
+        height: stretch;
     }
 
 /* pokemons encima */
@@ -112,7 +114,8 @@ html, body, #app {
     background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01));
     border-radius: 10px;
     padding: 16px;
-    overflow: auto
+    overflow: auto;
+    max-height: stretch
 }
 
     .habitat-stats h2 {
