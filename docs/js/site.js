@@ -497,7 +497,7 @@ function normalizePath(s) {
         refreshView();
     }
 
-    function selectTraitChanged() {
+    function selectSpeciality() {
         refreshView();
     }
 
@@ -511,11 +511,12 @@ function normalizePath(s) {
         selectArea.addEventListener('change', selectAreaChanged);
         if (excludeEspecialDiv) excludeEspecialDiv.style.display = selectArea.value === "" ? 'none' : 'block';
     }
-    if (selectTrait) selectTrait.addEventListener('change', selectTraitChanged);
+    if (selectSpeciality) selectSpeciality.addEventListener('change', selectSpeciality);
     if (btnClear) btnClear.addEventListener('click', () => {
         if (inputName) inputName.value = '';
         if (selectArea) selectArea.value = '';
         if (selectTrait) selectTrait.value = '';
+        if (selectSpeciality) selectSpeciality.value = '';
         if (excludeEspecialCheckbox) excludeEspecialCheckbox.checked = false;
         refreshView();
     });
