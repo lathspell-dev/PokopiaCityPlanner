@@ -54,6 +54,7 @@ function normalizePath(s) {
     else p._areas = [String(p.originalAreas).trim()];
     // trim name to avoid mismatches por espacios
     p._name = String(p.name || '').trim();
+    p._displayName = String(p.displayName || '').trim();
   });
 
   // Estado del habitat (lista de species objetos)
@@ -97,7 +98,15 @@ function normalizePath(s) {
 
       // Nombre
       if (nameFilter) {
-        if (!String(p._name || '').toLowerCase().includes(nameFilter)) return false;
+          const found = false;
+          p.searchNames.forEach(n => {
+              if (!String(n || '').toLowerCase().includes(nameFilter))
+              {
+                  found = true;
+              }
+          });
+          if (!found) return false;
+          //if (!String(p._name || '').toLowerCase().includes(nameFilter)) return false;
       }
 
       // Trait (si existe en preferences)
@@ -137,7 +146,7 @@ function normalizePath(s) {
 
       const nameDiv = document.createElement('div');
       nameDiv.className = 'poke-name';
-      nameDiv.textContent = p._name || p.name;
+      nameDiv.textContent = p._displayName || p.displayName;
 
       // Only image and name per request (no meta)
       card.append(img, nameDiv);

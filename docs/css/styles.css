@@ -266,6 +266,8 @@ html, body, #app {
 }
 
 .poke-card {
+    width: 151px;
+    height: 130px;
     background: rgba(255,255,255,.02);
     padding: 10px;
     border-radius: 10px;
