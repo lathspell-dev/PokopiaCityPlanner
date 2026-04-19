@@ -117,7 +117,7 @@ html, body, #app {
     border-radius: 10px;
     padding: 16px;
     overflow: auto;
-    max-height: stretch;
+    max-height: min-content;
 }
 
     .habitat-stats h2 {
