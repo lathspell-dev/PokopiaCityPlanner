@@ -152,10 +152,8 @@ function normalizePath(s) {
 
             // Área: if areaFilter set, include if specie has the area OR has "Especial" in its areas
             if (areaFilter) {
-                if (!excludeEspecial) {
-                    const isEspecial = (p._areas || []).some(a => String(a).trim().toLowerCase() === 'especial');
-                    if (!isEspecial && !hasArea(p, areaFilter)) return false;
-                }
+                let hasAreaInSpecie = excludeEspecial ? hasArea(p, areaFilter) : hasArea(p, areaFilter) || (p._areas || []).some(a => String(a).trim().toLowerCase() === 'especial');
+                if (!hasAreaInSpecie) return false;
             }
 
             // Speciality: if specialityFilter set, include if specie has the speciality. For "Producir", also check litter filter if set.
