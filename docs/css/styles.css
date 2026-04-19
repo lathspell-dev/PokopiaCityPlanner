@@ -318,6 +318,7 @@ html, body, #app {
 .poke-name {
     font-weight: 700;
     color: #dff8ff;
+    font-size: 14px;
 }
 
 .poke-meta {
