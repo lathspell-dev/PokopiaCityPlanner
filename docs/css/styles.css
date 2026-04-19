@@ -208,7 +208,7 @@ html, body, #app {
 }
 
 /* Inputs y selects con aspecto unificado y legible */
-.filter-row input, .filter-row select {
+.filter-row input, .filter-row select, .filter-row div {
     padding: 8px 12px;
     border-radius: 8px;
     border: 1px solid rgba(255,255,255,.06);
