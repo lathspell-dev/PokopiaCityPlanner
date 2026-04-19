@@ -98,13 +98,13 @@ function normalizePath(s) {
 
       // Nombre
       if (nameFilter) {
-          const found = false;
-          p.searchNames.forEach(n => {
-              if (String(n || '').toLowerCase().includes(nameFilter))
-              {
+          let found = false;
+          for (const name of (p.searchNames || [])) {
+              if (String(name || '').toLowerCase().includes(nameFilter)) {
                   found = true;
+                  break;
               }
-          });
+          }
           if (!found) return false;
           //if (!String(p._name || '').toLowerCase().includes(nameFilter)) return false;
       }
@@ -140,7 +140,7 @@ function normalizePath(s) {
       if (isEspecial) card.classList.add('special-area');
 
       const img = document.createElement('img');
-        img.src = p._image;// || 'https://via.placeholder.com/160?text=No+Img';
+      img.src = p._image;// || 'https://via.placeholder.com/160?text=No+Img';
       img.alt = p._name || p.name;
       //img.addEventListener('error', () => { img.src = 'https://via.placeholder.com/160?text=No+Img'; });
 
