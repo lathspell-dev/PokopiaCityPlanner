@@ -199,7 +199,7 @@ function normalizePath(s) {
             nameDiv.className = 'poke-name';
             nameDiv.textContent = p._displayName || p.displayName;
 
-            const compatibilityIndicator = document.createElement('div');
+            const compatibilityIndicator = document.createElement('span');
             compatibilityIndicator.className = 'compatibility-indicator';
 
             // Only image and name per request (no meta)
