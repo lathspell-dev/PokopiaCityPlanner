@@ -148,7 +148,6 @@ function normalizePath(s) {
                             }
                     }
                     if (!found) return false;
-                    //if (!String(p._name || '').toLowerCase().includes(nameFilter)) return false;
             }
 
             // Área: if areaFilter set, include if specie has the area OR has "Especial" in its areas
@@ -159,19 +158,15 @@ function normalizePath(s) {
                 }
             }
 
+            // Speciality: if specialityFilter set, include if specie has the speciality. For "Producir", also check litter filter if set.
             if (specialityFilter) {
                 const specialities = (p.specialities || []).map(x => String(x).toLowerCase());
-                console.log("Checking speciality filter: ", specialityFilter, "against", p._name, "with specialities", specialities);
                 if (specialityFilter.toLowerCase() === "producir") {
-                    console.log("Speciality filter is 'Producir', checking litter filter: ", litterFilter);
-                    console.log(specialities.some(s => s.toLowerCase().startsWith("producir")));
                     if (!litterFilter) {
                         if (!specialities.some(s => s.toLowerCase().startsWith("producir"))) return false;
                     }
                     else {
                         const litterFilterCombined = ("Producir (" + litterFilter + ")").toLowerCase();
-                        console.log("Looking for combined filter: ", litterFilterCombined);
-                        console.log(specialities.some(s => s.toLowerCase() === litterFilterCombined));
                         if (!specialities.some(s => s.toLowerCase() === litterFilterCombined)) return false;
                     }
                 }
@@ -545,8 +540,12 @@ function normalizePath(s) {
         if (inputName) inputName.value = '';
         if (selectArea) selectArea.value = '';
         if (selectSpeciality) selectSpeciality.value = '';
-        if (selectLitter) selectLitter.value = '';
+        if (selectLitter) {
+            selectLitter.value = '';
+            selectLitter.style.display = 'none';
+        }
         if (excludeEspecialCheckbox) excludeEspecialCheckbox.checked = false;
+        if (excludeEspecialDiv) excludeEspecialDiv.style.display = 'none';
         refreshView();
     });
 
