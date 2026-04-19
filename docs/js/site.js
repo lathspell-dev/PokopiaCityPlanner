@@ -57,6 +57,7 @@ function normalizePath(s) {
         p._name = String(p.name || '').trim();
         p._displayName = String(p.displayName || '').trim();
         for (const specality of (p.specialities || [])) {
+            console.log(p._name, ": ", specality);
             if (specality.startsWith("Producir")) {
                 specialitySet.add("Producir");
             }
