@@ -110,7 +110,6 @@ function normalizePath(s) {
         const nameFilter = (inputName && inputName.value || '').trim().toLowerCase();
         const areaFilter = (selectArea && selectArea.value || '').trim(); // exact values like "Estepa Esteril"
         const specialityFilter = (selectSpeciality && selectSpeciality.value || '').trim();
-        const traitFilter = "";// (selectTrait && selectTrait.value || '').trim().toLowerCase();
         const excludeEspecial = excludeEspecialCheckbox && excludeEspecialCheckbox.checked;
 
         return species.filter(p => {
@@ -129,12 +128,6 @@ function normalizePath(s) {
                     }
                     if (!found) return false;
                     //if (!String(p._name || '').toLowerCase().includes(nameFilter)) return false;
-            }
-
-            // Trait (si existe en preferences)
-            if (traitFilter) {
-                const prefs = (p.preferences || []).map(x => String(x).toLowerCase());
-                if (!prefs.includes(traitFilter)) return false;
             }
 
             // Área: if areaFilter set, include if specie has the area OR has "Especial" in its areas
