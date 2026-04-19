@@ -24,7 +24,7 @@ html, body, #app {
 
 .page {
     display: grid;
-    grid-template-rows: 50% 50%;
+/*    grid-template-rows: 50% 50%;*/
     height: 100vh;
     gap: var(--gap);
     padding: var(--gap);
@@ -35,8 +35,9 @@ html, body, #app {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: var(--gap);
-    min-height: 0;
-    max-height: min-content;
+    min-height: 1333px;
+    max-height: 1400px;
+    height: fit-content;
 }
 
 .habitat-display {
@@ -189,7 +190,7 @@ html, body, #app {
     display: grid;
     grid-template-rows: auto 1fr;
     gap: 12px;
-    min-height: 300px;
+    min-height: 1250px;
     max-height: stretch;
 }
 
