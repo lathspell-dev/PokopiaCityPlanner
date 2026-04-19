@@ -58,7 +58,6 @@ function normalizePath(s) {
         p._name = String(p.name || '').trim();
         p._displayName = String(p.displayName || '').trim();
         for (const speciality of (p.specialities || [])) {
-            console.log(p._name, ": ", speciality);
             if (speciality.startsWith("Producir")) {
                 specialitySet.add("Producir");
                 const material = getLitterMaterial(speciality);
@@ -166,12 +165,17 @@ function normalizePath(s) {
                 if (specialityFilter.toLowerCase() === "producir") {
                     console.log("Speciality filter is 'Producir', checking litter filter: ", litterFilter);
                     console.log(specialities.some(s => s.toLowerCase().startsWith("producir")));
-                    if (!litterFilter && !specialities.some(s => s.toLowerCase().startsWith("producir"))) return false;
-                    const litterFilterCombined = ("Producir (" + litterFilter + ")").toLowerCase();
-                    console.log("Looking for combined filter: ", litterFilterCombined);
-                    if (!specialities.some(s => s.toLowerCase() === litterFilterCombined)) return false;
+                    if (!litterFilter) {
+                        if (!specialities.some(s => s.toLowerCase().startsWith("producir"))) return false;
+                    }
+                    else {
+                        const litterFilterCombined = ("Producir (" + litterFilter + ")").toLowerCase();
+                        console.log("Looking for combined filter: ", litterFilterCombined);
+                        console.log(specialities.some(s => s.toLowerCase() === litterFilterCombined));
+                        if (!specialities.some(s => s.toLowerCase() === litterFilterCombined)) return false;
+                    }
                 }
-                if (!specialities.includes(specialityFilter.toLowerCase())) return false;
+                else if (!specialities.includes(specialityFilter.toLowerCase())) return false;
             }
             return true;
         });
