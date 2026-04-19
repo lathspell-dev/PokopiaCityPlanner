@@ -24,7 +24,7 @@ html, body, #app {
 
 .page {
     display: grid;
-    grid-template-rows: 50% 50%;
+    /*grid-template-rows: 50% 50%;*/
     height: 100vh;
     gap: var(--gap);
     padding: var(--gap);
@@ -35,8 +35,8 @@ html, body, #app {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: var(--gap);
-    min-height: 1333px;
-    max-height: 1400px;
+    min-height: 400px;
+    max-height: 480px;
     height: fit-content;
 }
 
@@ -190,7 +190,7 @@ html, body, #app {
     display: grid;
     grid-template-rows: auto 1fr;
     gap: 12px;
-    min-height: 1250px;
+    min-height: 500px;
     max-height: stretch;
 }
 
