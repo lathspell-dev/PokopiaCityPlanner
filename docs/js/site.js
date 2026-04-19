@@ -136,6 +136,7 @@ function normalizePath(s) {
             card.tabIndex = 0;
 
             // marcar si es "Especial" para destacar
+            const areaFilter = (selectArea && selectArea.value || '').trim();
             if (areaFilter && !hasArea(p, areaFilter)) {
                 card.classList.add('special-area');
                 //const isEspecial = (p._areas || []).some(a => String(a).trim().toLowerCase() === 'especial');
