@@ -326,10 +326,6 @@ html, body, #app {
 }
 
 @media (max-width:900px) {
-    /*.page {
-        grid-template-rows: 55% 45%;
-    }*/
-
     .top {
         grid-template-columns: 1fr;
     }

@@ -70,7 +70,8 @@ function normalizePath(s) {
     const selectArea = document.getElementById('filter-area');
     //const selectTrait = document.getElementById('filter-trait');
     const selectTrait = null; // deshabilitado por ahora, no hay traits en el JSON
-    const excludeNeutralsCheckbox = document.getElementById("exclude-especial");
+    const excludeEspecialDiv = document.getElementById('exclude-especial-div');
+    const excludeEspecialCheckbox = document.getElementById("exclude-especial");
     const btnClear = document.getElementById('clear-filters');
 
     // Inicio: ocultar pins (habitat vacío)
@@ -91,7 +92,7 @@ function normalizePath(s) {
         const nameFilter = (inputName && inputName.value || '').trim().toLowerCase();
         const areaFilter = (selectArea && selectArea.value || '').trim(); // exact values like "Estepa Esteril"
         const traitFilter = "";// (selectTrait && selectTrait.value || '').trim().toLowerCase();
-        const excludeNeutrals = excludeNeutralsCheckbox && excludeNeutralsCheckbox.checked;
+        const excludeEspecial = excludeEspecialCheckbox && excludeEspecialCheckbox.checked;
 
         return species.filter(p => {
             // Excluir species ya en habitat (comparar por _name normalizado)
@@ -119,7 +120,7 @@ function normalizePath(s) {
 
             // Área: if areaFilter set, include if specie has the area OR has "Especial" in its areas
             if (areaFilter) {
-                if (!excludeNeutrals) {
+                if (!excludeEspecial) {
                     const isEspecial = (p._areas || []).some(a => String(a).trim().toLowerCase() === 'especial');
                     if (isEspecial) return true;
                 }
@@ -456,13 +457,37 @@ function normalizePath(s) {
         const filtered = getFilteredSpecies();
         renderGrid(filtered);
     }
-    if (inputName) inputName.addEventListener('input', refreshView);
-    if (selectArea) selectArea.addEventListener('change', refreshView);
-    if (selectTrait) selectTrait.addEventListener('change', refreshView);
+
+    function inputNameChanged() {
+        refreshView();
+    }
+
+    function selectAreaChanged() {
+        if (selectArea.value === "") {
+            excludeEspecialDiv.style.display = 'none';
+        } else {
+            excludeEspecialDiv.style.display = 'block';
+        }
+        refreshView();
+    }
+
+    function selectTraitChanged() {
+        refreshView();
+    }
+
+    function excludeNeutralsChanged() {
+        refreshView();
+    }
+
+    if (inputName) inputName.addEventListener('input', inputNameChanged);
+    if (selectArea) selectArea.addEventListener('change', selectAreaChanged);
+    if (selectTrait) selectTrait.addEventListener('change', selectTraitChanged);
+    if (excludeEspecialCheckbox) excludeEspecialCheckbox.addEventListener('change', excludeNeutralsChanged);
     if (btnClear) btnClear.addEventListener('click', () => {
         if (inputName) inputName.value = '';
         if (selectArea) selectArea.value = '';
         if (selectTrait) selectTrait.value = '';
+        if (excludeEspecialCheckbox) excludeEspecialCheckbox.checked = false;
         refreshView();
     });
 
