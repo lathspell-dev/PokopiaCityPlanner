@@ -43,6 +43,7 @@ function normalizePath(s) {
      -------------------------- */
 (async () => {
     const species = await loadSpecies();
+    const specialitySet = new Set();
 
     // Normalizar rutas de imagen/icon en memoria
     species.forEach(p => {
@@ -55,6 +56,14 @@ function normalizePath(s) {
         // trim name to avoid mismatches por espacios
         p._name = String(p.name || '').trim();
         p._displayName = String(p.displayName || '').trim();
+        for (const specality of (p.specialities || [])) {
+            if (specality.startsWith("Producir")) {
+                specialitySet.add("Producir");
+            }
+            else {
+                specialitySet.add(specality);
+            }
+        }
     });
 
     // Estado del habitat (lista de species objetos)
@@ -68,8 +77,17 @@ function normalizePath(s) {
     // filtros DOM
     const inputName = document.getElementById('filter-name');
     const selectArea = document.getElementById('filter-area');
-    //const selectTrait = document.getElementById('filter-trait');
-    const selectTrait = null; // deshabilitado por ahora, no hay traits en el JSON
+    for (const area of Array.from(specialitySet)) {
+
+    }
+    const selectSpeciality = document.getElementById('filter-speciality');
+    for (const speciality of Array.from(specialitySet).sort()) {
+        const option = document.createElement("option");
+        option.value = speciality;
+        option.textContent = speciality;
+        selectSpeciality.appendChild(option);
+    }
+    //const selectTrait = null; // deshabilitado por ahora, no hay traits en el JSON
     const excludeEspecialDiv = document.getElementById('exclude-especial-div');
     const excludeEspecialCheckbox = document.getElementById("exclude-especial");
     const btnClear = document.getElementById('clear-filters');
@@ -91,6 +109,7 @@ function normalizePath(s) {
     function getFilteredSpecies() {
         const nameFilter = (inputName && inputName.value || '').trim().toLowerCase();
         const areaFilter = (selectArea && selectArea.value || '').trim(); // exact values like "Estepa Esteril"
+        const specialityFilter = (selectSpeciality && selectSpeciality.value || '').trim();
         const traitFilter = "";// (selectTrait && selectTrait.value || '').trim().toLowerCase();
         const excludeEspecial = excludeEspecialCheckbox && excludeEspecialCheckbox.checked;
 
@@ -127,6 +146,13 @@ function normalizePath(s) {
                 if (!hasArea(p, areaFilter)) return false;
             }
 
+            if (specialityFilter) {
+                const specialities = (p.specialities || []).map(x => String(x).toLowerCase());
+                if (specialityFilter === "Producir") {
+                    return specialities.some(s => s.startsWith("producir"));
+                }
+                if (!specialities.includes(specialityFilter.toLowerCase())) return false;
+            }
             return true;
         });
     }
