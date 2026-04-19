@@ -100,7 +100,7 @@ function normalizePath(s) {
       if (nameFilter) {
           const found = false;
           p.searchNames.forEach(n => {
-              if (!String(n || '').toLowerCase().includes(nameFilter))
+              if (String(n || '').toLowerCase().includes(nameFilter))
               {
                   found = true;
               }
