@@ -178,7 +178,7 @@ function normalizePath(s) {
     const displayName = String(specie._name || specie.name || '').trim();
 
     // Asignar datos visuales
-    imgEl.src = specie._image || 'https://via.placeholder.com/96?text=No';
+    imgEl.src = specie._image || '';
     imgEl.alt = displayName;
     pin.setAttribute('data-name', displayName);
     pin.setAttribute('data-id', displayName);
@@ -204,7 +204,7 @@ function normalizePath(s) {
     // restore img and tooltip refs after clone
     const newImg = newPin.querySelector('img');
     const newTooltip = newPin.querySelector('.pokemon-tooltip');
-    newImg.src = specie._image || 'https://via.placeholder.com/96?text=No';
+    newImg.src = specie._image || '';
     newImg.alt = displayName;
     newTooltip.innerHTML = tooltip.innerHTML;
     newPin.setAttribute('data-name', displayName);
@@ -234,7 +234,7 @@ function normalizePath(s) {
     if (pinToHide) {
       const imgEl = pinToHide.querySelector('img');
       const tooltip = pinToHide.querySelector('.pokemon-tooltip');
-      imgEl.src = 'https://via.placeholder.com/96?text=+'; // placeholder
+      //imgEl.src = 'https://via.placeholder.com/96?text=+'; // placeholder
       imgEl.alt = '';
       tooltip.innerHTML = '';
       pinToHide.removeAttribute('data-name');
@@ -259,9 +259,9 @@ function normalizePath(s) {
     // imágenes a la izquierda (CSS ya organiza visual)
     speciesList.forEach(s => {
       const im = document.createElement('img');
-      im.src = s._icon || 'https://via.placeholder.com/28?text=?';
+      im.src = s._icon || '';
       im.alt = s._name || s.name;
-      im.addEventListener('error', () => { im.src = 'https://via.placeholder.com/28?text=?'; });
+      //im.addEventListener('error', () => { im.src = 'https://via.placeholder.com/28?text=?'; });
       pokemonsDiv.appendChild(im);
     });
     const nameSpan = document.createElement('span');
