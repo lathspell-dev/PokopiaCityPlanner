@@ -497,7 +497,7 @@ function normalizePath(s) {
         refreshView();
     }
 
-    function selectSpeciality() {
+    function selectSpecialityChanged() {
         refreshView();
     }
 
@@ -511,7 +511,7 @@ function normalizePath(s) {
         selectArea.addEventListener('change', selectAreaChanged);
         if (excludeEspecialDiv) excludeEspecialDiv.style.display = selectArea.value === "" ? 'none' : 'block';
     }
-    if (selectSpeciality) selectSpeciality.addEventListener('change', selectSpeciality);
+    if (selectSpeciality) selectSpeciality.addEventListener('change', selectSpecialityChanged);
     if (btnClear) btnClear.addEventListener('click', () => {
         if (inputName) inputName.value = '';
         if (selectArea) selectArea.value = '';
