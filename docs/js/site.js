@@ -336,6 +336,22 @@ function normalizePath(s) {
         return badge;
     }
 
+    function getHabitatPreferences() {
+        const prefsPer = habitat.map(h => h.preferences || []);
+        const set = new Set();
+        prefsPer.forEach(prefs => prefs.forEach(pref => set.add(pref)));
+        return set;
+        // map pref -> indices of pokemon
+        //const prefMap = {};
+        //prefsPer.forEach((prefs, i) => prefs.forEach(pref => {
+        //    if (!prefMap[pref]) prefMap[pref] = new Set();
+        //    prefMap[pref].add(i);
+        //}));
+
+        //const allPrefs = Object.keys(prefMap);
+        //return new Set(allPrefs);
+    }
+
     // Actualizar habitat-stats según habitat[]
     function updateHabitatStats() {
         // limpiar todas las listas dentro de habitat-stats
@@ -361,22 +377,23 @@ function normalizePath(s) {
 
         // ---- Comunes: preferencias balanceadas ----
         // preferencias de cada pokemon -> array
-        const prefsPer = habitat.map(h => h.preferences || []);
-        // map pref -> indices of pokemon
-        const prefMap = {};
-        prefsPer.forEach((prefs, i) => prefs.forEach(pref => {
-            if (!prefMap[pref]) prefMap[pref] = new Set();
-            prefMap[pref].add(i);
-        }));
+        //const prefsPer = habitat.map(h => h.preferences || []);
+        //// map pref -> indices of pokemon
+        //const prefMap = {};
+        //prefsPer.forEach((prefs, i) => prefs.forEach(pref => {
+        //    if (!prefMap[pref]) prefMap[pref] = new Set();
+        //    prefMap[pref].add(i);
+        //}));
 
-        const allPrefs = Object.keys(prefMap);
+        //const allPrefs = Object.keys(prefMap);
 
         // coverage inicial: 0 por pokemon
         const coverage = new Array(habitat.length).fill(0);
         const selectedCommons = [];
         const maxCommons = 4;
 
-        const availablePrefs = new Set(allPrefs);
+        //const availablePrefs = new Set(allPrefs);
+        const availablePrefs = getHabitatPreferences();
         while (selectedCommons.length < maxCommons && availablePrefs.size > 0) {
             // encontrar pref que mejor cubre los pokemons con menor coverage
             let bestPref = null;
