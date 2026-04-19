@@ -199,8 +199,11 @@ function normalizePath(s) {
             nameDiv.className = 'poke-name';
             nameDiv.textContent = p._displayName || p.displayName;
 
+            const compatibilityIndicator = document.createElement('div');
+            compatibilityIndicator.className = 'compatibility-indicator';
+
             // Only image and name per request (no meta)
-            card.append(img, nameDiv);
+            card.append(img, nameDiv, compatibilityIndicator);
 
             // Click en la card: intentar añadir al hábitat
             card.addEventListener('click', () => {
@@ -430,22 +433,6 @@ function normalizePath(s) {
                 chosenPrefs.push(chosenPref.pref);// marcar como cubierto para balancear siguientes
             }
         }
-        //const uniquePrefs = [];
-        //Object.keys(prefMap).forEach(pref => {
-        //    const indices = Array.from(prefMap[pref] || []);
-        //    if (indices.length === 1) uniquePrefs.push({ pref, owner: indices[0] });
-        //});
-        //// priorizar aquellos cuyo owner tenga menor coverage
-        //uniquePrefs.sort((a, b) => coverage[a.owner] - coverage[b.owner]);
-        
-        //const unicasList = catMap['únicas'] || catMap['unicas'];
-        //if (unicasList) {
-        //    uniquePrefs.slice(0, maxUnicas).forEach(u => {
-        //        const ownerSpecie = habitat[u.owner];
-        //        const badge = buildBadge(u.pref, [ownerSpecie]);
-        //        unicasList.appendChild(badge);
-        //    });
-        //}
 
         // ---- Comida: agrupar por preferredFood ----
         const comidaMap = {};

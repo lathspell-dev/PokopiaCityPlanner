@@ -315,6 +315,17 @@ html, body, #app {
     box-shadow: 0 6px 18px rgba(255,205,75,0.04);
 }
 
+.poke-card.compatibility-indicator {
+    height: 25px;
+    width: 25px;
+    background-color: green;
+    border-radius: 50%;
+    z-index: 9;
+    position: relative;
+    top: 20px;
+    right: 45px;
+}
+
 /* texto del nombre */
 .poke-name {
     font-weight: 700;
