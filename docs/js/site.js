@@ -135,9 +135,8 @@ function normalizePath(s) {
             if (areaFilter) {
                 if (!excludeEspecial) {
                     const isEspecial = (p._areas || []).some(a => String(a).trim().toLowerCase() === 'especial');
-                    if (isEspecial) return true;
+                    if (!isEspecial || !hasArea(p, areaFilter)) return false;
                 }
-                if (!hasArea(p, areaFilter)) return false;
             }
 
             if (specialityFilter) {
@@ -509,7 +508,6 @@ function normalizePath(s) {
     if (btnClear) btnClear.addEventListener('click', () => {
         if (inputName) inputName.value = '';
         if (selectArea) selectArea.value = '';
-        if (selectTrait) selectTrait.value = '';
         if (selectSpeciality) selectSpeciality.value = '';
         if (excludeEspecialCheckbox) excludeEspecialCheckbox.checked = false;
         refreshView();
