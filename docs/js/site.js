@@ -338,18 +338,14 @@ function normalizePath(s) {
 
     function getHabitatPreferences() {
         const prefsPer = habitat.map(h => h.preferences || []);
-        const set = new Set();
-        prefsPer.forEach(prefs => prefs.forEach(pref => set.add(pref)));
-        return set;
-        // map pref -> indices of pokemon
-        //const prefMap = {};
-        //prefsPer.forEach((prefs, i) => prefs.forEach(pref => {
-        //    if (!prefMap[pref]) prefMap[pref] = new Set();
-        //    prefMap[pref].add(i);
-        //}));
+        //map pref -> indices of pokemon
+        const prefMap = {};
+        prefsPer.forEach((prefs, i) => prefs.forEach(pref => {
+            if (!prefMap[pref]) prefMap[pref] = new Set();
+            prefMap[pref].add(i);
+        }));
 
-        //const allPrefs = Object.keys(prefMap);
-        //return new Set(allPrefs);
+        return prefMap;
     }
 
     // Actualizar habitat-stats según habitat[]
@@ -384,6 +380,7 @@ function normalizePath(s) {
         //    if (!prefMap[pref]) prefMap[pref] = new Set();
         //    prefMap[pref].add(i);
         //}));
+        const prefMap = getHabitatPreferences();
 
         //const allPrefs = Object.keys(prefMap);
 
@@ -392,8 +389,7 @@ function normalizePath(s) {
         const selectedCommons = [];
         const maxCommons = 4;
 
-        //const availablePrefs = new Set(allPrefs);
-        const availablePrefs = getHabitatPreferences();
+        const availablePrefs = new Set(Object.keys(prefMap));
         while (selectedCommons.length < maxCommons && availablePrefs.size > 0) {
             // encontrar pref que mejor cubre los pokemons con menor coverage
             let bestPref = null;
