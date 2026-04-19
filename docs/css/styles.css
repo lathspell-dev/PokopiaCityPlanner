@@ -225,6 +225,10 @@ html, body, #app {
     min-width: 0;
 }
 
+.filter-row div{
+    align-items: center;
+}
+
 .filter-row div label{
     padding: 2px;
     font-size: 14px;
