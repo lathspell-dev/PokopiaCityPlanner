@@ -190,7 +190,7 @@ html, body, #app {
     grid-template-rows: auto 1fr;
     gap: 12px;
     min-height: 300px;
-    max-height: stretch;
+    max-height: max-content;
 }
 
 .filters {
