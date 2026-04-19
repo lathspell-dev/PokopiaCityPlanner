@@ -188,7 +188,7 @@ html, body, #app {
     display: grid;
     grid-template-rows: auto 1fr;
     gap: 12px;
-    min-height: 500px;
+    min-height: 300px;
     max-height: stretch;
 }
 
