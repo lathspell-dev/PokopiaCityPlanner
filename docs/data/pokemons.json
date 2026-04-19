@@ -8,10 +8,10 @@
     "specialities": [ "Abonar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas blanditas", "Cosas cuquis", "Cosas que evocan agua", "Cosas para disfrutar juntos" ],
-    "DexNum": 1,
-    "VariantNum": 0,
-    "DisplayName": "Bulbasaur",
-    "SearchNames": [ "Bulbasaur" ]
+    "dexNum": 1,
+    "variantNum": 0,
+    "displayName": "Bulbasaur",
+    "searchNames": [ "Bulbasaur" ]
   },
   {
     "name": "Ivysaur",
@@ -22,10 +22,10 @@
     "specialities": [ "Abonar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas blanditas", "Cosas cuquis", "Decoraciones florales", "Cosas coloridas" ],
-    "DexNum": 2,
-    "VariantNum": 0,
-    "DisplayName": "Ivysaur",
-    "SearchNames": [ "Ivysaur" ]
+    "dexNum": 2,
+    "variantNum": 0,
+    "displayName": "Ivysaur",
+    "searchNames": [ "Ivysaur" ]
   },
   {
     "name": "Venusaur",
@@ -36,10 +36,10 @@
     "specialities": [ "Abonar", "Producir (Hoja)" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas blanditas", "Cosas cuquis", "Decoraciones florales", "Cosas lujosas" ],
-    "DexNum": 3,
-    "VariantNum": 0,
-    "DisplayName": "Venusaur",
-    "SearchNames": [ "Venusaur" ]
+    "dexNum": 3,
+    "variantNum": 0,
+    "displayName": "Venusaur",
+    "searchNames": [ "Venusaur" ]
   },
   {
     "name": "Charmander",
@@ -50,10 +50,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de madera", "Cosas duras", "Cosas para entrenar", "Cosas para disfrutar juntos" ],
-    "DexNum": 4,
-    "VariantNum": 0,
-    "DisplayName": "Charmander",
-    "SearchNames": [ "Charmander" ]
+    "dexNum": 4,
+    "variantNum": 0,
+    "displayName": "Charmander",
+    "searchNames": [ "Charmander" ]
   },
   {
     "name": "Charmeleon",
@@ -64,10 +64,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de madera", "Cosas duras", "Cosas para entrenar", "Medios de transporte" ],
-    "DexNum": 5,
-    "VariantNum": 0,
-    "DisplayName": "Charmeleon",
-    "SearchNames": [ "Charmeleon" ]
+    "dexNum": 5,
+    "variantNum": 0,
+    "displayName": "Charmeleon",
+    "searchNames": [ "Charmeleon" ]
   },
   {
     "name": "Charizard",
@@ -78,10 +78,10 @@
     "specialities": [ "Quemar", "Volar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas que evocan viento", "Cosas de madera", "Cosas para entrenar", "Cosas lujosas" ],
-    "DexNum": 6,
-    "VariantNum": 0,
-    "DisplayName": "Charizard",
-    "SearchNames": [ "Charizard" ]
+    "dexNum": 6,
+    "variantNum": 0,
+    "displayName": "Charizard",
+    "searchNames": [ "Charizard" ]
   },
   {
     "name": "Squirtle",
@@ -92,10 +92,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas para limpiar", "Cosas curativas", "Cosas cuquis", "Cosas para disfrutar juntos" ],
-    "DexNum": 7,
-    "VariantNum": 0,
-    "DisplayName": "Squirtle",
-    "SearchNames": [ "Squirtle" ]
+    "dexNum": 7,
+    "variantNum": 0,
+    "displayName": "Squirtle",
+    "searchNames": [ "Squirtle" ]
   },
   {
     "name": "Wartortle",
@@ -106,10 +106,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas para limpiar", "Cosas curativas", "Cosas para entrenar", "Cosas duras" ],
-    "DexNum": 8,
-    "VariantNum": 0,
-    "DisplayName": "Wartortle",
-    "SearchNames": [ "Wartortle" ]
+    "dexNum": 8,
+    "variantNum": 0,
+    "displayName": "Wartortle",
+    "searchNames": [ "Wartortle" ]
   },
   {
     "name": "Blastoise",
@@ -120,10 +120,10 @@
     "specialities": [ "Humedecer", "Negociar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas para limpiar", "Cosas curativas", "Cosas para entrenar", "Cosas lujosas" ],
-    "DexNum": 9,
-    "VariantNum": 0,
-    "DisplayName": "Blastoise",
-    "SearchNames": [ "Blastoise" ]
+    "dexNum": 9,
+    "variantNum": 0,
+    "displayName": "Blastoise",
+    "searchNames": [ "Blastoise" ]
   },
   {
     "name": "Pidgey",
@@ -134,10 +134,10 @@
     "specialities": [ "Volar", "Rastrear" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas que evocan viento", "Cosas que alegran la vista", "Cosas de la naturaleza", "Cosas para jugar" ],
-    "DexNum": 10,
-    "VariantNum": 0,
-    "DisplayName": "Pidgey",
-    "SearchNames": [ "Pidgey" ]
+    "dexNum": 10,
+    "variantNum": 0,
+    "displayName": "Pidgey",
+    "searchNames": [ "Pidgey" ]
   },
   {
     "name": "Pidgeotto",
@@ -148,10 +148,10 @@
     "specialities": [ "Volar", "Rastrear" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas que evocan viento", "Cosas que alegran la vista", "Cosas de la naturaleza", "Cosas que parecen comida" ],
-    "DexNum": 11,
-    "VariantNum": 0,
-    "DisplayName": "Pidgeotto",
-    "SearchNames": [ "Pidgeotto" ]
+    "dexNum": 11,
+    "variantNum": 0,
+    "displayName": "Pidgeotto",
+    "searchNames": [ "Pidgeotto" ]
   },
   {
     "name": "Pidgeot",
@@ -162,10 +162,10 @@
     "specialities": [ "Volar", "Cortar madera" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas que evocan viento", "Cosas de madera", "Cosas de la naturaleza", "Cosas lujosas" ],
-    "DexNum": 12,
-    "VariantNum": 0,
-    "DisplayName": "Pidgeot",
-    "SearchNames": [ "Pidgeot" ]
+    "dexNum": 12,
+    "variantNum": 0,
+    "displayName": "Pidgeot",
+    "searchNames": [ "Pidgeot" ]
   },
   {
     "name": "Oddish",
@@ -176,10 +176,10 @@
     "specialities": [ "Abonar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas de la naturaleza", "Cosas que evocan tierra", "Cosas blanditas", "Decoraciones florales", "Cosas que evocan agua" ],
-    "DexNum": 13,
-    "VariantNum": 0,
-    "DisplayName": "Oddish",
-    "SearchNames": [ "Oddish" ]
+    "dexNum": 13,
+    "variantNum": 0,
+    "displayName": "Oddish",
+    "searchNames": [ "Oddish" ]
   },
   {
     "name": "Gloom",
@@ -190,10 +190,10 @@
     "specialities": [ "Abonar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas de la naturaleza", "Cosas que evocan tierra", "Cosas blanditas", "Decoraciones florales", "Basura" ],
-    "DexNum": 14,
-    "VariantNum": 0,
-    "DisplayName": "Gloom",
-    "SearchNames": [ "Gloom" ]
+    "dexNum": 14,
+    "variantNum": 0,
+    "displayName": "Gloom",
+    "searchNames": [ "Gloom" ]
   },
   {
     "name": "Vileplume",
@@ -204,10 +204,10 @@
     "specialities": [ "Abonar", "Producir (Hoja)" ],
     "environment": "Humedo",
     "preferences": [ "Cosas de la naturaleza", "Cosas que evocan tierra", "Cosas blanditas", "Decoraciones florales", "Cosas coloridas" ],
-    "DexNum": 15,
-    "VariantNum": 0,
-    "DisplayName": "Vileplume",
-    "SearchNames": [ "Vileplume" ]
+    "dexNum": 15,
+    "variantNum": 0,
+    "displayName": "Vileplume",
+    "searchNames": [ "Vileplume" ]
   },
   {
     "name": "Bellossom",
@@ -218,10 +218,10 @@
     "specialities": [ "Abonar", "Entretener" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Decoraciones florales", "Cosas para jugar", "Cosas cuquis", "Cosas ruidosas" ],
-    "DexNum": 16,
-    "VariantNum": 0,
-    "DisplayName": "Bellossom",
-    "SearchNames": [ "Bellossom" ]
+    "dexNum": 16,
+    "variantNum": 0,
+    "displayName": "Bellossom",
+    "searchNames": [ "Bellossom" ]
   },
   {
     "name": "Paras",
@@ -232,10 +232,10 @@
     "specialities": [ "Rastrear" ],
     "environment": "Humedo",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas que alegran la vista", "Cosas que evocan tierra", "Cosas que parecen comida" ],
-    "DexNum": 17,
-    "VariantNum": 0,
-    "DisplayName": "Paras",
-    "SearchNames": [ "Paras" ]
+    "dexNum": 17,
+    "variantNum": 0,
+    "displayName": "Paras",
+    "searchNames": [ "Paras" ]
   },
   {
     "name": "Parasect",
@@ -246,10 +246,10 @@
     "specialities": [ "Rastrear" ],
     "environment": "Humedo",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas que alegran la vista", "Cosas que evocan tierra", "Cosas extrañas" ],
-    "DexNum": 18,
-    "VariantNum": 0,
-    "DisplayName": "Parasect",
-    "SearchNames": [ "Parasect" ]
+    "dexNum": 18,
+    "variantNum": 0,
+    "displayName": "Parasect",
+    "searchNames": [ "Parasect" ]
   },
   {
     "name": "Venonat",
@@ -260,10 +260,10 @@
     "specialities": [ "Rastrear" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas que alegran la vista", "Cosas complicadas", "Cosas con texto" ],
-    "DexNum": 19,
-    "VariantNum": 0,
-    "DisplayName": "Venonat",
-    "SearchNames": [ "Venonat" ]
+    "dexNum": 19,
+    "variantNum": 0,
+    "displayName": "Venonat",
+    "searchNames": [ "Venonat" ]
   },
   {
     "name": "Venomoth",
@@ -274,10 +274,10 @@
     "specialities": [ "Rastrear" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas que alegran la vista", "Cosas que evocan viento", "Decoraciones florales" ],
-    "DexNum": 20,
-    "VariantNum": 0,
-    "DisplayName": "Venomoth",
-    "SearchNames": [ "Venomoth" ]
+    "dexNum": 20,
+    "variantNum": 0,
+    "displayName": "Venomoth",
+    "searchNames": [ "Venomoth" ]
   },
   {
     "name": "Bellsprout",
@@ -288,10 +288,10 @@
     "specialities": [ "Abonar", "Producir (Hierba trenzada)" ],
     "environment": "Humedo",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas que evocan tierra", "Cosas que evocan agua", "Decoraciones florales" ],
-    "DexNum": 21,
-    "VariantNum": 0,
-    "DisplayName": "Bellsprout",
-    "SearchNames": [ "Bellsprout" ]
+    "dexNum": 21,
+    "variantNum": 0,
+    "displayName": "Bellsprout",
+    "searchNames": [ "Bellsprout" ]
   },
   {
     "name": "Weepinbell",
@@ -302,10 +302,10 @@
     "specialities": [ "Abonar", "Producir (Hierba trenzada)" ],
     "environment": "Humedo",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas que evocan tierra", "Cosas coloridas", "Decoraciones florales" ],
-    "DexNum": 22,
-    "VariantNum": 0,
-    "DisplayName": "Weepinbell",
-    "SearchNames": [ "Weepinbell" ]
+    "dexNum": 22,
+    "variantNum": 0,
+    "displayName": "Weepinbell",
+    "searchNames": [ "Weepinbell" ]
   },
   {
     "name": "Victreebel",
@@ -316,10 +316,10 @@
     "specialities": [ "Abonar", "Cortar madera" ],
     "environment": "Humedo",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas que evocan tierra", "Cosas coloridas", "Decoraciones florales" ],
-    "DexNum": 23,
-    "VariantNum": 0,
-    "DisplayName": "Victreebel",
-    "SearchNames": [ "Victreebel" ]
+    "dexNum": 23,
+    "variantNum": 0,
+    "displayName": "Victreebel",
+    "searchNames": [ "Victreebel" ]
   },
   {
     "name": "Slowpoke",
@@ -330,10 +330,10 @@
     "specialities": [ "Humedecer", "Bostezar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas para limpiar", "Cosas extrañas", "Cosas blanditas", "Cosas curativas" ],
-    "DexNum": 24,
-    "VariantNum": 0,
-    "DisplayName": "Slowpoke",
-    "SearchNames": [ "Slowpoke" ]
+    "dexNum": 24,
+    "variantNum": 0,
+    "displayName": "Slowpoke",
+    "searchNames": [ "Slowpoke" ]
   },
   {
     "name": "Slowbro",
@@ -344,10 +344,10 @@
     "specialities": [ "Humedecer", "Negociar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas para limpiar", "Cosas extrañas", "Cosas para disfrutar juntos", "Cosas curativas" ],
-    "DexNum": 25,
-    "VariantNum": 0,
-    "DisplayName": "Slowbro",
-    "SearchNames": [ "Slowbro" ]
+    "dexNum": 25,
+    "variantNum": 0,
+    "displayName": "Slowbro",
+    "searchNames": [ "Slowbro" ]
   },
   {
     "name": "Slowking",
@@ -358,10 +358,10 @@
     "specialities": [ "Humedecer", "Teletransportar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas para limpiar", "Cosas extrañas", "Cosas para disfrutar juntos", "Cosas curativas" ],
-    "DexNum": 26,
-    "VariantNum": 0,
-    "DisplayName": "Slowking",
-    "SearchNames": [ "Slowking" ]
+    "dexNum": 26,
+    "variantNum": 0,
+    "displayName": "Slowking",
+    "searchNames": [ "Slowking" ]
   },
   {
     "name": "Magnemite",
@@ -372,10 +372,10 @@
     "specialities": [ "Electrificar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas con metal", "Cosas brillantes", "Cosas duras", "Cosas para disfrutar juntos" ],
-    "DexNum": 27,
-    "VariantNum": 0,
-    "DisplayName": "Magnemite",
-    "SearchNames": [ "Magnemite" ]
+    "dexNum": 27,
+    "variantNum": 0,
+    "displayName": "Magnemite",
+    "searchNames": [ "Magnemite" ]
   },
   {
     "name": "Magneton",
@@ -386,10 +386,10 @@
     "specialities": [ "Electrificar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas con metal", "Cosas brillantes", "Cosas agrupadas", "Cosas para disfrutar juntos" ],
-    "DexNum": 28,
-    "VariantNum": 0,
-    "DisplayName": "Magneton",
-    "SearchNames": [ "Magneton" ]
+    "dexNum": 28,
+    "variantNum": 0,
+    "displayName": "Magneton",
+    "searchNames": [ "Magneton" ]
   },
   {
     "name": "Magnezone",
@@ -400,10 +400,10 @@
     "specialities": [ "Electrificar", "Reciclar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas con metal", "Cosas lujosas", "Cosas agrupadas", "Cosas duras" ],
-    "DexNum": 29,
-    "VariantNum": 0,
-    "DisplayName": "Magnezone",
-    "SearchNames": [ "Magnezone" ]
+    "dexNum": 29,
+    "variantNum": 0,
+    "displayName": "Magnezone",
+    "searchNames": [ "Magnezone" ]
   },
   {
     "name": "Onix",
@@ -414,10 +414,10 @@
     "specialities": [ "Pulverizar", "Demoler" ],
     "environment": "Seco",
     "preferences": [ "Cosas de piedra", "Cosas que evocan tierra", "Cosas cuadradas", "Cosas alargadas", "Cosas para entrenar" ],
-    "DexNum": 30,
-    "VariantNum": 0,
-    "DisplayName": "Onix",
-    "SearchNames": [ "Onix" ]
+    "dexNum": 30,
+    "variantNum": 0,
+    "displayName": "Onix",
+    "searchNames": [ "Onix" ]
   },
   {
     "name": "Steelix",
@@ -428,10 +428,10 @@
     "specialities": [ "Pulverizar", "Demoler" ],
     "environment": "Seco",
     "preferences": [ "Cosas con metal", "Cosas que evocan tierra", "Cosas de piedra", "Cosas alargadas", "Cosas duras" ],
-    "DexNum": 31,
-    "VariantNum": 0,
-    "DisplayName": "Steelix",
-    "SearchNames": [ "Steelix" ]
+    "dexNum": 31,
+    "variantNum": 0,
+    "displayName": "Steelix",
+    "searchNames": [ "Steelix" ]
   },
   {
     "name": "Cubone",
@@ -442,10 +442,10 @@
     "specialities": [ "Construir" ],
     "environment": "Seco",
     "preferences": [ "Cosas que evocan tierra", "Herramientas de construccion", "Cosas para entrenar", "Cosas alargadas", "Cosas para disfrutar juntos" ],
-    "DexNum": 32,
-    "VariantNum": 0,
-    "DisplayName": "Cubone",
-    "SearchNames": [ "Cubone" ]
+    "dexNum": 32,
+    "variantNum": 0,
+    "displayName": "Cubone",
+    "searchNames": [ "Cubone" ]
   },
   {
     "name": "Marowak",
@@ -456,10 +456,10 @@
     "specialities": [ "Construir" ],
     "environment": "Seco",
     "preferences": [ "Cosas que evocan tierra", "Herramientas de construccion", "Cosas para entrenar", "Cosas alargadas", "Cosas lujosas" ],
-    "DexNum": 33,
-    "VariantNum": 0,
-    "DisplayName": "Marowak",
-    "SearchNames": [ "Marowak" ]
+    "dexNum": 33,
+    "variantNum": 0,
+    "displayName": "Marowak",
+    "searchNames": [ "Marowak" ]
   },
   {
     "name": "Tyrogue",
@@ -470,10 +470,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas para entrenar", "Cosas para disfrutar juntos", "Cosas con tela", "Cosas de piedra", "Cosas esfericas" ],
-    "DexNum": 34,
-    "VariantNum": 0,
-    "DisplayName": "Tyrogue",
-    "SearchNames": [ "Tyrogue" ]
+    "dexNum": 34,
+    "variantNum": 0,
+    "displayName": "Tyrogue",
+    "searchNames": [ "Tyrogue" ]
   },
   {
     "name": "Hitmonlee",
@@ -484,10 +484,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas para entrenar", "Cosas para disfrutar juntos", "Cosas con tela", "Cosas de piedra", "Cosas esfericas" ],
-    "DexNum": 35,
-    "VariantNum": 0,
-    "DisplayName": "Hitmonlee",
-    "SearchNames": [ "Hitmonlee" ]
+    "dexNum": 35,
+    "variantNum": 0,
+    "displayName": "Hitmonlee",
+    "searchNames": [ "Hitmonlee" ]
   },
   {
     "name": "Hitmonchan",
@@ -498,10 +498,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas para entrenar", "Cosas para disfrutar juntos", "Cosas con tela", "Cosas de piedra", "Cosas esfericas" ],
-    "DexNum": 36,
-    "VariantNum": 0,
-    "DisplayName": "Hitmonchan",
-    "SearchNames": [ "Hitmonchan" ]
+    "dexNum": 36,
+    "variantNum": 0,
+    "displayName": "Hitmonchan",
+    "searchNames": [ "Hitmonchan" ]
   },
   {
     "name": "Hitmontop",
@@ -512,10 +512,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas para entrenar", "Cosas para disfrutar juntos", "Cosas con tela", "Cosas de piedra", "Cosas esfericas" ],
-    "DexNum": 37,
-    "VariantNum": 0,
-    "DisplayName": "Hitmontop",
-    "SearchNames": [ "Hitmontop" ]
+    "dexNum": 37,
+    "variantNum": 0,
+    "displayName": "Hitmontop",
+    "searchNames": [ "Hitmontop" ]
   },
   {
     "name": "Koffing",
@@ -526,10 +526,10 @@
     "specialities": [ "Reciclar" ],
     "environment": "Oscuro",
     "preferences": [ "Basura", "Cosas agrupadas", "Cosas complicadas", "Cosas blanditas", "Cosas que se menean" ],
-    "DexNum": 38,
-    "VariantNum": 0,
-    "DisplayName": "Koffing",
-    "SearchNames": [ "Koffing" ]
+    "dexNum": 38,
+    "variantNum": 0,
+    "displayName": "Koffing",
+    "searchNames": [ "Koffing" ]
   },
   {
     "name": "Weezing",
@@ -540,10 +540,10 @@
     "specialities": [ "Reciclar" ],
     "environment": "Oscuro",
     "preferences": [ "Basura", "Cosas agrupadas", "Cosas complicadas", "Cosas blanditas", "Cosas que se menean" ],
-    "DexNum": 39,
-    "VariantNum": 0,
-    "DisplayName": "Weezing",
-    "SearchNames": [ "Weezing" ]
+    "dexNum": 39,
+    "variantNum": 0,
+    "displayName": "Weezing",
+    "searchNames": [ "Weezing" ]
   },
   {
     "name": "Tangela",
@@ -554,10 +554,10 @@
     "specialities": [ "Abonar", "Producir (Hierba trenzada)" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas que evocan agua", "Cosas agrupadas", "Decoraciones florales", "Cosas alargadas" ],
-    "DexNum": 40,
-    "VariantNum": 0,
-    "DisplayName": "Tangela",
-    "SearchNames": [ "Tangela" ]
+    "dexNum": 40,
+    "variantNum": 0,
+    "displayName": "Tangela",
+    "searchNames": [ "Tangela" ]
   },
   {
     "name": "Profesor Tangrowth",
@@ -568,10 +568,10 @@
     "specialities": [ "Identificar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas de la naturaleza", "Cosas complicadas", "Cosas con texto", "Cosas extrañas", "Cosas para disfrutar juntos" ],
-    "DexNum": 41,
-    "VariantNum": 0,
-    "DisplayName": "Profesor Tangrowth",
-    "SearchNames": [ "Profesor Tangrowth" ]
+    "dexNum": 41,
+    "variantNum": 0,
+    "displayName": "Profesor Tangrowth",
+    "searchNames": [ "Profesor Tangrowth" ]
   },
   {
     "name": "Tangrowth",
@@ -582,10 +582,10 @@
     "specialities": [ "Abonar", "Producir (Hierba trenzada)" ],
     "environment": "Humedo",
     "preferences": [ "Cosas de la naturaleza", "Cosas que evocan agua", "Cosas agrupadas", "Decoraciones florales", "Cosas que alegran la vista" ],
-    "DexNum": 41,
-    "VariantNum": 1,
-    "DisplayName": "Tangrowth",
-    "SearchNames": [ "Tangrowth" ]
+    "dexNum": 41,
+    "variantNum": 1,
+    "displayName": "Tangrowth",
+    "searchNames": [ "Tangrowth" ]
   },
   {
     "name": "Scyther",
@@ -596,10 +596,10 @@
     "specialities": "Cortar madera",
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas que evocan viento", "Cosas de madera", "Cosas puntiagudas", "Cosas para entrenar" ],
-    "DexNum": 42,
-    "VariantNum": 0,
-    "DisplayName": "Scyther",
-    "SearchNames": [ "Scyther" ]
+    "dexNum": 42,
+    "variantNum": 0,
+    "displayName": "Scyther",
+    "searchNames": [ "Scyther" ]
   },
   {
     "name": "Scizor",
@@ -610,10 +610,10 @@
     "specialities": "Cortar madera",
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas con metal", "Cosas de madera", "Cosas duras", "Cosas para entrenar" ],
-    "DexNum": 43,
-    "VariantNum": 0,
-    "DisplayName": "Scizor",
-    "SearchNames": [ "Scizor" ]
+    "dexNum": 43,
+    "variantNum": 0,
+    "displayName": "Scizor",
+    "searchNames": [ "Scizor" ]
   },
   {
     "name": "Pinsir",
@@ -624,10 +624,10 @@
     "specialities": [ "Cortar madera", "Construir" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Decoraciones florales", "Cosas puntiagudas", "Cosas para entrenar" ],
-    "DexNum": 44,
-    "VariantNum": 0,
-    "DisplayName": "Pinsir",
-    "SearchNames": [ "Pinsir" ]
+    "dexNum": 44,
+    "variantNum": 0,
+    "displayName": "Pinsir",
+    "searchNames": [ "Pinsir" ]
   },
   {
     "name": "Magikarp",
@@ -638,10 +638,10 @@
     "specialities": [ "(?)" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas para disfrutar juntos", "Medios de transporte", "Cosas que se menean" ],
-    "DexNum": 45,
-    "VariantNum": 0,
-    "DisplayName": "Magikarp",
-    "SearchNames": [ "Magikarp" ]
+    "dexNum": 45,
+    "variantNum": 0,
+    "displayName": "Magikarp",
+    "searchNames": [ "Magikarp" ]
   },
   {
     "name": "Gyarados",
@@ -652,10 +652,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas que evocan viento", "Cosas para limpiar", "Cosas alargadas" ],
-    "DexNum": 46,
-    "VariantNum": 0,
-    "DisplayName": "Gyarados",
-    "SearchNames": [ "Gyarados" ]
+    "dexNum": 46,
+    "variantNum": 0,
+    "displayName": "Gyarados",
+    "searchNames": [ "Gyarados" ]
   },
   {
     "name": "Ditto",
@@ -666,10 +666,10 @@
     "specialities": [ "Transformarse" ],
     "environment": "Iluminado",
     "preferences": [ "?" ],
-    "DexNum": 47,
-    "VariantNum": 0,
-    "DisplayName": "Ditto",
-    "SearchNames": [ "Ditto" ]
+    "dexNum": 47,
+    "variantNum": 0,
+    "displayName": "Ditto",
+    "searchNames": [ "Ditto" ]
   },
   {
     "name": "Hoothoot",
@@ -680,10 +680,10 @@
     "specialities": [ "Negociar", "Volar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas blanditas", "Cosas que evocan viento", "Cosas con tela", "Cosas que se menean", "Cosas que alegran la vista" ],
-    "DexNum": 48,
-    "VariantNum": 0,
-    "DisplayName": "Hoothoot",
-    "SearchNames": [ "Hoothoot" ]
+    "dexNum": 48,
+    "variantNum": 0,
+    "displayName": "Hoothoot",
+    "searchNames": [ "Hoothoot" ]
   },
   {
     "name": "Noctowl",
@@ -694,10 +694,10 @@
     "specialities": [ "Negociar", "Volar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas blanditas", "Cosas que evocan viento", "Cosas con texto", "Cosas donde meter cosas", "Cosas que alegran la vista" ],
-    "DexNum": 49,
-    "VariantNum": 0,
-    "DisplayName": "Noctowl",
-    "SearchNames": [ "Noctowl" ]
+    "dexNum": 49,
+    "variantNum": 0,
+    "displayName": "Noctowl",
+    "searchNames": [ "Noctowl" ]
   },
   {
     "name": "Heracross",
@@ -708,10 +708,10 @@
     "specialities": [ "Cortar madera", "Construir" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Decoraciones florales", "Cosas que parecen comida", "Cosas para entrenar" ],
-    "DexNum": 50,
-    "VariantNum": 0,
-    "DisplayName": "Heracross",
-    "SearchNames": [ "Heracross" ]
+    "dexNum": 50,
+    "variantNum": 0,
+    "displayName": "Heracross",
+    "searchNames": [ "Heracross" ]
   },
   {
     "name": "Volbeat",
@@ -722,10 +722,10 @@
     "specialities": [ "Entretener" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas brillantes", "Cosas cuquis", "Cosas para disfrutar juntos" ],
-    "DexNum": 51,
-    "VariantNum": 0,
-    "DisplayName": "Volbeat",
-    "SearchNames": [ "Volbeat" ]
+    "dexNum": 51,
+    "variantNum": 0,
+    "displayName": "Volbeat",
+    "searchNames": [ "Volbeat" ]
   },
   {
     "name": "Illumise",
@@ -736,10 +736,10 @@
     "specialities": [ "Entretener" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas brillantes", "Cosas cuquis", "Cosas para disfrutar juntos" ],
-    "DexNum": 52,
-    "VariantNum": 0,
-    "DisplayName": "Illumise",
-    "SearchNames": [ "Illumise" ]
+    "dexNum": 52,
+    "variantNum": 0,
+    "displayName": "Illumise",
+    "searchNames": [ "Illumise" ]
   },
   {
     "name": "Gulpin",
@@ -750,10 +750,10 @@
     "specialities": [ "Almacenar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas cuquis", "Cosas que parecen comida", "Cosas esfericas", "Cosas donde meter cosas", "Cosas coloridas" ],
-    "DexNum": 53,
-    "VariantNum": 0,
-    "DisplayName": "Gulpin",
-    "SearchNames": [ "Gulpin" ]
+    "dexNum": 53,
+    "variantNum": 0,
+    "displayName": "Gulpin",
+    "searchNames": [ "Gulpin" ]
   },
   {
     "name": "Swalot",
@@ -764,10 +764,10 @@
     "specialities": [ "Almacenar" ],
     "environment": "Humedo",
     "preferences": [ "Basura", "Cosas que parecen comida", "Cosas esfericas", "Cosas donde meter cosas", "Cosas coloridas" ],
-    "DexNum": 54,
-    "VariantNum": 0,
-    "DisplayName": "Swalot",
-    "SearchNames": [ "Swalot" ]
+    "dexNum": 54,
+    "variantNum": 0,
+    "displayName": "Swalot",
+    "searchNames": [ "Swalot" ]
   },
   {
     "name": "Cacnea",
@@ -778,10 +778,10 @@
     "specialities": [ "Abonar" ],
     "environment": "Seco",
     "preferences": [ "Cosas de la naturaleza", "Decoraciones florales", "Cosas cuquis", "Cosas esfericas", "Cosas puntiagudas" ],
-    "DexNum": 55,
-    "VariantNum": 0,
-    "DisplayName": "Cacnea",
-    "SearchNames": [ "Cacnea" ]
+    "dexNum": 55,
+    "variantNum": 0,
+    "displayName": "Cacnea",
+    "searchNames": [ "Cacnea" ]
   },
   {
     "name": "Cacturne",
@@ -792,10 +792,10 @@
     "specialities": [ "Abonar", "Producir (Rama gruesa)" ],
     "environment": "Seco",
     "preferences": [ "Cosas de la naturaleza", "Cosas que evocan viento", "Cosas lujosas", "Cosas brillantes", "Cosas puntiagudas" ],
-    "DexNum": 56,
-    "VariantNum": 0,
-    "DisplayName": "Cacturne",
-    "SearchNames": [ "Cacturne" ]
+    "dexNum": 56,
+    "variantNum": 0,
+    "displayName": "Cacturne",
+    "searchNames": [ "Cacturne" ]
   },
   {
     "name": "Combee",
@@ -806,10 +806,10 @@
     "specialities": "Producir (Miel)",
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas que evocan viento", "Cosas de madera", "Cosas agrupadas", "Cosas para disfrutar juntos" ],
-    "DexNum": 57,
-    "VariantNum": 0,
-    "DisplayName": "Combee",
-    "SearchNames": [ "Combee" ]
+    "dexNum": 57,
+    "variantNum": 0,
+    "displayName": "Combee",
+    "searchNames": [ "Combee" ]
   },
   {
     "name": "Vespiquen",
@@ -820,10 +820,10 @@
     "specialities": [ "Reunir Miel", "Rastrear" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas que evocan viento", "Cosas de madera", "Cosas agrupadas", "Cosas complicadas" ],
-    "DexNum": 58,
-    "VariantNum": 0,
-    "DisplayName": "Vespiquen",
-    "SearchNames": [ "Vespiquen" ]
+    "dexNum": 58,
+    "variantNum": 0,
+    "displayName": "Vespiquen",
+    "searchNames": [ "Vespiquen" ]
   },
   {
     "name": "Shellos oeste",
@@ -834,10 +834,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas para limpiar", "Cosas coloridas", "Cosas donde meter cosas" ],
-    "DexNum": 59,
-    "VariantNum": 0,
-    "DisplayName": "Shellos",
-    "SearchNames": [ "Shellos oeste" ]
+    "dexNum": 59,
+    "variantNum": 0,
+    "displayName": "Shellos",
+    "searchNames": [ "Shellos oeste" ]
   },
   {
     "name": "Shellos este",
@@ -848,10 +848,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas para limpiar", "Cosas coloridas", "Cosas donde meter cosas" ],
-    "DexNum": 59,
-    "VariantNum": 1,
-    "DisplayName": "Shellos",
-    "SearchNames": [ "Shellos este" ]
+    "dexNum": 59,
+    "variantNum": 1,
+    "displayName": "Shellos",
+    "searchNames": [ "Shellos este" ]
   },
   {
     "name": "Gastrodon oeste",
@@ -862,10 +862,10 @@
     "specialities": [ "Humedecer", "Negociar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan tierra", "Cosas que evocan mar", "Cosas para limpiar", "Cosas donde meter cosas" ],
-    "DexNum": 60,
-    "VariantNum": 0,
-    "DisplayName": "Gastrodon",
-    "SearchNames": [ "Gastrodon oeste" ]
+    "dexNum": 60,
+    "variantNum": 0,
+    "displayName": "Gastrodon",
+    "searchNames": [ "Gastrodon oeste" ]
   },
   {
     "name": "Gastrodon este",
@@ -876,10 +876,10 @@
     "specialities": [ "Humedecer", "Negociar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan tierra", "Cosas que evocan mar", "Cosas para limpiar", "Cosas donde meter cosas" ],
-    "DexNum": 60,
-    "VariantNum": 1,
-    "DisplayName": "Gastrodon",
-    "SearchNames": [ "Gastrodon este" ]
+    "dexNum": 60,
+    "variantNum": 1,
+    "displayName": "Gastrodon",
+    "searchNames": [ "Gastrodon este" ]
   },
   {
     "name": "Drifloon",
@@ -890,10 +890,10 @@
     "specialities": "Islas Ensueño",
     "environment": "Calentito",
     "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Cosas que evocan viento", "Cosas cuquis", "Cosas esfericas" ],
-    "DexNum": 61,
-    "VariantNum": 0,
-    "DisplayName": "Drifloon",
-    "SearchNames": [ "Drifloon" ]
+    "dexNum": 61,
+    "variantNum": 0,
+    "displayName": "Drifloon",
+    "searchNames": [ "Drifloon" ]
   },
   {
     "name": "Drifblim",
@@ -904,10 +904,10 @@
     "specialities": [ "Volar", "Organizar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Cosas que evocan viento", "Cosas que se menean", "Cosas que giran" ],
-    "DexNum": 62,
-    "VariantNum": 0,
-    "DisplayName": "Drifblim",
-    "SearchNames": [ "Drifblim" ]
+    "dexNum": 62,
+    "variantNum": 0,
+    "displayName": "Drifblim",
+    "searchNames": [ "Drifblim" ]
   },
   {
     "name": "Drilbur",
@@ -918,10 +918,10 @@
     "specialities": [ "Rastrear" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas que evocan tierra", "Cosas de piedra", "Cosas de la naturaleza", "Cosas que alegran la vista", "Cosas puntiagudas" ],
-    "DexNum": 63,
-    "VariantNum": 0,
-    "DisplayName": "Drilbur",
-    "SearchNames": [ "Drilbur" ]
+    "dexNum": 63,
+    "variantNum": 0,
+    "displayName": "Drilbur",
+    "searchNames": [ "Drilbur" ]
   },
   {
     "name": "Excadrill",
@@ -932,10 +932,10 @@
     "specialities": [ "Rastrear", "Cortar madera" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas que evocan tierra", "Cosas con metal", "Cosas para entrenar", "Cosas que alegran la vista", "Cosas puntiagudas" ],
-    "DexNum": 64,
-    "VariantNum": 0,
-    "DisplayName": "Excadrill",
-    "SearchNames": [ "Excadrill" ]
+    "dexNum": 64,
+    "variantNum": 0,
+    "displayName": "Excadrill",
+    "searchNames": [ "Excadrill" ]
   },
   {
     "name": "Timburr",
@@ -946,10 +946,10 @@
     "specialities": [ "Construir" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas para entrenar", "Herramientas de construccion", "Cosas de madera", "Cosas alargadas", "Cosas cuadradas" ],
-    "DexNum": 65,
-    "VariantNum": 0,
-    "DisplayName": "Timburr",
-    "SearchNames": [ "Timburr" ]
+    "dexNum": 65,
+    "variantNum": 0,
+    "displayName": "Timburr",
+    "searchNames": [ "Timburr" ]
   },
   {
     "name": "Gurdurr",
@@ -960,10 +960,10 @@
     "specialities": [ "Construir" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas para entrenar", "Herramientas de construccion", "Cosas con metal", "Cosas alargadas", "Cosas para disfrutar juntos" ],
-    "DexNum": 66,
-    "VariantNum": 0,
-    "DisplayName": "Gurdurr",
-    "SearchNames": [ "Gurdurr" ]
+    "dexNum": 66,
+    "variantNum": 0,
+    "displayName": "Gurdurr",
+    "searchNames": [ "Gurdurr" ]
   },
   {
     "name": "Conkeldurr",
@@ -974,10 +974,10 @@
     "specialities": [ "Construir", "Pulverizar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas para entrenar", "Herramientas de construccion", "Cosas de piedra", "Cosas alargadas", "Cosas para disfrutar juntos" ],
-    "DexNum": 67,
-    "VariantNum": 0,
-    "DisplayName": "Conkeldurr",
-    "SearchNames": [ "Conkeldurr" ]
+    "dexNum": 67,
+    "variantNum": 0,
+    "displayName": "Conkeldurr",
+    "searchNames": [ "Conkeldurr" ]
   },
   {
     "name": "Litwick",
@@ -988,10 +988,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Cosas que evocan fuego", "Cosas que se menean", "Cosas cuadradas" ],
-    "DexNum": 68,
-    "VariantNum": 0,
-    "DisplayName": "Litwick",
-    "SearchNames": [ "Litwick" ]
+    "dexNum": 68,
+    "variantNum": 0,
+    "displayName": "Litwick",
+    "searchNames": [ "Litwick" ]
   },
   {
     "name": "Lampent",
@@ -1002,10 +1002,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Cosas que evocan fuego", "Cosas que se menean", "Cosas donde meter cosas" ],
-    "DexNum": 69,
-    "VariantNum": 0,
-    "DisplayName": "Lampent",
-    "SearchNames": [ "Lampent" ]
+    "dexNum": 69,
+    "variantNum": 0,
+    "displayName": "Lampent",
+    "searchNames": [ "Lampent" ]
   },
   {
     "name": "Chandelure",
@@ -1016,10 +1016,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Cosas que evocan fuego", "Cosas que se menean", "Cosas que alegran la vista" ],
-    "DexNum": 70,
-    "VariantNum": 0,
-    "DisplayName": "Chandelure",
-    "SearchNames": [ "Chandelure" ]
+    "dexNum": 70,
+    "variantNum": 0,
+    "displayName": "Chandelure",
+    "searchNames": [ "Chandelure" ]
   },
   {
     "name": "Axew",
@@ -1030,10 +1030,10 @@
     "specialities": "Cortar madera",
     "environment": "Oscuro",
     "preferences": [ "Cosas que evocan fuego", "Cosas lujosas", "Cosas que evocan tierra", "Cosas duras", "Cosas puntiagudas" ],
-    "DexNum": 71,
-    "VariantNum": 0,
-    "DisplayName": "Axew",
-    "SearchNames": [ "Axew" ]
+    "dexNum": 71,
+    "variantNum": 0,
+    "displayName": "Axew",
+    "searchNames": [ "Axew" ]
   },
   {
     "name": "Fraxure",
@@ -1044,10 +1044,10 @@
     "specialities": "Cortar madera",
     "environment": "Oscuro",
     "preferences": [ "Cosas que evocan fuego", "Cosas lujosas", "Cosas que evocan tierra", "Cosas para entrenar", "Cosas puntiagudas" ],
-    "DexNum": 72,
-    "VariantNum": 0,
-    "DisplayName": "Fraxure",
-    "SearchNames": [ "Fraxure" ]
+    "dexNum": 72,
+    "variantNum": 0,
+    "displayName": "Fraxure",
+    "searchNames": [ "Fraxure" ]
   },
   {
     "name": "Haxorus",
@@ -1058,10 +1058,10 @@
     "specialities": [ "Cortar madera", "Producir (Tronco pequeño)" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas que evocan fuego", "Cosas lujosas", "Cosas que evocan tierra", "Cosas para entrenar", "Cosas puntiagudas" ],
-    "DexNum": 73,
-    "VariantNum": 0,
-    "DisplayName": "Haxorus",
-    "SearchNames": [ "Haxorus" ]
+    "dexNum": 73,
+    "variantNum": 0,
+    "displayName": "Haxorus",
+    "searchNames": [ "Haxorus" ]
   },
   {
     "name": "Goomy",
@@ -1072,10 +1072,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas lujosas", "Cosas de la naturaleza", "Cosas para limpiar", "Cosas curativas" ],
-    "DexNum": 74,
-    "VariantNum": 0,
-    "DisplayName": "Goomy",
-    "SearchNames": [ "Goomy" ]
+    "dexNum": 74,
+    "variantNum": 0,
+    "displayName": "Goomy",
+    "searchNames": [ "Goomy" ]
   },
   {
     "name": "Sliggoo",
@@ -1086,10 +1086,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas lujosas", "Cosas blanditas", "Cosas para limpiar", "Cosas curativas" ],
-    "DexNum": 75,
-    "VariantNum": 0,
-    "DisplayName": "Sliggoo",
-    "SearchNames": [ "Sliggoo" ]
+    "dexNum": 75,
+    "variantNum": 0,
+    "displayName": "Sliggoo",
+    "searchNames": [ "Sliggoo" ]
   },
   {
     "name": "Goodra",
@@ -1100,10 +1100,10 @@
     "specialities": [ "Humedecer", "Negociar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas lujosas", "Cosas para entrenar", "Cosas para limpiar", "Cosas curativas" ],
-    "DexNum": 76,
-    "VariantNum": 0,
-    "DisplayName": "Goodra",
-    "SearchNames": [ "Goodra" ]
+    "dexNum": 76,
+    "variantNum": 0,
+    "displayName": "Goodra",
+    "searchNames": [ "Goodra" ]
   },
   {
     "name": "Cramorant",
@@ -1114,10 +1114,10 @@
     "specialities": [ "Volar", "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan viento", "Cosas que evocan agua", "Cosas que evocan mar", "Cosas alargadas", "Cosas que parecen comida" ],
-    "DexNum": 77,
-    "VariantNum": 0,
-    "DisplayName": "Cramorant",
-    "SearchNames": [ "Cramorant" ]
+    "dexNum": 77,
+    "variantNum": 0,
+    "displayName": "Cramorant",
+    "searchNames": [ "Cramorant" ]
   },
   {
     "name": "Pichu",
@@ -1128,10 +1128,10 @@
     "specialities": [ "Electrificar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas con cristal", "Cosas cuquis", "Decoraciones florales", "Cosas con tela" ],
-    "DexNum": 78,
-    "VariantNum": 0,
-    "DisplayName": "Pichu",
-    "SearchNames": [ "Pichu" ]
+    "dexNum": 78,
+    "variantNum": 0,
+    "displayName": "Pichu",
+    "searchNames": [ "Pichu" ]
   },
   {
     "name": "Palidachu",
@@ -1142,10 +1142,10 @@
     "specialities": [ "Iluminar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas con cristal", "Cosas cuquis", "Cosas curativas", "Cosas con texto" ],
-    "DexNum": 79,
-    "VariantNum": 0,
-    "DisplayName": "Palidachu",
-    "SearchNames": [ "Palidachu", "Pikachu" ]
+    "dexNum": 79,
+    "variantNum": 0,
+    "displayName": "Palidachu",
+    "searchNames": [ "Palidachu", "Pikachu" ]
   },
   {
     "name": "Pikachu",
@@ -1156,10 +1156,10 @@
     "specialities": [ "Electrificar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas con cristal", "Cosas para disfrutar juntos", "Cosas esfericas", "Medios de transporte" ],
-    "DexNum": 79,
-    "VariantNum": 1,
-    "DisplayName": "Pikachu",
-    "SearchNames": [ "Pikachu" ]
+    "dexNum": 79,
+    "variantNum": 1,
+    "displayName": "Pikachu",
+    "searchNames": [ "Pikachu" ]
   },
   {
     "name": "Raichu",
@@ -1170,10 +1170,10 @@
     "specialities": [ "Electrificar", "Entretener" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas con cristal", "Cosas para disfrutar juntos", "Cosas esfericas", "Cosas para jugar" ],
-    "DexNum": 80,
-    "VariantNum": 0,
-    "DisplayName": "Raichu",
-    "SearchNames": [ "Raichu" ]
+    "dexNum": 80,
+    "variantNum": 0,
+    "displayName": "Raichu",
+    "searchNames": [ "Raichu" ]
   },
   {
     "name": "Zubat",
@@ -1184,10 +1184,10 @@
     "specialities": [ "Rastrear" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas horripilantes", "Cosas que evocan viento", "Cosas de madera", "Cosas ruidosas", "Cosas complicadas" ],
-    "DexNum": 81,
-    "VariantNum": 0,
-    "DisplayName": "Zubat",
-    "SearchNames": [ "Zubat" ]
+    "dexNum": 81,
+    "variantNum": 0,
+    "displayName": "Zubat",
+    "searchNames": [ "Zubat" ]
   },
   {
     "name": "Golbat",
@@ -1198,10 +1198,10 @@
     "specialities": [ "Rastrear" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas horripilantes", "Cosas que evocan viento", "Cosas de madera", "Cosas ruidosas", "Cosas complicadas" ],
-    "DexNum": 82,
-    "VariantNum": 0,
-    "DisplayName": "Golbat",
-    "SearchNames": [ "Golbat" ]
+    "dexNum": 82,
+    "variantNum": 0,
+    "displayName": "Golbat",
+    "searchNames": [ "Golbat" ]
   },
   {
     "name": "Crobat",
@@ -1212,10 +1212,10 @@
     "specialities": [ "Rastrear", "Cortar madera" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas horripilantes", "Cosas que evocan viento", "Cosas de madera", "Basura", "Cosas que alegran la vista" ],
-    "DexNum": 83,
-    "VariantNum": 0,
-    "DisplayName": "Crobat",
-    "SearchNames": [ "Crobat" ]
+    "dexNum": 83,
+    "variantNum": 0,
+    "displayName": "Crobat",
+    "searchNames": [ "Crobat" ]
   },
   {
     "name": "Meowth",
@@ -1226,10 +1226,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Fresquito",
     "preferences": [ "Cosas donde meter cosas", "Cosas para disfrutar juntos", "Cosas brillantes", "Cosas con cristal", "Cosas lujosas" ],
-    "DexNum": 84,
-    "VariantNum": 0,
-    "DisplayName": "Meowth",
-    "SearchNames": [ "Meowth" ]
+    "dexNum": 84,
+    "variantNum": 0,
+    "displayName": "Meowth",
+    "searchNames": [ "Meowth" ]
   },
   {
     "name": "Persian",
@@ -1240,10 +1240,10 @@
     "specialities": [ "Negociar", "Rastrear" ],
     "environment": "Fresquito",
     "preferences": [ "Cosas donde meter cosas", "Cosas para disfrutar juntos", "Cosas brillantes", "Cosas que alegran la vista", "Cosas lujosas" ],
-    "DexNum": 85,
-    "VariantNum": 0,
-    "DisplayName": "Persian",
-    "SearchNames": [ "Persian" ]
+    "dexNum": 85,
+    "variantNum": 0,
+    "displayName": "Persian",
+    "searchNames": [ "Persian" ]
   },
   {
     "name": "Psyduck",
@@ -1254,10 +1254,10 @@
     "specialities": [ "Rastrear" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas extrañas", "Cosas complicadas", "Cosas curativas" ],
-    "DexNum": 86,
-    "VariantNum": 0,
-    "DisplayName": "Psyduck",
-    "SearchNames": [ "Psyduck" ]
+    "dexNum": 86,
+    "variantNum": 0,
+    "displayName": "Psyduck",
+    "searchNames": [ "Psyduck" ]
   },
   {
     "name": "Golduck",
@@ -1268,10 +1268,10 @@
     "specialities": [ "Rastrear" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas extrañas", "Cosas complicadas", "Cosas puntiagudas" ],
-    "DexNum": 87,
-    "VariantNum": 0,
-    "DisplayName": "Golduck",
-    "SearchNames": [ "Golduck" ]
+    "dexNum": 87,
+    "variantNum": 0,
+    "displayName": "Golduck",
+    "searchNames": [ "Golduck" ]
   },
   {
     "name": "Growlithe",
@@ -1282,10 +1282,10 @@
     "specialities": [ "Quemar", "Rastrear" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas que evocan viento", "Cosas con texto", "Decoraciones florales" ],
-    "DexNum": 88,
-    "VariantNum": 0,
-    "DisplayName": "Growlithe",
-    "SearchNames": [ "Growlithe" ]
+    "dexNum": 88,
+    "variantNum": 0,
+    "displayName": "Growlithe",
+    "searchNames": [ "Growlithe" ]
   },
   {
     "name": "Arcanine",
@@ -1296,10 +1296,10 @@
     "specialities": [ "Quemar", "Rastrear" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas que evocan viento", "Cosas que alegran la vista", "Cosas con simbolos" ],
-    "DexNum": 89,
-    "VariantNum": 0,
-    "DisplayName": "Arcanine",
-    "SearchNames": [ "Arcanine" ]
+    "dexNum": 89,
+    "variantNum": 0,
+    "displayName": "Arcanine",
+    "searchNames": [ "Arcanine" ]
   },
   {
     "name": "Farfetchd",
@@ -1310,10 +1310,10 @@
     "specialities": [ "Cortar madera", "Construir" ],
     "environment": "Calentito",
     "preferences": [ "Cosas blanditas", "Cosas que evocan viento", "Cosas de madera", "Cosas alargadas", "Cosas para entrenar" ],
-    "DexNum": 90,
-    "VariantNum": 0,
-    "DisplayName": "Farfetch\u0027d",
-    "SearchNames": [ "Farfetch\u0027d", "Farfetchd" ]
+    "dexNum": 90,
+    "variantNum": 0,
+    "displayName": "Farfetch\u0027d",
+    "searchNames": [ "Farfetch\u0027d", "Farfetchd" ]
   },
   {
     "name": "Grimer",
@@ -1324,10 +1324,10 @@
     "specialities": "Producir (Basura reciclable)",
     "environment": "Oscuro",
     "preferences": [ "Basura", "Cosas horripilantes", "Cosas agrupadas", "Cosas brillantes", "Cosas donde meter cosas" ],
-    "DexNum": 91,
-    "VariantNum": 0,
-    "DisplayName": "Grimer",
-    "SearchNames": [ "Grimer" ]
+    "dexNum": 91,
+    "variantNum": 0,
+    "displayName": "Grimer",
+    "searchNames": [ "Grimer" ]
   },
   {
     "name": "Muk",
@@ -1338,10 +1338,10 @@
     "specialities": "Producir (Basura reciclable)",
     "environment": "Oscuro",
     "preferences": [ "Basura", "Cosas horripilantes", "Cosas agrupadas", "Cosas brillantes", "Cosas coloridas" ],
-    "DexNum": 92,
-    "VariantNum": 0,
-    "DisplayName": "Muk",
-    "SearchNames": [ "Muk" ]
+    "dexNum": 92,
+    "variantNum": 0,
+    "displayName": "Muk",
+    "searchNames": [ "Muk" ]
   },
   {
     "name": "Gastly",
@@ -1352,10 +1352,10 @@
     "specialities": [ "Organizar", "Negociar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Basura", "Cosas donde meter cosas", "Cosas para disfrutar juntos" ],
-    "DexNum": 93,
-    "VariantNum": 0,
-    "DisplayName": "Gastly",
-    "SearchNames": [ "Gastly" ]
+    "dexNum": 93,
+    "variantNum": 0,
+    "displayName": "Gastly",
+    "searchNames": [ "Gastly" ]
   },
   {
     "name": "Haunter",
@@ -1366,10 +1366,10 @@
     "specialities": [ "Organizar", "Negociar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Basura", "Cosas que se menean", "Cosas para disfrutar juntos" ],
-    "DexNum": 94,
-    "VariantNum": 0,
-    "DisplayName": "Haunter",
-    "SearchNames": [ "Haunter" ]
+    "dexNum": 94,
+    "variantNum": 0,
+    "displayName": "Haunter",
+    "searchNames": [ "Haunter" ]
   },
   {
     "name": "Gengar",
@@ -1380,10 +1380,10 @@
     "specialities": [ "Organizar", "Negociar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Basura", "Medios de transporte", "Cosas para disfrutar juntos" ],
-    "DexNum": 95,
-    "VariantNum": 0,
-    "DisplayName": "Gengar",
-    "SearchNames": [ "Gengar" ]
+    "dexNum": 95,
+    "variantNum": 0,
+    "displayName": "Gengar",
+    "searchNames": [ "Gengar" ]
   },
   {
     "name": "Voltorb",
@@ -1394,10 +1394,10 @@
     "specialities": [ "Electrificar", "Explotar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas brillantes", "Cosas esfericas", "Cosas coloridas", "Cosas que giran" ],
-    "DexNum": 96,
-    "VariantNum": 0,
-    "DisplayName": "Voltorb",
-    "SearchNames": [ "Voltorb" ]
+    "dexNum": 96,
+    "variantNum": 0,
+    "displayName": "Voltorb",
+    "searchNames": [ "Voltorb" ]
   },
   {
     "name": "Electrode",
@@ -1408,10 +1408,10 @@
     "specialities": [ "Electrificar", "Explotar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas brillantes", "Cosas esfericas", "Cosas para jugar", "Cosas que giran" ],
-    "DexNum": 97,
-    "VariantNum": 0,
-    "DisplayName": "Electrode",
-    "SearchNames": [ "Electrode" ]
+    "dexNum": 97,
+    "variantNum": 0,
+    "displayName": "Electrode",
+    "searchNames": [ "Electrode" ]
   },
   {
     "name": "Exeggcute",
@@ -1422,10 +1422,10 @@
     "specialities": [ "Abonar", "Teletransportar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas extrañas", "Cosas agrupadas", "Cosas que alegran la vista", "Cosas para disfrutar juntos" ],
-    "DexNum": 98,
-    "VariantNum": 0,
-    "DisplayName": "Exeggcute",
-    "SearchNames": [ "Exeggcute" ]
+    "dexNum": 98,
+    "variantNum": 0,
+    "displayName": "Exeggcute",
+    "searchNames": [ "Exeggcute" ]
   },
   {
     "name": "Exeggutor",
@@ -1436,10 +1436,10 @@
     "specialities": [ "Abonar", "Teletransportar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas extrañas", "Cosas agrupadas", "Cosas que alegran la vista", "Cosas de madera" ],
-    "DexNum": 99,
-    "VariantNum": 0,
-    "DisplayName": "Exeggutor",
-    "SearchNames": [ "Exeggutor" ]
+    "dexNum": 99,
+    "variantNum": 0,
+    "displayName": "Exeggutor",
+    "searchNames": [ "Exeggutor" ]
   },
   {
     "name": "Happiny",
@@ -1450,10 +1450,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas con tela", "Cosas curativas", "Cosas esfericas", "Cosas donde meter cosas" ],
-    "DexNum": 100,
-    "VariantNum": 0,
-    "DisplayName": "Happiny",
-    "SearchNames": [ "Happiny" ]
+    "dexNum": 100,
+    "variantNum": 0,
+    "displayName": "Happiny",
+    "searchNames": [ "Happiny" ]
   },
   {
     "name": "Chansey",
@@ -1464,10 +1464,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas con tela", "Cosas curativas", "Cosas esfericas", "Cosas para disfrutar juntos" ],
-    "DexNum": 101,
-    "VariantNum": 0,
-    "DisplayName": "Chansey",
-    "SearchNames": [ "Chansey" ]
+    "dexNum": 101,
+    "variantNum": 0,
+    "displayName": "Chansey",
+    "searchNames": [ "Chansey" ]
   },
   {
     "name": "Blissey",
@@ -1478,10 +1478,10 @@
     "specialities": [ "Negociar", "Producir (Piedra)" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas con tela", "Cosas curativas", "Cosas esfericas", "Cosas para disfrutar juntos" ],
-    "DexNum": 102,
-    "VariantNum": 0,
-    "DisplayName": "Blissey",
-    "SearchNames": [ "Blissey" ]
+    "dexNum": 102,
+    "variantNum": 0,
+    "displayName": "Blissey",
+    "searchNames": [ "Blissey" ]
   },
   {
     "name": "Elekid",
@@ -1492,10 +1492,10 @@
     "specialities": [ "Electrificar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas con cristal", "Cosas cuquis", "Cosas esfericas", "Cosas que giran" ],
-    "DexNum": 103,
-    "VariantNum": 0,
-    "DisplayName": "Elekid",
-    "SearchNames": [ "Elekid" ]
+    "dexNum": 103,
+    "variantNum": 0,
+    "displayName": "Elekid",
+    "searchNames": [ "Elekid" ]
   },
   {
     "name": "Electabuzz",
@@ -1506,10 +1506,10 @@
     "specialities": [ "Electrificar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas con cristal", "Cosas que evocan fuego", "Cosas puntiagudas", "Cosas para entrenar" ],
-    "DexNum": 104,
-    "VariantNum": 0,
-    "DisplayName": "Electabuzz",
-    "SearchNames": [ "Electabuzz" ]
+    "dexNum": 104,
+    "variantNum": 0,
+    "displayName": "Electabuzz",
+    "searchNames": [ "Electabuzz" ]
   },
   {
     "name": "Electivire",
@@ -1520,10 +1520,10 @@
     "specialities": [ "Electrificar", "Pulverizar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas con cristal", "Cosas que evocan fuego", "Cosas duras", "Cosas para entrenar" ],
-    "DexNum": 105,
-    "VariantNum": 0,
-    "DisplayName": "Electivire",
-    "SearchNames": [ "Electivire" ]
+    "dexNum": 105,
+    "variantNum": 0,
+    "displayName": "Electivire",
+    "searchNames": [ "Electivire" ]
   },
   {
     "name": "Lapras",
@@ -1534,10 +1534,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas para limpiar", "Cosas que alegran la vista", "Cosas curativas" ],
-    "DexNum": 106,
-    "VariantNum": 0,
-    "DisplayName": "Lapras",
-    "SearchNames": [ "Lapras" ]
+    "dexNum": 106,
+    "variantNum": 0,
+    "displayName": "Lapras",
+    "searchNames": [ "Lapras" ]
   },
   {
     "name": "Munchlax",
@@ -1548,10 +1548,10 @@
     "specialities": [ "Demoler" ],
     "environment": "Calentito",
     "preferences": [ "Cosas blanditas", "Cosas de la naturaleza", "Cosas que parecen comida", "Cosas que se menean", "Cosas para disfrutar juntos" ],
-    "DexNum": 107,
-    "VariantNum": 0,
-    "DisplayName": "Munchlax",
-    "SearchNames": [ "Munchlax" ]
+    "dexNum": 107,
+    "variantNum": 0,
+    "displayName": "Munchlax",
+    "searchNames": [ "Munchlax" ]
   },
   {
     "name": "Mosslax",
@@ -1562,10 +1562,10 @@
     "specialities": [ "Glotonear" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas con tela", "Cosas que parecen comida", "Cosas que alegran la vista", "Cosas extrañas" ],
-    "DexNum": 108,
-    "VariantNum": 0,
-    "DisplayName": "Musgolax",
-    "SearchNames": [ "Mosslax", "Snorlax", "Musgolax" ]
+    "dexNum": 108,
+    "variantNum": 0,
+    "displayName": "Musgolax",
+    "searchNames": [ "Mosslax", "Snorlax", "Musgolax" ]
   },
   {
     "name": "Snorlax",
@@ -1576,10 +1576,10 @@
     "specialities": [ "Negociar", "Demoler" ],
     "environment": "Calentito",
     "preferences": [ "Cosas blanditas", "Cosas con tela", "Cosas que parecen comida", "Cosas que se menean", "Medios de transporte" ],
-    "DexNum": 108,
-    "VariantNum": 1,
-    "DisplayName": "Snorlax",
-    "SearchNames": [ "Snorlax" ]
+    "dexNum": 108,
+    "variantNum": 1,
+    "displayName": "Snorlax",
+    "searchNames": [ "Snorlax" ]
   },
   {
     "name": "Spinarak",
@@ -1590,10 +1590,10 @@
     "specialities": "Producir (Hilo)",
     "environment": "Humedo",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Basura", "Medios de transporte", "Cosas coloridas" ],
-    "DexNum": 109,
-    "VariantNum": 0,
-    "DisplayName": "Spinarak",
-    "SearchNames": [ "Spinarak" ]
+    "dexNum": 109,
+    "variantNum": 0,
+    "displayName": "Spinarak",
+    "searchNames": [ "Spinarak" ]
   },
   {
     "name": "Ariados",
@@ -1604,10 +1604,10 @@
     "specialities": "Producir (Hilo)",
     "environment": "Humedo",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Basura", "Medios de transporte", "Cosas coloridas" ],
-    "DexNum": 110,
-    "VariantNum": 0,
-    "DisplayName": "Ariados",
-    "SearchNames": [ "Ariados" ]
+    "dexNum": 110,
+    "variantNum": 0,
+    "displayName": "Ariados",
+    "searchNames": [ "Ariados" ]
   },
   {
     "name": "Mareep",
@@ -1618,10 +1618,10 @@
     "specialities": [ "Electrificar", "Producir (Pelusa)" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas brillantes", "Cosas con cristal", "Cosas cuquis", "Cosas con tela" ],
-    "DexNum": 111,
-    "VariantNum": 0,
-    "DisplayName": "Mareep",
-    "SearchNames": [ "Mareep" ]
+    "dexNum": 111,
+    "variantNum": 0,
+    "displayName": "Mareep",
+    "searchNames": [ "Mareep" ]
   },
   {
     "name": "Flaaffy",
@@ -1632,10 +1632,10 @@
     "specialities": [ "Electrificar", "Producir (Pelusa)" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas brillantes", "Cosas con cristal", "Cosas cuquis", "Medios de transporte" ],
-    "DexNum": 112,
-    "VariantNum": 0,
-    "DisplayName": "Flaaffy",
-    "SearchNames": [ "Flaaffy" ]
+    "dexNum": 112,
+    "variantNum": 0,
+    "displayName": "Flaaffy",
+    "searchNames": [ "Flaaffy" ]
   },
   {
     "name": "Ampharos",
@@ -1646,10 +1646,10 @@
     "specialities": [ "Electrificar", "Negociar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas brillantes", "Cosas con cristal", "Cosas cuquis", "Decoraciones florales" ],
-    "DexNum": 113,
-    "VariantNum": 0,
-    "DisplayName": "Ampharos",
-    "SearchNames": [ "Ampharos" ]
+    "dexNum": 113,
+    "variantNum": 0,
+    "displayName": "Ampharos",
+    "searchNames": [ "Ampharos" ]
   },
   {
     "name": "Azurill",
@@ -1660,10 +1660,10 @@
     "specialities": [ "Humedecer", "Entretener" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas cuquis", "Cosas para limpiar", "Cosas curativas", "Medios de transporte" ],
-    "DexNum": 114,
-    "VariantNum": 0,
-    "DisplayName": "Azurill",
-    "SearchNames": [ "Azurill" ]
+    "dexNum": 114,
+    "variantNum": 0,
+    "displayName": "Azurill",
+    "searchNames": [ "Azurill" ]
   },
   {
     "name": "Marill",
@@ -1674,10 +1674,10 @@
     "specialities": [ "Humedecer", "Entretener" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas cuquis", "Cosas para limpiar", "Cosas esfericas", "Cosas con simbolos" ],
-    "DexNum": 115,
-    "VariantNum": 0,
-    "DisplayName": "Marill",
-    "SearchNames": [ "Marill" ]
+    "dexNum": 115,
+    "variantNum": 0,
+    "displayName": "Marill",
+    "searchNames": [ "Marill" ]
   },
   {
     "name": "Azumarill",
@@ -1688,10 +1688,10 @@
     "specialities": [ "Humedecer", "Construir" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas cuquis", "Herramientas de construccion", "Cosas que se menean", "Cosas con simbolos" ],
-    "DexNum": 116,
-    "VariantNum": 0,
-    "DisplayName": "Azumarill",
-    "SearchNames": [ "Azumarill" ]
+    "dexNum": 116,
+    "variantNum": 0,
+    "displayName": "Azumarill",
+    "searchNames": [ "Azumarill" ]
   },
   {
     "name": "Wooper-Paldea",
@@ -1702,10 +1702,10 @@
     "specialities": "Producir (Arcilla maleable)",
     "environment": "Humedo",
     "preferences": [ "Basura", "Cosas que evocan tierra", "Cosas de piedra", "Cosas para limpiar", "Cosas para disfrutar juntos" ],
-    "DexNum": 117,
-    "VariantNum": 0,
-    "DisplayName": "Wooper",
-    "SearchNames": [ "Paldean Wooper" ]
+    "dexNum": 117,
+    "variantNum": 0,
+    "displayName": "Wooper",
+    "searchNames": [ "Paldean Wooper" ]
   },
   {
     "name": "Clodsire",
@@ -1716,10 +1716,10 @@
     "specialities": [ "Producir (Arcilla maleable)", "Demoler" ],
     "environment": "Humedo",
     "preferences": [ "Basura", "Cosas que evocan tierra", "Cosas que evocan agua", "Cosas para limpiar", "Cosas esfericas" ],
-    "DexNum": 118,
-    "VariantNum": 0,
-    "DisplayName": "Clodsire",
-    "SearchNames": [ "Clodsire" ]
+    "dexNum": 118,
+    "variantNum": 0,
+    "displayName": "Clodsire",
+    "searchNames": [ "Clodsire" ]
   },
   {
     "name": "Maestro-Smeargle",
@@ -1730,10 +1730,10 @@
     "specialities": [ "Pintar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas con tela", "Cosas extrañas", "Cosas coloridas", "Cosas brillantes" ],
-    "DexNum": 119,
-    "VariantNum": 0,
-    "DisplayName": "Maestro Smeargle",
-    "SearchNames": [ "Maestro Smeargle" ]
+    "dexNum": 119,
+    "variantNum": 0,
+    "displayName": "Maestro Smeargle",
+    "searchNames": [ "Maestro Smeargle" ]
   },
   {
     "name": "Torchic",
@@ -1744,10 +1744,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas cuquis", "Cosas donde meter cosas", "Decoraciones florales" ],
-    "DexNum": 120,
-    "VariantNum": 0,
-    "DisplayName": "Torchic",
-    "SearchNames": [ "Torchic" ]
+    "dexNum": 120,
+    "variantNum": 0,
+    "displayName": "Torchic",
+    "searchNames": [ "Torchic" ]
   },
   {
     "name": "Combusken",
@@ -1758,10 +1758,10 @@
     "specialities": [ "Quemar", "Construir" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas para entrenar", "Cosas donde meter cosas", "Herramientas de construccion" ],
-    "DexNum": 121,
-    "VariantNum": 0,
-    "DisplayName": "Combusken",
-    "SearchNames": [ "Combusken" ]
+    "dexNum": 121,
+    "variantNum": 0,
+    "displayName": "Combusken",
+    "searchNames": [ "Combusken" ]
   },
   {
     "name": "Blaziken",
@@ -1772,10 +1772,10 @@
     "specialities": [ "Quemar", "Construir" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas lujosas", "Cosas para entrenar", "Cosas donde meter cosas", "Herramientas de construccion" ],
-    "DexNum": 122,
-    "VariantNum": 0,
-    "DisplayName": "Blaziken",
-    "SearchNames": [ "Blaziken" ]
+    "dexNum": 122,
+    "variantNum": 0,
+    "displayName": "Blaziken",
+    "searchNames": [ "Blaziken" ]
   },
   {
     "name": "Wingull",
@@ -1786,10 +1786,10 @@
     "specialities": [ "Humedecer", "Volar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan viento", "Cosas para limpiar", "Cosas que evocan mar", "Cosas que alegran la vista" ],
-    "DexNum": 123,
-    "VariantNum": 0,
-    "DisplayName": "Wingull",
-    "SearchNames": [ "Wingull" ]
+    "dexNum": 123,
+    "variantNum": 0,
+    "displayName": "Wingull",
+    "searchNames": [ "Wingull" ]
   },
   {
     "name": "Pelipper",
@@ -1800,10 +1800,10 @@
     "specialities": [ "Humedecer", "Volar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan viento", "Cosas para limpiar", "Cosas que evocan mar", "Cosas que alegran la vista" ],
-    "DexNum": 124,
-    "VariantNum": 0,
-    "DisplayName": "Pelipper",
-    "SearchNames": [ "Pelipper" ]
+    "dexNum": 124,
+    "variantNum": 0,
+    "displayName": "Pelipper",
+    "searchNames": [ "Pelipper" ]
   },
   {
     "name": "Makuhita",
@@ -1814,10 +1814,10 @@
     "specialities": [ "Construir", "Demoler" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas para entrenar", "Herramientas de construccion", "Cosas con tela", "Cosas esfericas", "Cosas de madera" ],
-    "DexNum": 125,
-    "VariantNum": 0,
-    "DisplayName": "Makuhita",
-    "SearchNames": [ "Makuhita" ]
+    "dexNum": 125,
+    "variantNum": 0,
+    "displayName": "Makuhita",
+    "searchNames": [ "Makuhita" ]
   },
   {
     "name": "Hariyama",
@@ -1828,10 +1828,10 @@
     "specialities": [ "Construir", "Demoler" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas para entrenar", "Herramientas de construccion", "Cosas con tela", "Cosas esfericas", "Medios de transporte" ],
-    "DexNum": 126,
-    "VariantNum": 0,
-    "DisplayName": "Hariyama",
-    "SearchNames": [ "Hariyama" ]
+    "dexNum": 126,
+    "variantNum": 0,
+    "displayName": "Hariyama",
+    "searchNames": [ "Hariyama" ]
   },
   {
     "name": "Absol",
@@ -1842,10 +1842,10 @@
     "specialities": "Cortar madera",
     "environment": "Oscuro",
     "preferences": [ "Cosas blanditas", "Cosas que evocan viento", "Cosas con texto", "Cosas complicadas", "Cosas para entrenar" ],
-    "DexNum": 127,
-    "VariantNum": 0,
-    "DisplayName": "Absol",
-    "SearchNames": [ "Absol" ]
+    "dexNum": 127,
+    "variantNum": 0,
+    "displayName": "Absol",
+    "searchNames": [ "Absol" ]
   },
   {
     "name": "Piplup",
@@ -1856,10 +1856,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas que evocan viento", "Cosas para limpiar", "Cosas donde meter cosas" ],
-    "DexNum": 128,
-    "VariantNum": 0,
-    "DisplayName": "Piplup",
-    "SearchNames": [ "Piplup" ]
+    "dexNum": 128,
+    "variantNum": 0,
+    "displayName": "Piplup",
+    "searchNames": [ "Piplup" ]
   },
   {
     "name": "Prinplup",
@@ -1870,10 +1870,10 @@
     "specialities": [ "Humedecer", "Negociar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas que evocan viento", "Cosas para limpiar", "Cosas donde meter cosas" ],
-    "DexNum": 129,
-    "VariantNum": 0,
-    "DisplayName": "Prinplup",
-    "SearchNames": [ "Prinplup" ]
+    "dexNum": 129,
+    "variantNum": 0,
+    "displayName": "Prinplup",
+    "searchNames": [ "Prinplup" ]
   },
   {
     "name": "Empoleon",
@@ -1884,10 +1884,10 @@
     "specialities": [ "Humedecer", "Negociar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas con metal", "Cosas para limpiar", "Cosas con texto" ],
-    "DexNum": 130,
-    "VariantNum": 0,
-    "DisplayName": "Empoleon",
-    "SearchNames": [ "Empoleon" ]
+    "dexNum": 130,
+    "variantNum": 0,
+    "displayName": "Empoleon",
+    "searchNames": [ "Empoleon" ]
   },
   {
     "name": "Audino",
@@ -1898,10 +1898,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas con tela", "Cosas curativas", "Cosas cuquis", "Cosas esfericas" ],
-    "DexNum": 131,
-    "VariantNum": 0,
-    "DisplayName": "Audino",
-    "SearchNames": [ "Audino" ]
+    "dexNum": 131,
+    "variantNum": 0,
+    "displayName": "Audino",
+    "searchNames": [ "Audino" ]
   },
   {
     "name": "Trubbish",
@@ -1912,10 +1912,10 @@
     "specialities": [ "Reciclar" ],
     "environment": "Humedo",
     "preferences": [ "Basura", "Cosas donde meter cosas", "Cosas complicadas", "Cosas brillantes", "Cosas agrupadas" ],
-    "DexNum": 132,
-    "VariantNum": 0,
-    "DisplayName": "Trubbish",
-    "SearchNames": [ "Trubbish" ]
+    "dexNum": 132,
+    "variantNum": 0,
+    "displayName": "Trubbish",
+    "searchNames": [ "Trubbish" ]
   },
   {
     "name": "Garbodor",
@@ -1926,10 +1926,10 @@
     "specialities": [ "Reciclar", "Producir (Basura reciclable)" ],
     "environment": "Humedo",
     "preferences": [ "Basura", "Cosas donde meter cosas", "Cosas complicadas", "Cosas brillantes", "Cosas agrupadas" ],
-    "DexNum": 133,
-    "VariantNum": 0,
-    "DisplayName": "Garbodor",
-    "SearchNames": [ "Garbodor" ]
+    "dexNum": 133,
+    "variantNum": 0,
+    "displayName": "Garbodor",
+    "searchNames": [ "Garbodor" ]
   },
   {
     "name": "Zorua",
@@ -1940,10 +1940,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas brillantes", "Cosas lujosas", "Cosas con cristal", "Cosas cuquis", "Cosas para disfrutar juntos" ],
-    "DexNum": 134,
-    "VariantNum": 0,
-    "DisplayName": "Zorua",
-    "SearchNames": [ "Zorua" ]
+    "dexNum": 134,
+    "variantNum": 0,
+    "displayName": "Zorua",
+    "searchNames": [ "Zorua" ]
   },
   {
     "name": "Zoroark",
@@ -1954,10 +1954,10 @@
     "specialities": [ "Negociar", "Cortar madera" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas brillantes", "Cosas lujosas", "Cosas con cristal", "Cosas extrañas", "Cosas para disfrutar juntos" ],
-    "DexNum": 135,
-    "VariantNum": 0,
-    "DisplayName": "Zoroark",
-    "SearchNames": [ "Zoroark" ]
+    "dexNum": 135,
+    "variantNum": 0,
+    "displayName": "Zoroark",
+    "searchNames": [ "Zoroark" ]
   },
   {
     "name": "Minccino",
@@ -1968,10 +1968,10 @@
     "specialities": [ "Organizar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas con tela", "Medios de transporte", "Cosas cuquis", "Cosas para limpiar" ],
-    "DexNum": 136,
-    "VariantNum": 0,
-    "DisplayName": "Minccino",
-    "SearchNames": [ "Minccino" ]
+    "dexNum": 136,
+    "variantNum": 0,
+    "displayName": "Minccino",
+    "searchNames": [ "Minccino" ]
   },
   {
     "name": "Cinccino",
@@ -1982,10 +1982,10 @@
     "specialities": [ "Organizar", "Reciclar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas con tela", "Medios de transporte", "Cosas cuquis", "Cosas para limpiar" ],
-    "DexNum": 137,
-    "VariantNum": 0,
-    "DisplayName": "Cinccino",
-    "SearchNames": [ "Cinccino" ]
+    "dexNum": 137,
+    "variantNum": 0,
+    "displayName": "Cinccino",
+    "searchNames": [ "Cinccino" ]
   },
   {
     "name": "Grubbin",
@@ -1996,10 +1996,10 @@
     "specialities": "Cortar madera",
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas electricas", "Cosas que alegran la vista", "Cosas que evocan tierra", "Cosas donde meter cosas" ],
-    "DexNum": 138,
-    "VariantNum": 0,
-    "DisplayName": "Grubbin",
-    "SearchNames": [ "Grubbin" ]
+    "dexNum": 138,
+    "variantNum": 0,
+    "displayName": "Grubbin",
+    "searchNames": [ "Grubbin" ]
   },
   {
     "name": "Charjabug",
@@ -2010,10 +2010,10 @@
     "specialities": [ "Electrificar", "Cortar madera" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas electricas", "Cosas que alegran la vista", "Cosas con cristal", "Cosas cuadradas" ],
-    "DexNum": 139,
-    "VariantNum": 0,
-    "DisplayName": "Charjabug",
-    "SearchNames": [ "Charjabug" ]
+    "dexNum": 139,
+    "variantNum": 0,
+    "displayName": "Charjabug",
+    "searchNames": [ "Charjabug" ]
   },
   {
     "name": "Vikavolt",
@@ -2024,10 +2024,10 @@
     "specialities": [ "Electrificar", "Cortar madera" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Cosas electricas", "Cosas para entrenar", "Cosas con cristal", "Cosas que evocan viento" ],
-    "DexNum": 140,
-    "VariantNum": 0,
-    "DisplayName": "Vikavolt",
-    "SearchNames": [ "Vikavolt" ]
+    "dexNum": 140,
+    "variantNum": 0,
+    "displayName": "Vikavolt",
+    "searchNames": [ "Vikavolt" ]
   },
   {
     "name": "Mimikyu",
@@ -2038,10 +2038,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas horripilantes", "Cosas cuquis", "Cosas electricas", "Cosas con tela", "Cosas para disfrutar juntos" ],
-    "DexNum": 141,
-    "VariantNum": 0,
-    "DisplayName": "Mimikyu",
-    "SearchNames": [ "Mimikyu" ]
+    "dexNum": 141,
+    "variantNum": 0,
+    "displayName": "Mimikyu",
+    "searchNames": [ "Mimikyu" ]
   },
   {
     "name": "Pawmi",
@@ -2052,10 +2052,10 @@
     "specialities": [ "Electrificar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas brillantes", "Cosas cuquis", "Cosas con cristal", "Cosas para disfrutar juntos" ],
-    "DexNum": 142,
-    "VariantNum": 0,
-    "DisplayName": "Pawmi",
-    "SearchNames": [ "Pawmi" ]
+    "dexNum": 142,
+    "variantNum": 0,
+    "displayName": "Pawmi",
+    "searchNames": [ "Pawmi" ]
   },
   {
     "name": "Pawmo",
@@ -2066,10 +2066,10 @@
     "specialities": [ "Electrificar", "Pulverizar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas brillantes", "Cosas para entrenar", "Cosas con cristal", "Cosas para disfrutar juntos" ],
-    "DexNum": 143,
-    "VariantNum": 0,
-    "DisplayName": "Pawmo",
-    "SearchNames": [ "Pawmo" ]
+    "dexNum": 143,
+    "variantNum": 0,
+    "displayName": "Pawmo",
+    "searchNames": [ "Pawmo" ]
   },
   {
     "name": "Pawmot",
@@ -2080,10 +2080,10 @@
     "specialities": [ "Electrificar", "Pulverizar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas brillantes", "Cosas para entrenar", "Cosas curativas", "Cosas para disfrutar juntos" ],
-    "DexNum": 144,
-    "VariantNum": 0,
-    "DisplayName": "Pawmot",
-    "SearchNames": [ "Pawmot" ]
+    "dexNum": 144,
+    "variantNum": 0,
+    "displayName": "Pawmot",
+    "searchNames": [ "Pawmot" ]
   },
   {
     "name": "Tatsugiri-Curvado",
@@ -2094,10 +2094,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas para disfrutar juntos", "Cosas alargadas", "Cosas agrupadas" ],
-    "DexNum": 145,
-    "VariantNum": 0,
-    "DisplayName": "Tatsugiri",
-    "SearchNames": [ "Tatsugiri Curvado" ]
+    "dexNum": 145,
+    "variantNum": 0,
+    "displayName": "Tatsugiri",
+    "searchNames": [ "Tatsugiri Curvado" ]
   },
   {
     "name": "Tatsugiri-Languido",
@@ -2108,10 +2108,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas para disfrutar juntos", "Cosas que giran", "Cosas cuadradas" ],
-    "DexNum": 145,
-    "VariantNum": 1,
-    "DisplayName": "Tatsugiri",
-    "SearchNames": [ "Tatsugiri Languido" ]
+    "dexNum": 145,
+    "variantNum": 1,
+    "displayName": "Tatsugiri",
+    "searchNames": [ "Tatsugiri Languido" ]
   },
   {
     "name": "Tatsugiri-Recto",
@@ -2122,10 +2122,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas para disfrutar juntos", "Cosas con texto", "Cosas donde meter cosas" ],
-    "DexNum": 145,
-    "VariantNum": 2,
-    "DisplayName": "Tatsugiri",
-    "SearchNames": [ "Tatsugiri Recto" ]
+    "dexNum": 145,
+    "variantNum": 2,
+    "displayName": "Tatsugiri",
+    "searchNames": [ "Tatsugiri Recto" ]
   },
   {
     "name": "Ekans",
@@ -2136,10 +2136,10 @@
     "specialities": [ "Rastrear" ],
     "environment": "Oscuro",
     "preferences": [ "Basura", "Cosas que alegran la vista", "Cosas de la naturaleza", "Cosas alargadas", "Cosas que giran" ],
-    "DexNum": 146,
-    "VariantNum": 0,
-    "DisplayName": "Ekans",
-    "SearchNames": [ "Ekans" ]
+    "dexNum": 146,
+    "variantNum": 0,
+    "displayName": "Ekans",
+    "searchNames": [ "Ekans" ]
   },
   {
     "name": "Arbok",
@@ -2150,10 +2150,10 @@
     "specialities": [ "Rastrear" ],
     "environment": "Oscuro",
     "preferences": [ "Basura", "Cosas que alegran la vista", "Cosas de la naturaleza", "Cosas alargadas", "Cosas que giran" ],
-    "DexNum": 147,
-    "VariantNum": 0,
-    "DisplayName": "Arbok",
-    "SearchNames": [ "Arbok" ]
+    "dexNum": 147,
+    "variantNum": 0,
+    "displayName": "Arbok",
+    "searchNames": [ "Arbok" ]
   },
   {
     "name": "Cleffa",
@@ -2164,10 +2164,10 @@
     "specialities": [ "Entretener" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas cuquis", "Cosas esfericas", "Cosas coloridas", "Cosas curativas", "Cosas con metal" ],
-    "DexNum": 148,
-    "VariantNum": 0,
-    "DisplayName": "Cleffa",
-    "SearchNames": [ "Cleffa" ]
+    "dexNum": 148,
+    "variantNum": 0,
+    "displayName": "Cleffa",
+    "searchNames": [ "Cleffa" ]
   },
   {
     "name": "Clefairy",
@@ -2178,10 +2178,10 @@
     "specialities": [ "Entretener" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas cuquis", "Cosas para jugar", "Decoraciones florales", "Cosas curativas", "Cosas para disfrutar juntos" ],
-    "DexNum": 149,
-    "VariantNum": 0,
-    "DisplayName": "Clefairy",
-    "SearchNames": [ "Clefairy" ]
+    "dexNum": 149,
+    "variantNum": 0,
+    "displayName": "Clefairy",
+    "searchNames": [ "Clefairy" ]
   },
   {
     "name": "Clefable",
@@ -2192,10 +2192,10 @@
     "specialities": [ "Entretener", "Negociar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas cuquis", "Cosas para jugar", "Decoraciones florales", "Cosas curativas", "Cosas para disfrutar juntos" ],
-    "DexNum": 150,
-    "VariantNum": 0,
-    "DisplayName": "Clefable",
-    "SearchNames": [ "Clefable" ]
+    "dexNum": 150,
+    "variantNum": 0,
+    "displayName": "Clefable",
+    "searchNames": [ "Clefable" ]
   },
   {
     "name": "Igglybuff",
@@ -2206,10 +2206,10 @@
     "specialities": [ "Entretener" ],
     "environment": "Calentito",
     "preferences": [ "Cosas blanditas", "Cosas cuquis", "Cosas para jugar", "Cosas curativas", "Cosas ruidosas" ],
-    "DexNum": 151,
-    "VariantNum": 0,
-    "DisplayName": "Igglybuff",
-    "SearchNames": [ "Igglybuff" ]
+    "dexNum": 151,
+    "variantNum": 0,
+    "displayName": "Igglybuff",
+    "searchNames": [ "Igglybuff" ]
   },
   {
     "name": "Jigglypuff",
@@ -2220,10 +2220,10 @@
     "specialities": [ "Entretener" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas cuquis", "Cosas para jugar", "Cosas curativas", "Cosas que se menean" ],
-    "DexNum": 152,
-    "VariantNum": 0,
-    "DisplayName": "Jigglypuff",
-    "SearchNames": [ "Jigglypuff" ]
+    "dexNum": 152,
+    "variantNum": 0,
+    "displayName": "Jigglypuff",
+    "searchNames": [ "Jigglypuff" ]
   },
   {
     "name": "Wigglytuff",
@@ -2234,10 +2234,10 @@
     "specialities": [ "Entretener", "Negociar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas cuquis", "Cosas para jugar", "Cosas curativas", "Cosas para disfrutar juntos" ],
-    "DexNum": 153,
-    "VariantNum": 0,
-    "DisplayName": "Wigglytuff",
-    "SearchNames": [ "Wigglytuff" ]
+    "dexNum": 153,
+    "variantNum": 0,
+    "displayName": "Wigglytuff",
+    "searchNames": [ "Wigglytuff" ]
   },
   {
     "name": "Diglett",
@@ -2248,10 +2248,10 @@
     "specialities": [ "Entretener" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas que evocan tierra", "Cosas para jugar", "Cosas cuquis", "Cosas para disfrutar juntos", "Cosas alargadas" ],
-    "DexNum": 154,
-    "VariantNum": 0,
-    "DisplayName": "Diglett",
-    "SearchNames": [ "Diglett" ]
+    "dexNum": 154,
+    "variantNum": 0,
+    "displayName": "Diglett",
+    "searchNames": [ "Diglett" ]
   },
   {
     "name": "Dugtrio",
@@ -2262,10 +2262,10 @@
     "specialities": [ "Entretener", "Pulverizar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas que evocan tierra", "Cosas para jugar", "Cosas agrupadas", "Cosas para disfrutar juntos", "Cosas alargadas" ],
-    "DexNum": 155,
-    "VariantNum": 0,
-    "DisplayName": "Dugtrio",
-    "SearchNames": [ "Dugtrio" ]
+    "dexNum": 155,
+    "variantNum": 0,
+    "displayName": "Dugtrio",
+    "searchNames": [ "Dugtrio" ]
   },
   {
     "name": "Machop",
@@ -2276,10 +2276,10 @@
     "specialities": [ "Construir", "Organizar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas para entrenar", "Herramientas de construccion", "Cosas de piedra", "Cosas duras", "Cosas para disfrutar juntos" ],
-    "DexNum": 156,
-    "VariantNum": 0,
-    "DisplayName": "Machop",
-    "SearchNames": [ "Machop" ]
+    "dexNum": 156,
+    "variantNum": 0,
+    "displayName": "Machop",
+    "searchNames": [ "Machop" ]
   },
   {
     "name": "Machoke",
@@ -2290,10 +2290,10 @@
     "specialities": [ "Construir", "Organizar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas para entrenar", "Herramientas de construccion", "Cosas de piedra", "Cosas duras", "Cosas para disfrutar juntos" ],
-    "DexNum": 157,
-    "VariantNum": 0,
-    "DisplayName": "Machoke",
-    "SearchNames": [ "Machoke" ]
+    "dexNum": 157,
+    "variantNum": 0,
+    "displayName": "Machoke",
+    "searchNames": [ "Machoke" ]
   },
   {
     "name": "Machamp",
@@ -2304,10 +2304,10 @@
     "specialities": [ "Construir", "Organizar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas para entrenar", "Herramientas de construccion", "Cosas de piedra", "Cosas duras", "Cosas para disfrutar juntos" ],
-    "DexNum": 158,
-    "VariantNum": 0,
-    "DisplayName": "Machamp",
-    "SearchNames": [ "Machamp" ]
+    "dexNum": 158,
+    "variantNum": 0,
+    "displayName": "Machamp",
+    "searchNames": [ "Machamp" ]
   },
   {
     "name": "Geodude",
@@ -2318,10 +2318,10 @@
     "specialities": [ "Pulverizar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Cosas que giran", "Cosas esfericas", "Cosas para entrenar" ],
-    "DexNum": 159,
-    "VariantNum": 0,
-    "DisplayName": "Geodude",
-    "SearchNames": [ "Geodude" ]
+    "dexNum": 159,
+    "variantNum": 0,
+    "displayName": "Geodude",
+    "searchNames": [ "Geodude" ]
   },
   {
     "name": "Graveler",
@@ -2332,10 +2332,10 @@
     "specialities": [ "Pulverizar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Cosas que giran", "Cosas esfericas", "Cosas para entrenar" ],
-    "DexNum": 160,
-    "VariantNum": 0,
-    "DisplayName": "Graveler",
-    "SearchNames": [ "Graveler" ]
+    "dexNum": 160,
+    "variantNum": 0,
+    "displayName": "Graveler",
+    "searchNames": [ "Graveler" ]
   },
   {
     "name": "Golem",
@@ -2346,10 +2346,10 @@
     "specialities": [ "Pulverizar", "Negociar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Cosas que giran", "Cosas esfericas", "Cosas para entrenar" ],
-    "DexNum": 161,
-    "VariantNum": 0,
-    "DisplayName": "Golem",
-    "SearchNames": [ "Golem" ]
+    "dexNum": 161,
+    "variantNum": 0,
+    "displayName": "Golem",
+    "searchNames": [ "Golem" ]
   },
   {
     "name": "Magby",
@@ -2360,10 +2360,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas que alegran la vista", "Cosas cuquis", "Cosas que se menean" ],
-    "DexNum": 162,
-    "VariantNum": 0,
-    "DisplayName": "Magby",
-    "SearchNames": [ "Magby" ]
+    "dexNum": 162,
+    "variantNum": 0,
+    "displayName": "Magby",
+    "searchNames": [ "Magby" ]
   },
   {
     "name": "Magmar",
@@ -2374,10 +2374,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas electricas", "Cosas duras", "Cosas para entrenar" ],
-    "DexNum": 163,
-    "VariantNum": 0,
-    "DisplayName": "Magmar",
-    "SearchNames": [ "Magmar" ]
+    "dexNum": 163,
+    "variantNum": 0,
+    "displayName": "Magmar",
+    "searchNames": [ "Magmar" ]
   },
   {
     "name": "Magmortar",
@@ -2388,10 +2388,10 @@
     "specialities": [ "Quemar", "Pulverizar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas electricas", "Cosas duras", "Cosas para entrenar" ],
-    "DexNum": 164,
-    "VariantNum": 0,
-    "DisplayName": "Magmortar",
-    "SearchNames": [ "Magmortar" ]
+    "dexNum": 164,
+    "variantNum": 0,
+    "displayName": "Magmortar",
+    "searchNames": [ "Magmortar" ]
   },
   {
     "name": "Bonsly",
@@ -2402,10 +2402,10 @@
     "specialities": [ "Demoler" ],
     "environment": "Seco",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Cosas de la naturaleza", "Cosas de madera", "Cosas esfericas" ],
-    "DexNum": 165,
-    "VariantNum": 0,
-    "DisplayName": "Bonsly",
-    "SearchNames": [ "Bonsly" ]
+    "dexNum": 165,
+    "variantNum": 0,
+    "displayName": "Bonsly",
+    "searchNames": [ "Bonsly" ]
   },
   {
     "name": "Sudowoodo",
@@ -2416,10 +2416,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Seco",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Cosas de la naturaleza", "Cosas de madera", "Cosas que alegran la vista" ],
-    "DexNum": 166,
-    "VariantNum": 0,
-    "DisplayName": "Sudowoodo",
-    "SearchNames": [ "Sudowoodo" ]
+    "dexNum": 166,
+    "variantNum": 0,
+    "displayName": "Sudowoodo",
+    "searchNames": [ "Sudowoodo" ]
   },
   {
     "name": "Murkrow",
@@ -2430,10 +2430,10 @@
     "specialities": [ "Negociar", "Volar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas brillantes", "Cosas que evocan viento", "Cosas para disfrutar juntos", "Cosas lujosas", "Cosas con tela" ],
-    "DexNum": 167,
-    "VariantNum": 0,
-    "DisplayName": "Murkrow",
-    "SearchNames": [ "Murkrow" ]
+    "dexNum": 167,
+    "variantNum": 0,
+    "displayName": "Murkrow",
+    "searchNames": [ "Murkrow" ]
   },
   {
     "name": "Honchkrow",
@@ -2444,10 +2444,10 @@
     "specialities": [ "Negociar", "Volar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas brillantes", "Cosas que evocan viento", "Cosas horripilantes", "Cosas con texto", "Cosas con cristal" ],
-    "DexNum": 168,
-    "VariantNum": 0,
-    "DisplayName": "Honchkrow",
-    "SearchNames": [ "Honchkrow" ]
+    "dexNum": 168,
+    "variantNum": 0,
+    "displayName": "Honchkrow",
+    "searchNames": [ "Honchkrow" ]
   },
   {
     "name": "Larvitar",
@@ -2458,10 +2458,10 @@
     "specialities": [ "Pulverizar", "Demoler" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas de piedra", "Cosas que evocan tierra", "Cosas lujosas", "Cosas brillantes", "Cosas que parecen comida" ],
-    "DexNum": 169,
-    "VariantNum": 0,
-    "DisplayName": "Larvitar",
-    "SearchNames": [ "Larvitar" ]
+    "dexNum": 169,
+    "variantNum": 0,
+    "displayName": "Larvitar",
+    "searchNames": [ "Larvitar" ]
   },
   {
     "name": "Pupitar",
@@ -2472,10 +2472,10 @@
     "specialities": [ "Pulverizar", "Demoler" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Cosas lujosas", "Cosas brillantes", "Cosas que alegran la vista" ],
-    "DexNum": 170,
-    "VariantNum": 0,
-    "DisplayName": "Pupitar",
-    "SearchNames": [ "Pupitar" ]
+    "dexNum": 170,
+    "variantNum": 0,
+    "displayName": "Pupitar",
+    "searchNames": [ "Pupitar" ]
   },
   {
     "name": "Tyranitar",
@@ -2486,10 +2486,10 @@
     "specialities": [ "Pulverizar", "Demoler" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Cosas lujosas", "Cosas brillantes", "Cosas para entrenar" ],
-    "DexNum": 171,
-    "VariantNum": 0,
-    "DisplayName": "Tyranitar",
-    "SearchNames": [ "Tyranitar" ]
+    "dexNum": 171,
+    "variantNum": 0,
+    "displayName": "Tyranitar",
+    "searchNames": [ "Tyranitar" ]
   },
   {
     "name": "Lotad",
@@ -2500,10 +2500,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas de la naturaleza", "Cosas para limpiar", "Cosas donde meter cosas", "Cosas ruidosas" ],
-    "DexNum": 172,
-    "VariantNum": 0,
-    "DisplayName": "Lotad",
-    "SearchNames": [ "Lotad" ]
+    "dexNum": 172,
+    "variantNum": 0,
+    "displayName": "Lotad",
+    "searchNames": [ "Lotad" ]
   },
   {
     "name": "Lombre",
@@ -2514,10 +2514,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas de la naturaleza", "Cosas para limpiar", "Cosas donde meter cosas", "Cosas ruidosas" ],
-    "DexNum": 173,
-    "VariantNum": 0,
-    "DisplayName": "Lombre",
-    "SearchNames": [ "Lombre" ]
+    "dexNum": 173,
+    "variantNum": 0,
+    "displayName": "Lombre",
+    "searchNames": [ "Lombre" ]
   },
   {
     "name": "Ludicolo",
@@ -2528,10 +2528,10 @@
     "specialities": [ "Humedecer", "Entretener" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas de la naturaleza", "Cosas para jugar", "Cosas donde meter cosas", "Cosas ruidosas" ],
-    "DexNum": 174,
-    "VariantNum": 0,
-    "DisplayName": "Ludicolo",
-    "SearchNames": [ "Ludicolo" ]
+    "dexNum": 174,
+    "variantNum": 0,
+    "displayName": "Ludicolo",
+    "searchNames": [ "Ludicolo" ]
   },
   {
     "name": "Mawile",
@@ -2542,10 +2542,10 @@
     "specialities": [ "Negociar", "Construir" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas con metal", "Cosas cuquis", "Cosas coloridas", "Cosas que parecen comida", "Cosas para disfrutar juntos" ],
-    "DexNum": 175,
-    "VariantNum": 0,
-    "DisplayName": "Mawile",
-    "SearchNames": [ "Mawile" ]
+    "dexNum": 175,
+    "variantNum": 0,
+    "displayName": "Mawile",
+    "searchNames": [ "Mawile" ]
   },
   {
     "name": "Torkoal",
@@ -2556,10 +2556,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas con metal", "Cosas duras", "Cosas que alegran la vista" ],
-    "DexNum": 176,
-    "VariantNum": 0,
-    "DisplayName": "Torkoal",
-    "SearchNames": [ "Torkoal" ]
+    "dexNum": 176,
+    "variantNum": 0,
+    "displayName": "Torkoal",
+    "searchNames": [ "Torkoal" ]
   },
   {
     "name": "Kricketot",
@@ -2570,10 +2570,10 @@
     "specialities": [ "Entretener" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas ruidosas", "Cosas coloridas", "Cosas que alegran la vista" ],
-    "DexNum": 177,
-    "VariantNum": 0,
-    "DisplayName": "Kricketot",
-    "SearchNames": [ "Kricketot" ]
+    "dexNum": 177,
+    "variantNum": 0,
+    "displayName": "Kricketot",
+    "searchNames": [ "Kricketot" ]
   },
   {
     "name": "Kricketune",
@@ -2584,10 +2584,10 @@
     "specialities": [ "Entretener" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas ruidosas", "Cosas coloridas", "Cosas que alegran la vista" ],
-    "DexNum": 178,
-    "VariantNum": 0,
-    "DisplayName": "Kricketune",
-    "SearchNames": [ "Kricketune" ]
+    "dexNum": 178,
+    "variantNum": 0,
+    "displayName": "Kricketune",
+    "searchNames": [ "Kricketune" ]
   },
   {
     "name": "Chatot",
@@ -2598,10 +2598,10 @@
     "specialities": [ "Entretener", "Volar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan viento", "Cosas con tela", "Cosas alargadas", "Cosas para jugar", "Cosas ruidosas" ],
-    "DexNum": 179,
-    "VariantNum": 0,
-    "DisplayName": "Chatot",
-    "SearchNames": [ "Chatot" ]
+    "dexNum": 179,
+    "variantNum": 0,
+    "displayName": "Chatot",
+    "searchNames": [ "Chatot" ]
   },
   {
     "name": "Riolu",
@@ -2612,10 +2612,10 @@
     "specialities": [ "Construir" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas para entrenar", "Cosas con tela", "Herramientas de construccion", "Cosas agrupadas", "Cosas que alegran la vista" ],
-    "DexNum": 180,
-    "VariantNum": 0,
-    "DisplayName": "Riolu",
-    "SearchNames": [ "Riolu" ]
+    "dexNum": 180,
+    "variantNum": 0,
+    "displayName": "Riolu",
+    "searchNames": [ "Riolu" ]
   },
   {
     "name": "Lucario",
@@ -2626,10 +2626,10 @@
     "specialities": [ "Construir" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas para entrenar", "Cosas con metal", "Herramientas de construccion", "Cosas complicadas", "Cosas curativas" ],
-    "DexNum": 181,
-    "VariantNum": 0,
-    "DisplayName": "Lucario",
-    "SearchNames": [ "Lucario" ]
+    "dexNum": 181,
+    "variantNum": 0,
+    "displayName": "Lucario",
+    "searchNames": [ "Lucario" ]
   },
   {
     "name": "Rotom-Estereo",
@@ -2640,10 +2640,10 @@
     "specialities": [ "DJ" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas brillantes", "Cosas con cristal", "Cosas ruidosas", "Cosas para disfrutar juntos", "Cosas cuadradas" ],
-    "DexNum": 182,
-    "VariantNum": 0,
-    "DisplayName": "Rotom Estereo",
-    "SearchNames": [ "Rotom Estereo" ]
+    "dexNum": 182,
+    "variantNum": 0,
+    "displayName": "Rotom Estereo",
+    "searchNames": [ "Rotom Estereo" ]
   },
   {
     "name": "Larvesta",
@@ -2654,10 +2654,10 @@
     "specialities": [ "Quemar", "Producir (Hilo)" ],
     "environment": "Seco",
     "preferences": [ "Cosas de la naturaleza", "Cosas que evocan fuego", "Cosas puntiagudas", "Cosas de madera", "Cosas con simbolos" ],
-    "DexNum": 183,
-    "VariantNum": 0,
-    "DisplayName": "Larvesta",
-    "SearchNames": [ "Larvesta" ]
+    "dexNum": 183,
+    "variantNum": 0,
+    "displayName": "Larvesta",
+    "searchNames": [ "Larvesta" ]
   },
   {
     "name": "Volcarona",
@@ -2668,10 +2668,10 @@
     "specialities": [ "Quemar", "Producir (Hilo)" ],
     "environment": "Seco",
     "preferences": [ "Cosas de la naturaleza", "Cosas que evocan fuego", "Cosas con texto", "Cosas de madera", "Cosas con simbolos" ],
-    "DexNum": 184,
-    "VariantNum": 0,
-    "DisplayName": "Volcarona",
-    "SearchNames": [ "Volcarona" ]
+    "dexNum": 184,
+    "variantNum": 0,
+    "displayName": "Volcarona",
+    "searchNames": [ "Volcarona" ]
   },
   {
     "name": "Rowlet",
@@ -2682,10 +2682,10 @@
     "specialities": [ "Abonar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas que evocan viento", "Cosas donde meter cosas", "Cosas que giran" ],
-    "DexNum": 185,
-    "VariantNum": 0,
-    "DisplayName": "Rowlet",
-    "SearchNames": [ "Rowlet" ]
+    "dexNum": 185,
+    "variantNum": 0,
+    "displayName": "Rowlet",
+    "searchNames": [ "Rowlet" ]
   },
   {
     "name": "Dartrix",
@@ -2696,10 +2696,10 @@
     "specialities": [ "Abonar", "Cortar madera" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas que evocan viento", "Cosas alargadas", "Cosas para limpiar" ],
-    "DexNum": 186,
-    "VariantNum": 0,
-    "DisplayName": "Dartrix",
-    "SearchNames": [ "Dartrix" ]
+    "dexNum": 186,
+    "variantNum": 0,
+    "displayName": "Dartrix",
+    "searchNames": [ "Dartrix" ]
   },
   {
     "name": "Decidueye",
@@ -2710,10 +2710,10 @@
     "specialities": [ "Abonar", "Cortar madera" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas de la naturaleza", "Cosas horripilantes", "Cosas de madera", "Cosas que evocan viento", "Cosas con texto" ],
-    "DexNum": 187,
-    "VariantNum": 0,
-    "DisplayName": "Decidueye",
-    "SearchNames": [ "Decidueye" ]
+    "dexNum": 187,
+    "variantNum": 0,
+    "displayName": "Decidueye",
+    "searchNames": [ "Decidueye" ]
   },
   {
     "name": "Scorbunny",
@@ -2724,10 +2724,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas blanditas", "Cosas para disfrutar juntos", "Cosas puntiagudas" ],
-    "DexNum": 188,
-    "VariantNum": 0,
-    "DisplayName": "Scorbunny",
-    "SearchNames": [ "Scorbunny" ]
+    "dexNum": 188,
+    "variantNum": 0,
+    "displayName": "Scorbunny",
+    "searchNames": [ "Scorbunny" ]
   },
   {
     "name": "Raboot",
@@ -2738,10 +2738,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas para jugar", "Cosas para disfrutar juntos", "Cosas donde meter cosas" ],
-    "DexNum": 189,
-    "VariantNum": 0,
-    "DisplayName": "Raboot",
-    "SearchNames": [ "Raboot" ]
+    "dexNum": 189,
+    "variantNum": 0,
+    "displayName": "Raboot",
+    "searchNames": [ "Raboot" ]
   },
   {
     "name": "Cinderace",
@@ -2752,10 +2752,10 @@
     "specialities": [ "Quemar", "Entretener" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas para jugar", "Cosas para disfrutar juntos", "Cosas esfericas" ],
-    "DexNum": 190,
-    "VariantNum": 0,
-    "DisplayName": "Cinderace",
-    "SearchNames": [ "Cinderace" ]
+    "dexNum": 190,
+    "variantNum": 0,
+    "displayName": "Cinderace",
+    "searchNames": [ "Cinderace" ]
   },
   {
     "name": "Skwovet",
@@ -2766,10 +2766,10 @@
     "specialities": [ "Rastrear", "Entretener" ],
     "environment": "Calentito",
     "preferences": [ "Cosas blanditas", "Cosas de madera", "Cosas que alegran la vista", "Cosas que parecen comida", "Cosas esfericas" ],
-    "DexNum": 191,
-    "VariantNum": 0,
-    "DisplayName": "Skwovet",
-    "SearchNames": [ "Skwovet" ]
+    "dexNum": 191,
+    "variantNum": 0,
+    "displayName": "Skwovet",
+    "searchNames": [ "Skwovet" ]
   },
   {
     "name": "Chef-Dente",
@@ -2780,10 +2780,10 @@
     "specialities": [ "Festejar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas blanditas", "Cosas con metal", "Cosas para disfrutar juntos", "Cosas que parecen comida", "Cosas lujosas" ],
-    "DexNum": 192,
-    "VariantNum": 0,
-    "DisplayName": "Chef Dente",
-    "SearchNames": [ "Chef Dente", "Greedent" ]
+    "dexNum": 192,
+    "variantNum": 0,
+    "displayName": "Chef Dente",
+    "searchNames": [ "Chef Dente", "Greedent" ]
   },
   {
     "name": "Rolycoly",
@@ -2794,10 +2794,10 @@
     "specialities": [ "Quemar", "Organizar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas de piedra", "Cosas que evocan fuego", "Cosas duras", "Cosas con metal", "Medios de transporte" ],
-    "DexNum": 193,
-    "VariantNum": 0,
-    "DisplayName": "Rolycoly",
-    "SearchNames": [ "Rolycoly" ]
+    "dexNum": 193,
+    "variantNum": 0,
+    "displayName": "Rolycoly",
+    "searchNames": [ "Rolycoly" ]
   },
   {
     "name": "Carkol",
@@ -2808,10 +2808,10 @@
     "specialities": [ "Quemar", "Organizar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas de piedra", "Cosas que evocan fuego", "Cosas duras", "Cosas con metal", "Medios de transporte" ],
-    "DexNum": 194,
-    "VariantNum": 0,
-    "DisplayName": "Carkol",
-    "SearchNames": [ "Carkol" ]
+    "dexNum": 194,
+    "variantNum": 0,
+    "displayName": "Carkol",
+    "searchNames": [ "Carkol" ]
   },
   {
     "name": "Coalossal",
@@ -2822,10 +2822,10 @@
     "specialities": [ "Quemar", "Organizar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas de piedra", "Cosas que evocan fuego", "Cosas duras", "Cosas con metal", "Medios de transporte" ],
-    "DexNum": 195,
-    "VariantNum": 0,
-    "DisplayName": "Coalossal",
-    "SearchNames": [ "Coalossal" ]
+    "dexNum": 195,
+    "variantNum": 0,
+    "displayName": "Coalossal",
+    "searchNames": [ "Coalossal" ]
   },
   {
     "name": "Toxel",
@@ -2836,10 +2836,10 @@
     "specialities": [ "Electrificar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas electricas", "Cosas brillantes", "Cosas ruidosas", "Cosas con cristal", "Basura" ],
-    "DexNum": 196,
-    "VariantNum": 0,
-    "DisplayName": "Toxel",
-    "SearchNames": [ "Toxel" ]
+    "dexNum": 196,
+    "variantNum": 0,
+    "displayName": "Toxel",
+    "searchNames": [ "Toxel" ]
   },
   {
     "name": "Toxtricity-Forma-Aguda",
@@ -2850,10 +2850,10 @@
     "specialities": [ "Electrificar", "Entretener" ],
     "environment": "Humedo",
     "preferences": [ "Cosas electricas", "Cosas para jugar", "Cosas ruidosas", "Cosas alargadas", "Cosas puntiagudas" ],
-    "DexNum": 197,
-    "VariantNum": 0,
-    "DisplayName": "Toxtricity",
-    "SearchNames": [ "Toxtricity Forma Aguda" ]
+    "dexNum": 197,
+    "variantNum": 0,
+    "displayName": "Toxtricity",
+    "searchNames": [ "Toxtricity Forma Aguda" ]
   },
   {
     "name": "Toxtricity-Forma-Grave",
@@ -2864,10 +2864,10 @@
     "specialities": [ "Electrificar", "Entretener" ],
     "environment": "Humedo",
     "preferences": [ "Cosas electricas", "Cosas para jugar", "Cosas ruidosas", "Cosas alargadas", "Cosas puntiagudas" ],
-    "DexNum": 197,
-    "VariantNum": 1,
-    "DisplayName": "Toxtricity",
-    "SearchNames": [ "Toxtricity Forma Grave" ]
+    "dexNum": 197,
+    "variantNum": 1,
+    "displayName": "Toxtricity",
+    "searchNames": [ "Toxtricity Forma Grave" ]
   },
   {
     "name": "Fidough",
@@ -2878,10 +2878,10 @@
     "specialities": [ "Rastrear" ],
     "environment": "Calentito",
     "preferences": [ "Cosas cuquis", "Cosas que alegran la vista", "Cosas blanditas", "Cosas que evocan fuego", "Cosas con texto" ],
-    "DexNum": 198,
-    "VariantNum": 0,
-    "DisplayName": "Fidough",
-    "SearchNames": [ "Fidough" ]
+    "dexNum": 198,
+    "variantNum": 0,
+    "displayName": "Fidough",
+    "searchNames": [ "Fidough" ]
   },
   {
     "name": "Dachsbun",
@@ -2892,10 +2892,10 @@
     "specialities": [ "Rastrear", "Negociar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas cuquis", "Cosas que alegran la vista", "Cosas para disfrutar juntos", "Cosas que evocan fuego", "Cosas que parecen comida" ],
-    "DexNum": 199,
-    "VariantNum": 0,
-    "DisplayName": "Dachsbun",
-    "SearchNames": [ "Dachsbun" ]
+    "dexNum": 199,
+    "variantNum": 0,
+    "displayName": "Dachsbun",
+    "searchNames": [ "Dachsbun" ]
   },
   {
     "name": "Charcadet",
@@ -2906,10 +2906,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas extrañas", "Cosas para entrenar", "Cosas lujosas" ],
-    "DexNum": 200,
-    "VariantNum": 0,
-    "DisplayName": "Charcadet",
-    "SearchNames": [ "Charcadet" ]
+    "dexNum": 200,
+    "variantNum": 0,
+    "displayName": "Charcadet",
+    "searchNames": [ "Charcadet" ]
   },
   {
     "name": "Armarouge",
@@ -2920,10 +2920,10 @@
     "specialities": [ "Quemar", "Negociar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas extrañas", "Cosas para entrenar", "Cosas lujosas" ],
-    "DexNum": 201,
-    "VariantNum": 0,
-    "DisplayName": "Armarouge",
-    "SearchNames": [ "Armarouge" ]
+    "dexNum": 201,
+    "variantNum": 0,
+    "displayName": "Armarouge",
+    "searchNames": [ "Armarouge" ]
   },
   {
     "name": "Ceruledge",
@@ -2934,10 +2934,10 @@
     "specialities": [ "Quemar", "Negociar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas horripilantes", "Cosas extrañas", "Cosas lujosas" ],
-    "DexNum": 202,
-    "VariantNum": 0,
-    "DisplayName": "Ceruledge",
-    "SearchNames": [ "Ceruledge" ]
+    "dexNum": 202,
+    "variantNum": 0,
+    "displayName": "Ceruledge",
+    "searchNames": [ "Ceruledge" ]
   },
   {
     "name": "Glimmet",
@@ -2948,10 +2948,10 @@
     "specialities": "Producir (Hierro)",
     "environment": "Oscuro",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Basura", "Cosas brillantes", "Cosas complicadas" ],
-    "DexNum": 203,
-    "VariantNum": 0,
-    "DisplayName": "Glimmet",
-    "SearchNames": [ "Glimmet" ]
+    "dexNum": 203,
+    "variantNum": 0,
+    "displayName": "Glimmet",
+    "searchNames": [ "Glimmet" ]
   },
   {
     "name": "Glimmora",
@@ -2962,10 +2962,10 @@
     "specialities": "Producir (Hierro)",
     "environment": "Oscuro",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Basura", "Cosas brillantes", "Cosas complicadas" ],
-    "DexNum": 204,
-    "VariantNum": 0,
-    "DisplayName": "Glimmora",
-    "SearchNames": [ "Glimmora" ]
+    "dexNum": 204,
+    "variantNum": 0,
+    "displayName": "Glimmora",
+    "searchNames": [ "Glimmora" ]
   },
   {
     "name": "Gimmighoul",
@@ -2976,10 +2976,10 @@
     "specialities": [ "Coleccionar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas horripilantes", "Cosas con metal", "Cosas extrañas", "Cosas brillantes", "Cosas complicadas" ],
-    "DexNum": 205,
-    "VariantNum": 0,
-    "DisplayName": "Gimmighoul",
-    "SearchNames": [ "Gimmighoul" ]
+    "dexNum": 205,
+    "variantNum": 0,
+    "displayName": "Gimmighoul",
+    "searchNames": [ "Gimmighoul" ]
   },
   {
     "name": "Gholdengo",
@@ -2990,10 +2990,10 @@
     "specialities": [ "Coleccionar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas horripilantes", "Cosas con metal", "Cosas extrañas", "Cosas brillantes", "Cosas complicadas" ],
-    "DexNum": 206,
-    "VariantNum": 0,
-    "DisplayName": "Gholdengo",
-    "SearchNames": [ "Gholdengo" ]
+    "dexNum": 206,
+    "variantNum": 0,
+    "displayName": "Gholdengo",
+    "searchNames": [ "Gholdengo" ]
   },
   {
     "name": "Vulpix",
@@ -3004,10 +3004,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas blanditas", "Cosas cuquis", "Cosas esfericas", "Decoraciones florales" ],
-    "DexNum": 207,
-    "VariantNum": 0,
-    "DisplayName": "Vulpix",
-    "SearchNames": [ "Vulpix" ]
+    "dexNum": 207,
+    "variantNum": 0,
+    "displayName": "Vulpix",
+    "searchNames": [ "Vulpix" ]
   },
   {
     "name": "Ninetales",
@@ -3018,10 +3018,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas blanditas", "Cosas que alegran la vista", "Cosas lujosas", "Decoraciones florales" ],
-    "DexNum": 208,
-    "VariantNum": 0,
-    "DisplayName": "Ninetales",
-    "SearchNames": [ "Ninetales" ]
+    "dexNum": 208,
+    "variantNum": 0,
+    "displayName": "Ninetales",
+    "searchNames": [ "Ninetales" ]
   },
   {
     "name": "Poliwag",
@@ -3032,10 +3032,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas para limpiar", "Cosas esfericas", "Medios de transporte", "Cosas que giran" ],
-    "DexNum": 209,
-    "VariantNum": 0,
-    "DisplayName": "Poliwag",
-    "SearchNames": [ "Poliwag" ]
+    "dexNum": 209,
+    "variantNum": 0,
+    "displayName": "Poliwag",
+    "searchNames": [ "Poliwag" ]
   },
   {
     "name": "Poliwhirl",
@@ -3046,10 +3046,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas para limpiar", "Cosas de la naturaleza", "Cosas para entrenar", "Cosas que giran" ],
-    "DexNum": 210,
-    "VariantNum": 0,
-    "DisplayName": "Poliwhirl",
-    "SearchNames": [ "Poliwhirl" ]
+    "dexNum": 210,
+    "variantNum": 0,
+    "displayName": "Poliwhirl",
+    "searchNames": [ "Poliwhirl" ]
   },
   {
     "name": "Poliwrath",
@@ -3060,10 +3060,10 @@
     "specialities": [ "Humedecer", "Construir" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas para limpiar", "Herramientas de construccion", "Cosas para entrenar", "Cosas para disfrutar juntos" ],
-    "DexNum": 211,
-    "VariantNum": 0,
-    "DisplayName": "Poliwrath",
-    "SearchNames": [ "Poliwrath" ]
+    "dexNum": 211,
+    "variantNum": 0,
+    "displayName": "Poliwrath",
+    "searchNames": [ "Poliwrath" ]
   },
   {
     "name": "Politoed",
@@ -3074,10 +3074,10 @@
     "specialities": [ "Humedecer", "Entretener" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas para jugar", "Cosas ruidosas", "Cosas agrupadas", "Cosas para disfrutar juntos" ],
-    "DexNum": 212,
-    "VariantNum": 0,
-    "DisplayName": "Politoed",
-    "SearchNames": [ "Politoed" ]
+    "dexNum": 212,
+    "variantNum": 0,
+    "displayName": "Politoed",
+    "searchNames": [ "Politoed" ]
   },
   {
     "name": "Abra",
@@ -3088,10 +3088,10 @@
     "specialities": [ "Teletransportar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas extrañas", "Cosas que se menean", "Cosas con metal", "Cosas blanditas", "Cosas que alegran la vista" ],
-    "DexNum": 213,
-    "VariantNum": 0,
-    "DisplayName": "Abra",
-    "SearchNames": [ "Abra" ]
+    "dexNum": 213,
+    "variantNum": 0,
+    "displayName": "Abra",
+    "searchNames": [ "Abra" ]
   },
   {
     "name": "Kadabra",
@@ -3102,10 +3102,10 @@
     "specialities": [ "Teletransportar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas extrañas", "Cosas que se menean", "Cosas con metal", "Cosas donde meter cosas", "Cosas que alegran la vista" ],
-    "DexNum": 214,
-    "VariantNum": 0,
-    "DisplayName": "Kadabra",
-    "SearchNames": [ "Kadabra" ]
+    "dexNum": 214,
+    "variantNum": 0,
+    "displayName": "Kadabra",
+    "searchNames": [ "Kadabra" ]
   },
   {
     "name": "Alakazam",
@@ -3116,10 +3116,10 @@
     "specialities": [ "Teletransportar", "Negociar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas extrañas", "Cosas que se menean", "Cosas con metal", "Cosas con texto", "Cosas que alegran la vista" ],
-    "DexNum": 215,
-    "VariantNum": 0,
-    "DisplayName": "Alakazam",
-    "SearchNames": [ "Alakazam" ]
+    "dexNum": 215,
+    "variantNum": 0,
+    "displayName": "Alakazam",
+    "searchNames": [ "Alakazam" ]
   },
   {
     "name": "Mime-Jr",
@@ -3130,10 +3130,10 @@
     "specialities": [ "Organizar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas extrañas", "Cosas cuquis", "Medios de transporte", "Cosas para jugar", "Cosas coloridas" ],
-    "DexNum": 216,
-    "VariantNum": 0,
-    "DisplayName": "Mime Jr.",
-    "SearchNames": [ "Mime Jr." ]
+    "dexNum": 216,
+    "variantNum": 0,
+    "displayName": "Mime Jr.",
+    "searchNames": [ "Mime Jr." ]
   },
   {
     "name": "Mr-Mime",
@@ -3144,10 +3144,10 @@
     "specialities": [ "Organizar", "Construir" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas extrañas", "Cosas cuquis", "Medios de transporte", "Cosas que se menean", "Cosas que alegran la vista" ],
-    "DexNum": 217,
-    "VariantNum": 0,
-    "DisplayName": "Mr. Mime",
-    "SearchNames": [ "Mr Mime", "Mr. Mime" ]
+    "dexNum": 217,
+    "variantNum": 0,
+    "displayName": "Mr. Mime",
+    "searchNames": [ "Mr Mime", "Mr. Mime" ]
   },
   {
     "name": "Porygon",
@@ -3158,10 +3158,10 @@
     "specialities": [ "Reciclar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas extrañas", "Cosas cuadradas", "Herramientas de construccion", "Cosas coloridas" ],
-    "DexNum": 218,
-    "VariantNum": 0,
-    "DisplayName": "Porygon",
-    "SearchNames": [ "Porygon" ]
+    "dexNum": 218,
+    "variantNum": 0,
+    "displayName": "Porygon",
+    "searchNames": [ "Porygon" ]
   },
   {
     "name": "Porygon-2",
@@ -3172,10 +3172,10 @@
     "specialities": [ "Reciclar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas extrañas", "Cosas esfericas", "Herramientas de construccion", "Cosas coloridas" ],
-    "DexNum": 219,
-    "VariantNum": 0,
-    "DisplayName": "Porygon 2",
-    "SearchNames": [ "Porygon 2", "Porygon-2", "Porygon2" ]
+    "dexNum": 219,
+    "variantNum": 0,
+    "displayName": "Porygon 2",
+    "searchNames": [ "Porygon 2", "Porygon-2", "Porygon2" ]
   },
   {
     "name": "Porygon-Z",
@@ -3186,10 +3186,10 @@
     "specialities": "Materiales raros",
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas extrañas", "Cosas con tela", "Cosas que alegran la vista", "Cosas coloridas" ],
-    "DexNum": 220,
-    "VariantNum": 0,
-    "DisplayName": "Porygon-Z",
-    "SearchNames": [ "Porygon-Z", "Porygon Z", "PorygonZ" ]
+    "dexNum": 220,
+    "variantNum": 0,
+    "displayName": "Porygon-Z",
+    "searchNames": [ "Porygon-Z", "Porygon Z", "PorygonZ" ]
   },
   {
     "name": "Dratini",
@@ -3200,10 +3200,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan fuego", "Cosas para limpiar", "Cosas cuquis", "Cosas alargadas" ],
-    "DexNum": 221,
-    "VariantNum": 0,
-    "DisplayName": "Dratini",
-    "SearchNames": [ "Dratini" ]
+    "dexNum": 221,
+    "variantNum": 0,
+    "displayName": "Dratini",
+    "searchNames": [ "Dratini" ]
   },
   {
     "name": "Dragonair",
@@ -3214,10 +3214,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan fuego", "Cosas para limpiar", "Cosas con cristal", "Cosas alargadas" ],
-    "DexNum": 222,
-    "VariantNum": 0,
-    "DisplayName": "Dragonair",
-    "SearchNames": [ "Dragonair" ]
+    "dexNum": 222,
+    "variantNum": 0,
+    "displayName": "Dragonair",
+    "searchNames": [ "Dragonair" ]
   },
   {
     "name": "Dragonite",
@@ -3228,10 +3228,10 @@
     "specialities": [ "Humedecer", "Volar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan fuego", "Cosas que evocan viento", "Cosas para limpiar", "Cosas con simbolos", "Decoraciones florales" ],
-    "DexNum": 223,
-    "VariantNum": 0,
-    "DisplayName": "Dragonite",
-    "SearchNames": [ "Dragonite" ]
+    "dexNum": 223,
+    "variantNum": 0,
+    "displayName": "Dragonite",
+    "searchNames": [ "Dragonite" ]
   },
   {
     "name": "Cyndaquil",
@@ -3242,10 +3242,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas con tela", "Cosas alargadas", "Cosas con metal", "Medios de transporte" ],
-    "DexNum": 224,
-    "VariantNum": 0,
-    "DisplayName": "Cyndaquil",
-    "SearchNames": [ "Cyndaquil" ]
+    "dexNum": 224,
+    "variantNum": 0,
+    "displayName": "Cyndaquil",
+    "searchNames": [ "Cyndaquil" ]
   },
   {
     "name": "Quilava",
@@ -3256,10 +3256,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas con tela", "Cosas alargadas", "Cosas con metal", "Medios de transporte" ],
-    "DexNum": 225,
-    "VariantNum": 0,
-    "DisplayName": "Quilava",
-    "SearchNames": [ "Quilava" ]
+    "dexNum": 225,
+    "variantNum": 0,
+    "displayName": "Quilava",
+    "searchNames": [ "Quilava" ]
   },
   {
     "name": "Typhlosion",
@@ -3270,10 +3270,10 @@
     "specialities": [ "Quemar", "Negociar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas con tela", "Cosas alargadas", "Cosas con metal", "Medios de transporte" ],
-    "DexNum": 226,
-    "VariantNum": 0,
-    "DisplayName": "Typhlosion",
-    "SearchNames": [ "Typhlosion" ]
+    "dexNum": 226,
+    "variantNum": 0,
+    "displayName": "Typhlosion",
+    "searchNames": [ "Typhlosion" ]
   },
   {
     "name": "Misdreavus",
@@ -3284,10 +3284,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Cosas brillantes", "Cosas coloridas", "Cosas que alegran la vista" ],
-    "DexNum": 227,
-    "VariantNum": 0,
-    "DisplayName": "Misdreavus",
-    "SearchNames": [ "Misdreavus" ]
+    "dexNum": 227,
+    "variantNum": 0,
+    "displayName": "Misdreavus",
+    "searchNames": [ "Misdreavus" ]
   },
   {
     "name": "Mismagius",
@@ -3298,10 +3298,10 @@
     "specialities": [ "Organizar", "Negociar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Cosas ruidosas", "Cosas que se menean", "Cosas para disfrutar juntos" ],
-    "DexNum": 228,
-    "VariantNum": 0,
-    "DisplayName": "Mismagius",
-    "SearchNames": [ "Mismagius" ]
+    "dexNum": 228,
+    "variantNum": 0,
+    "displayName": "Mismagius",
+    "searchNames": [ "Mismagius" ]
   },
   {
     "name": "Girafarig",
@@ -3312,10 +3312,10 @@
     "specialities": [ "Organizar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas blanditas", "Cosas extrañas", "Medios de transporte", "Cosas que alegran la vista", "Cosas alargadas" ],
-    "DexNum": 229,
-    "VariantNum": 0,
-    "DisplayName": "Girafarig",
-    "SearchNames": [ "Girafarig" ]
+    "dexNum": 229,
+    "variantNum": 0,
+    "displayName": "Girafarig",
+    "searchNames": [ "Girafarig" ]
   },
   {
     "name": "Farigiraf",
@@ -3326,10 +3326,10 @@
     "specialities": [ "Organizar", "Rastrear" ],
     "environment": "Calentito",
     "preferences": [ "Cosas blanditas", "Cosas extrañas", "Medios de transporte", "Cosas que alegran la vista", "Cosas alargadas" ],
-    "DexNum": 230,
-    "VariantNum": 0,
-    "DisplayName": "Farigiraf",
-    "SearchNames": [ "Farigiraf" ]
+    "dexNum": 230,
+    "variantNum": 0,
+    "displayName": "Farigiraf",
+    "searchNames": [ "Farigiraf" ]
   },
   {
     "name": "Ralts",
@@ -3340,10 +3340,10 @@
     "specialities": [ "Teletransportar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas extrañas", "Cosas cuquis", "Cosas curativas", "Cosas que alegran la vista", "Cosas con simbolos" ],
-    "DexNum": 231,
-    "VariantNum": 0,
-    "DisplayName": "Ralts",
-    "SearchNames": [ "Ralts" ]
+    "dexNum": 231,
+    "variantNum": 0,
+    "displayName": "Ralts",
+    "searchNames": [ "Ralts" ]
   },
   {
     "name": "Kirlia",
@@ -3354,10 +3354,10 @@
     "specialities": [ "Teletransportar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas extrañas", "Cosas cuquis", "Cosas curativas", "Cosas que alegran la vista", "Cosas con simbolos" ],
-    "DexNum": 232,
-    "VariantNum": 0,
-    "DisplayName": "Kirlia",
-    "SearchNames": [ "Kirlia" ]
+    "dexNum": 232,
+    "variantNum": 0,
+    "displayName": "Kirlia",
+    "searchNames": [ "Kirlia" ]
   },
   {
     "name": "Gardevoir",
@@ -3368,10 +3368,10 @@
     "specialities": [ "Teletransportar", "Negociar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas extrañas", "Cosas lujosas", "Cosas curativas", "Cosas que alegran la vista", "Cosas con simbolos" ],
-    "DexNum": 233,
-    "VariantNum": 0,
-    "DisplayName": "Gardevoir",
-    "SearchNames": [ "Gardevoir" ]
+    "dexNum": 233,
+    "variantNum": 0,
+    "displayName": "Gardevoir",
+    "searchNames": [ "Gardevoir" ]
   },
   {
     "name": "Gallade",
@@ -3382,10 +3382,10 @@
     "specialities": [ "Teletransportar", "Construir" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas extrañas", "Cosas para entrenar", "Cosas curativas", "Herramientas de construccion", "Cosas con tela" ],
-    "DexNum": 234,
-    "VariantNum": 0,
-    "DisplayName": "Gallade",
-    "SearchNames": [ "Gallade" ]
+    "dexNum": 234,
+    "variantNum": 0,
+    "displayName": "Gallade",
+    "searchNames": [ "Gallade" ]
   },
   {
     "name": "Plusle",
@@ -3396,10 +3396,10 @@
     "specialities": [ "Electrificar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas con cristal", "Cosas blanditas", "Cosas cuquis", "Cosas para disfrutar juntos" ],
-    "DexNum": 235,
-    "VariantNum": 0,
-    "DisplayName": "Plusle",
-    "SearchNames": [ "Plusle" ]
+    "dexNum": 235,
+    "variantNum": 0,
+    "displayName": "Plusle",
+    "searchNames": [ "Plusle" ]
   },
   {
     "name": "Minun",
@@ -3410,10 +3410,10 @@
     "specialities": [ "Electrificar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas con cristal", "Cosas blanditas", "Cosas cuquis", "Cosas para disfrutar juntos" ],
-    "DexNum": 236,
-    "VariantNum": 0,
-    "DisplayName": "Minun",
-    "SearchNames": [ "Minun" ]
+    "dexNum": 236,
+    "variantNum": 0,
+    "displayName": "Minun",
+    "searchNames": [ "Minun" ]
   },
   {
     "name": "Trapinch",
@@ -3424,10 +3424,10 @@
     "specialities": [ "Demoler", "Producir (Arcilla maleable)" ],
     "environment": "Seco",
     "preferences": [ "Cosas que evocan tierra", "Cosas duras", "Cosas extrañas", "Cosas que alegran la vista", "Cosas para entrenar" ],
-    "DexNum": 237,
-    "VariantNum": 0,
-    "DisplayName": "Trapinch",
-    "SearchNames": [ "Trapinch" ]
+    "dexNum": 237,
+    "variantNum": 0,
+    "displayName": "Trapinch",
+    "searchNames": [ "Trapinch" ]
   },
   {
     "name": "Vibrava",
@@ -3438,10 +3438,10 @@
     "specialities": [ "Demoler", "Volar" ],
     "environment": "Seco",
     "preferences": [ "Cosas que evocan tierra", "Cosas que evocan fuego", "Cosas de la naturaleza", "Cosas lujosas", "Cosas ruidosas" ],
-    "DexNum": 238,
-    "VariantNum": 0,
-    "DisplayName": "Vibrava",
-    "SearchNames": [ "Vibrava" ]
+    "dexNum": 238,
+    "variantNum": 0,
+    "displayName": "Vibrava",
+    "searchNames": [ "Vibrava" ]
   },
   {
     "name": "Flygon",
@@ -3452,10 +3452,10 @@
     "specialities": [ "Demoler", "Volar" ],
     "environment": "Seco",
     "preferences": [ "Cosas que evocan tierra", "Cosas que evocan fuego", "Cosas de la naturaleza", "Cosas de piedra", "Cosas de madera" ],
-    "DexNum": 239,
-    "VariantNum": 0,
-    "DisplayName": "Flygon",
-    "SearchNames": [ "Flygon" ]
+    "dexNum": 239,
+    "variantNum": 0,
+    "displayName": "Flygon",
+    "searchNames": [ "Flygon" ]
   },
   {
     "name": "Swablu",
@@ -3466,10 +3466,10 @@
     "specialities": "Producir (Pelusa)",
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas que evocan viento", "Cosas cuquis", "Cosas que alegran la vista", "Cosas para limpiar" ],
-    "DexNum": 240,
-    "VariantNum": 0,
-    "DisplayName": "Swablu",
-    "SearchNames": [ "Swablu" ]
+    "dexNum": 240,
+    "variantNum": 0,
+    "displayName": "Swablu",
+    "searchNames": [ "Swablu" ]
   },
   {
     "name": "Altaria",
@@ -3480,10 +3480,10 @@
     "specialities": [ "Producir (Pelusa)", "Volar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas blanditas", "Cosas que evocan viento", "Cosas cuquis", "Cosas que alegran la vista", "Cosas ruidosas" ],
-    "DexNum": 241,
-    "VariantNum": 0,
-    "DisplayName": "Altaria",
-    "SearchNames": [ "Altaria" ]
+    "dexNum": 241,
+    "variantNum": 0,
+    "displayName": "Altaria",
+    "searchNames": [ "Altaria" ]
   },
   {
     "name": "Duskull",
@@ -3494,10 +3494,10 @@
     "specialities": [ "Organizar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Medios de transporte", "Cosas con cristal", "Cosas con tela" ],
-    "DexNum": 242,
-    "VariantNum": 0,
-    "DisplayName": "Duskull",
-    "SearchNames": [ "Duskull" ]
+    "dexNum": 242,
+    "variantNum": 0,
+    "displayName": "Duskull",
+    "searchNames": [ "Duskull" ]
   },
   {
     "name": "Dusclops",
@@ -3508,10 +3508,10 @@
     "specialities": [ "Organizar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Medios de transporte", "Cosas blanditas", "Cosas donde meter cosas" ],
-    "DexNum": 243,
-    "VariantNum": 0,
-    "DisplayName": "Dusclops",
-    "SearchNames": [ "Dusclops" ]
+    "dexNum": 243,
+    "variantNum": 0,
+    "displayName": "Dusclops",
+    "searchNames": [ "Dusclops" ]
   },
   {
     "name": "Dusknoir",
@@ -3522,10 +3522,10 @@
     "specialities": [ "Organizar", "Negociar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas horripilantes", "Cosas extrañas", "Medios de transporte", "Cosas para disfrutar juntos", "Cosas donde meter cosas" ],
-    "DexNum": 244,
-    "VariantNum": 0,
-    "DisplayName": "Dusknoir",
-    "SearchNames": [ "Dusknoir" ]
+    "dexNum": 244,
+    "variantNum": 0,
+    "displayName": "Dusknoir",
+    "searchNames": [ "Dusknoir" ]
   },
   {
     "name": "Beldum",
@@ -3536,10 +3536,10 @@
     "specialities": [ "Reciclar" ],
     "environment": "Fresquito",
     "preferences": [ "Cosas con metal", "Cosas extrañas", "Cosas duras", "Cosas complicadas", "Cosas de piedra" ],
-    "DexNum": 245,
-    "VariantNum": 0,
-    "DisplayName": "Beldum",
-    "SearchNames": [ "Beldum" ]
+    "dexNum": 245,
+    "variantNum": 0,
+    "displayName": "Beldum",
+    "searchNames": [ "Beldum" ]
   },
   {
     "name": "Metang",
@@ -3550,10 +3550,10 @@
     "specialities": [ "Reciclar" ],
     "environment": "Fresquito",
     "preferences": [ "Cosas con metal", "Cosas extrañas", "Cosas duras", "Cosas complicadas", "Cosas de piedra" ],
-    "DexNum": 246,
-    "VariantNum": 0,
-    "DisplayName": "Metang",
-    "SearchNames": [ "Metang" ]
+    "dexNum": 246,
+    "variantNum": 0,
+    "displayName": "Metang",
+    "searchNames": [ "Metang" ]
   },
   {
     "name": "Metagross",
@@ -3564,10 +3564,10 @@
     "specialities": [ "Reciclar", "Pulverizar" ],
     "environment": "Fresquito",
     "preferences": [ "Cosas con metal", "Cosas extrañas", "Cosas duras", "Cosas para entrenar", "Cosas lujosas" ],
-    "DexNum": 247,
-    "VariantNum": 0,
-    "DisplayName": "Metagross",
-    "SearchNames": [ "Metagross" ]
+    "dexNum": 247,
+    "variantNum": 0,
+    "displayName": "Metagross",
+    "searchNames": [ "Metagross" ]
   },
   {
     "name": "Snivy",
@@ -3578,10 +3578,10 @@
     "specialities": [ "Abonar", "Producir (Hierba trenzada)" ],
     "environment": "Humedo",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas que evocan agua", "Cosas que se menean", "Cosas brillantes" ],
-    "DexNum": 248,
-    "VariantNum": 0,
-    "DisplayName": "Snivy",
-    "SearchNames": [ "Snivy" ]
+    "dexNum": 248,
+    "variantNum": 0,
+    "displayName": "Snivy",
+    "searchNames": [ "Snivy" ]
   },
   {
     "name": "Servine",
@@ -3592,10 +3592,10 @@
     "specialities": [ "Abonar", "Producir (Hierba trenzada)" ],
     "environment": "Humedo",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas que evocan agua", "Cosas para limpiar", "Cosas brillantes" ],
-    "DexNum": 249,
-    "VariantNum": 0,
-    "DisplayName": "Servine",
-    "SearchNames": [ "Servine" ]
+    "dexNum": 249,
+    "variantNum": 0,
+    "displayName": "Servine",
+    "searchNames": [ "Servine" ]
   },
   {
     "name": "Seviper",
@@ -3606,10 +3606,10 @@
     "specialities": [ "Abonar", "Producir (Hierba trenzada)" ],
     "environment": "Humedo",
     "preferences": [ "Cosas de la naturaleza", "Cosas de madera", "Cosas que evocan agua", "Cosas donde meter cosas", "Cosas alargadas" ],
-    "DexNum": 250,
-    "VariantNum": 0,
-    "DisplayName": "Seviper",
-    "SearchNames": [ "Seviper" ]
+    "dexNum": 250,
+    "variantNum": 0,
+    "displayName": "Seviper",
+    "searchNames": [ "Seviper" ]
   },
   {
     "name": "Froakie",
@@ -3620,10 +3620,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas para limpiar", "Cosas que alegran la vista", "Cosas donde meter cosas" ],
-    "DexNum": 251,
-    "VariantNum": 0,
-    "DisplayName": "Froakie",
-    "SearchNames": [ "Froakie" ]
+    "dexNum": 251,
+    "variantNum": 0,
+    "displayName": "Froakie",
+    "searchNames": [ "Froakie" ]
   },
   {
     "name": "Frogadier",
@@ -3634,10 +3634,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas para limpiar", "Cosas que alegran la vista", "Cosas para entrenar" ],
-    "DexNum": 252,
-    "VariantNum": 0,
-    "DisplayName": "Frogadier",
-    "SearchNames": [ "Frogadier" ]
+    "dexNum": 252,
+    "variantNum": 0,
+    "displayName": "Frogadier",
+    "searchNames": [ "Frogadier" ]
   },
   {
     "name": "Greninja",
@@ -3648,10 +3648,10 @@
     "specialities": [ "Humedecer", "Cortar madera" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas para limpiar", "Cosas brillantes", "Cosas para entrenar" ],
-    "DexNum": 253,
-    "VariantNum": 0,
-    "DisplayName": "Greninja",
-    "SearchNames": [ "Greninja" ]
+    "dexNum": 253,
+    "variantNum": 0,
+    "displayName": "Greninja",
+    "searchNames": [ "Greninja" ]
   },
   {
     "name": "Dedenne",
@@ -3662,10 +3662,10 @@
     "specialities": [ "Rastrear" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas cuquis", "Cosas que alegran la vista", "Cosas para disfrutar juntos", "Cosas que parecen comida" ],
-    "DexNum": 254,
-    "VariantNum": 0,
-    "DisplayName": "Dedenne",
-    "SearchNames": [ "Dedenne" ]
+    "dexNum": 254,
+    "variantNum": 0,
+    "displayName": "Dedenne",
+    "searchNames": [ "Dedenne" ]
   },
   {
     "name": "Noibat",
@@ -3676,10 +3676,10 @@
     "specialities": [ "Rastrear" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas que evocan viento", "Cosas que evocan fuego", "Cosas que alegran la vista", "Cosas lujosas", "Cosas que parecen comida" ],
-    "DexNum": 255,
-    "VariantNum": 0,
-    "DisplayName": "Noibat",
-    "SearchNames": [ "Noibat" ]
+    "dexNum": 255,
+    "variantNum": 0,
+    "displayName": "Noibat",
+    "searchNames": [ "Noibat" ]
   },
   {
     "name": "Noivern",
@@ -3690,10 +3690,10 @@
     "specialities": [ "Rastrear", "Volar" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas que evocan viento", "Cosas que evocan fuego", "Cosas que alegran la vista", "Cosas para jugar", "Cosas que parecen comida" ],
-    "DexNum": 256,
-    "VariantNum": 0,
-    "DisplayName": "Noivern",
-    "SearchNames": [ "Noivern" ]
+    "dexNum": 256,
+    "variantNum": 0,
+    "displayName": "Noivern",
+    "searchNames": [ "Noivern" ]
   },
   {
     "name": "Rookidee",
@@ -3704,10 +3704,10 @@
     "specialities": "Cortar madera",
     "environment": "Iluminado",
     "preferences": [ "Cosas que evocan viento", "Cosas brillantes", "Cosas donde meter cosas", "Cosas alargadas", "Cosas de madera" ],
-    "DexNum": 257,
-    "VariantNum": 0,
-    "DisplayName": "Rookidee",
-    "SearchNames": [ "Rookidee" ]
+    "dexNum": 257,
+    "variantNum": 0,
+    "displayName": "Rookidee",
+    "searchNames": [ "Rookidee" ]
   },
   {
     "name": "Corvisquire",
@@ -3718,10 +3718,10 @@
     "specialities": "Cortar madera",
     "environment": "Iluminado",
     "preferences": [ "Cosas que evocan viento", "Cosas brillantes", "Cosas donde meter cosas", "Cosas alargadas", "Cosas de madera" ],
-    "DexNum": 258,
-    "VariantNum": 0,
-    "DisplayName": "Corvisquire",
-    "SearchNames": [ "Corvisquire" ]
+    "dexNum": 258,
+    "variantNum": 0,
+    "displayName": "Corvisquire",
+    "searchNames": [ "Corvisquire" ]
   },
   {
     "name": "Corviknight",
@@ -3732,10 +3732,10 @@
     "specialities": [ "Cortar madera", "Volar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas que evocan viento", "Cosas con metal", "Cosas brillantes", "Cosas donde meter cosas", "Cosas de madera" ],
-    "DexNum": 259,
-    "VariantNum": 0,
-    "DisplayName": "Corviknight",
-    "SearchNames": [ "Corviknight" ]
+    "dexNum": 259,
+    "variantNum": 0,
+    "displayName": "Corviknight",
+    "searchNames": [ "Corviknight" ]
   },
   {
     "name": "Dreepy",
@@ -3746,10 +3746,10 @@
     "specialities": [ "Organizar", "Rastrear" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan fuego", "Cosas horripilantes", "Medios de transporte", "Cosas extrañas", "Cosas para disfrutar juntos" ],
-    "DexNum": 260,
-    "VariantNum": 0,
-    "DisplayName": "Dreepy",
-    "SearchNames": [ "Dreepy" ]
+    "dexNum": 260,
+    "variantNum": 0,
+    "displayName": "Dreepy",
+    "searchNames": [ "Dreepy" ]
   },
   {
     "name": "Drakloak",
@@ -3760,10 +3760,10 @@
     "specialities": [ "Organizar", "Rastrear" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan fuego", "Cosas horripilantes", "Medios de transporte", "Cosas extrañas", "Cosas para disfrutar juntos" ],
-    "DexNum": 261,
-    "VariantNum": 0,
-    "DisplayName": "Drakloak",
-    "SearchNames": [ "Drakloak" ]
+    "dexNum": 261,
+    "variantNum": 0,
+    "displayName": "Drakloak",
+    "searchNames": [ "Drakloak" ]
   },
   {
     "name": "Dragapult",
@@ -3774,10 +3774,10 @@
     "specialities": [ "Organizar", "Negociar" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan fuego", "Cosas horripilantes", "Medios de transporte", "Cosas extrañas", "Cosas para disfrutar juntos" ],
-    "DexNum": 262,
-    "VariantNum": 0,
-    "DisplayName": "Dragapult",
-    "SearchNames": [ "Dragapult" ]
+    "dexNum": 262,
+    "variantNum": 0,
+    "displayName": "Dragapult",
+    "searchNames": [ "Dragapult" ]
   },
   {
     "name": "Sprigatito",
@@ -3788,10 +3788,10 @@
     "specialities": [ "Abonar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Decoraciones florales", "Cosas donde meter cosas", "Cosas coloridas", "Cosas cuquis" ],
-    "DexNum": 263,
-    "VariantNum": 0,
-    "DisplayName": "Sprigatito",
-    "SearchNames": [ "Sprigatito" ]
+    "dexNum": 263,
+    "variantNum": 0,
+    "displayName": "Sprigatito",
+    "searchNames": [ "Sprigatito" ]
   },
   {
     "name": "Floragato",
@@ -3802,10 +3802,10 @@
     "specialities": [ "Abonar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Decoraciones florales", "Cosas puntiagudas", "Cosas coloridas", "Cosas cuquis" ],
-    "DexNum": 264,
-    "VariantNum": 0,
-    "DisplayName": "Floragato",
-    "SearchNames": [ "Floragato" ]
+    "dexNum": 264,
+    "variantNum": 0,
+    "displayName": "Floragato",
+    "searchNames": [ "Floragato" ]
   },
   {
     "name": "Meowscarada",
@@ -3816,10 +3816,10 @@
     "specialities": [ "Abonar", "Entretener" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Decoraciones florales", "Cosas brillantes", "Cosas lujosas", "Cosas cuquis" ],
-    "DexNum": 265,
-    "VariantNum": 0,
-    "DisplayName": "Meowscarada",
-    "SearchNames": [ "Meowscarada" ]
+    "dexNum": 265,
+    "variantNum": 0,
+    "displayName": "Meowscarada",
+    "searchNames": [ "Meowscarada" ]
   },
   {
     "name": "Wattrel",
@@ -3830,10 +3830,10 @@
     "specialities": [ "Electrificar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas que evocan viento", "Cosas que evocan mar", "Cosas agrupadas", "Cosas complicadas" ],
-    "DexNum": 266,
-    "VariantNum": 0,
-    "DisplayName": "Wattrel",
-    "SearchNames": [ "Wattrel" ]
+    "dexNum": 266,
+    "variantNum": 0,
+    "displayName": "Wattrel",
+    "searchNames": [ "Wattrel" ]
   },
   {
     "name": "Kilowattrel",
@@ -3844,10 +3844,10 @@
     "specialities": [ "Electrificar", "Volar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas que evocan viento", "Cosas que evocan mar", "Cosas agrupadas", "Cosas alargadas" ],
-    "DexNum": 267,
-    "VariantNum": 0,
-    "DisplayName": "Kilowattrel",
-    "SearchNames": [ "Kilowattrel" ]
+    "dexNum": 267,
+    "variantNum": 0,
+    "displayName": "Kilowattrel",
+    "searchNames": [ "Kilowattrel" ]
   },
   {
     "name": "Tinkatink",
@@ -3858,10 +3858,10 @@
     "specialities": [ "Construir" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas cuquis", "Cosas con metal", "Herramientas de construccion", "Cosas que parecen comida", "Cosas para entrenar" ],
-    "DexNum": 268,
-    "VariantNum": 0,
-    "DisplayName": "Tinkatink",
-    "SearchNames": [ "Tinkatink" ]
+    "dexNum": 268,
+    "variantNum": 0,
+    "displayName": "Tinkatink",
+    "searchNames": [ "Tinkatink" ]
   },
   {
     "name": "Tinkatuff",
@@ -3872,10 +3872,10 @@
     "specialities": [ "Construir" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas cuquis", "Cosas con metal", "Herramientas de construccion", "Cosas para disfrutar juntos", "Cosas para entrenar" ],
-    "DexNum": 269,
-    "VariantNum": 0,
-    "DisplayName": "Tinkatuff",
-    "SearchNames": [ "Tinkatuff" ]
+    "dexNum": 269,
+    "variantNum": 0,
+    "displayName": "Tinkatuff",
+    "searchNames": [ "Tinkatuff" ]
   },
   {
     "name": "Tinkaton-Manitas",
@@ -3886,10 +3886,10 @@
     "specialities": [ "Optimizar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas cuquis", "Cosas con metal", "Herramientas de construccion", "Cosas cuadradas", "Cosas para entrenar" ],
-    "DexNum": 270,
-    "VariantNum": 0,
-    "DisplayName": "Tinkaton Manitas",
-    "SearchNames": [ "Tinkaton Manitas" ]
+    "dexNum": 270,
+    "variantNum": 0,
+    "displayName": "Tinkaton Manitas",
+    "searchNames": [ "Tinkaton Manitas" ]
   },
   {
     "name": "Aerodactyl",
@@ -3900,10 +3900,10 @@
     "specialities": [ "Volar" ],
     "environment": "Seco",
     "preferences": [ "Cosas de piedra", "Cosas que evocan viento", "Cosas duras", "Cosas brillantes", "Cosas que giran" ],
-    "DexNum": 271,
-    "VariantNum": 0,
-    "DisplayName": "Aerodactyl",
-    "SearchNames": [ "Aerodactyl" ]
+    "dexNum": 271,
+    "variantNum": 0,
+    "displayName": "Aerodactyl",
+    "searchNames": [ "Aerodactyl" ]
   },
   {
     "name": "Cranidos",
@@ -3914,10 +3914,10 @@
     "specialities": [ "Pulverizar" ],
     "environment": "Seco",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Cosas que se menean", "Cosas para disfrutar juntos", "Cosas para entrenar" ],
-    "DexNum": 272,
-    "VariantNum": 0,
-    "DisplayName": "Cranidos",
-    "SearchNames": [ "Cranidos" ]
+    "dexNum": 272,
+    "variantNum": 0,
+    "displayName": "Cranidos",
+    "searchNames": [ "Cranidos" ]
   },
   {
     "name": "Rampardos",
@@ -3928,10 +3928,10 @@
     "specialities": [ "Pulverizar", "Producir (Piedra)" ],
     "environment": "Seco",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Cosas con metal", "Cosas lujosas", "Cosas para entrenar" ],
-    "DexNum": 273,
-    "VariantNum": 0,
-    "DisplayName": "Rampardos",
-    "SearchNames": [ "Rampardos" ]
+    "dexNum": 273,
+    "variantNum": 0,
+    "displayName": "Rampardos",
+    "searchNames": [ "Rampardos" ]
   },
   {
     "name": "Shieldon",
@@ -3942,10 +3942,10 @@
     "specialities": [ "Pulverizar" ],
     "environment": "Seco",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Cosas con metal", "Cosas lujosas", "Cosas esfericas" ],
-    "DexNum": 274,
-    "VariantNum": 0,
-    "DisplayName": "Shieldon",
-    "SearchNames": [ "Shieldon" ]
+    "dexNum": 274,
+    "variantNum": 0,
+    "displayName": "Shieldon",
+    "searchNames": [ "Shieldon" ]
   },
   {
     "name": "Bastiodon",
@@ -3956,10 +3956,10 @@
     "specialities": [ "Pulverizar", "Producir (Piedra)" ],
     "environment": "Seco",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Cosas con metal", "Cosas lujosas", "Cosas para entrenar" ],
-    "DexNum": 275,
-    "VariantNum": 0,
-    "DisplayName": "Bastiodon",
-    "SearchNames": [ "Bastiodon" ]
+    "dexNum": 275,
+    "variantNum": 0,
+    "displayName": "Bastiodon",
+    "searchNames": [ "Bastiodon" ]
   },
   {
     "name": "Tyrunt",
@@ -3970,10 +3970,10 @@
     "specialities": [ "Pulverizar" ],
     "environment": "Seco",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Cosas que evocan fuego", "Cosas lujosas", "Cosas para entrenar" ],
-    "DexNum": 276,
-    "VariantNum": 0,
-    "DisplayName": "Tyrunt",
-    "SearchNames": [ "Tyrunt" ]
+    "dexNum": 276,
+    "variantNum": 0,
+    "displayName": "Tyrunt",
+    "searchNames": [ "Tyrunt" ]
   },
   {
     "name": "Tyrantrum",
@@ -3984,10 +3984,10 @@
     "specialities": [ "Pulverizar", "Producir (Piedra)" ],
     "environment": "Seco",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Cosas que evocan fuego", "Cosas lujosas", "Cosas para entrenar" ],
-    "DexNum": 277,
-    "VariantNum": 0,
-    "DisplayName": "Tyrantrum",
-    "SearchNames": [ "Tyrantrum" ]
+    "dexNum": 277,
+    "variantNum": 0,
+    "displayName": "Tyrantrum",
+    "searchNames": [ "Tyrantrum" ]
   },
   {
     "name": "Amaura",
@@ -3998,10 +3998,10 @@
     "specialities": [ "Pulverizar" ],
     "environment": "Fresquito",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Cosas brillantes", "Cosas para disfrutar juntos", "Cosas donde meter cosas" ],
-    "DexNum": 278,
-    "VariantNum": 0,
-    "DisplayName": "Amaura",
-    "SearchNames": [ "Amaura" ]
+    "dexNum": 278,
+    "variantNum": 0,
+    "displayName": "Amaura",
+    "searchNames": [ "Amaura" ]
   },
   {
     "name": "Aurorus",
@@ -4012,10 +4012,10 @@
     "specialities": [ "Pulverizar", "Producir (Piedra)" ],
     "environment": "Fresquito",
     "preferences": [ "Cosas de piedra", "Cosas duras", "Cosas brillantes", "Cosas ruidosas", "Cosas con simbolos" ],
-    "DexNum": 279,
-    "VariantNum": 0,
-    "DisplayName": "Aurorus",
-    "SearchNames": [ "Aurorus" ]
+    "dexNum": 279,
+    "variantNum": 0,
+    "displayName": "Aurorus",
+    "searchNames": [ "Aurorus" ]
   },
   {
     "name": "Eevee",
@@ -4026,10 +4026,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas blanditas", "Cosas de piedra", "Cosas cuquis", "Cosas con texto", "Cosas para disfrutar juntos" ],
-    "DexNum": 280,
-    "VariantNum": 0,
-    "DisplayName": "Eevee",
-    "SearchNames": [ "Eevee" ]
+    "dexNum": 280,
+    "variantNum": 0,
+    "displayName": "Eevee",
+    "searchNames": [ "Eevee" ]
   },
   {
     "name": "Vaporeon",
@@ -4040,10 +4040,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas para limpiar", "Cosas cuquis", "Decoraciones florales", "Cosas que alegran la vista" ],
-    "DexNum": 281,
-    "VariantNum": 0,
-    "DisplayName": "Vaporeon",
-    "SearchNames": [ "Vaporeon" ]
+    "dexNum": 281,
+    "variantNum": 0,
+    "displayName": "Vaporeon",
+    "searchNames": [ "Vaporeon" ]
   },
   {
     "name": "Jolteon",
@@ -4054,10 +4054,10 @@
     "specialities": [ "Electrificar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas brillantes", "Cosas cuquis", "Cosas con cristal", "Cosas puntiagudas" ],
-    "DexNum": 282,
-    "VariantNum": 0,
-    "DisplayName": "Jolteon",
-    "SearchNames": [ "Jolteon" ]
+    "dexNum": 282,
+    "variantNum": 0,
+    "displayName": "Jolteon",
+    "searchNames": [ "Jolteon" ]
   },
   {
     "name": "Flareon",
@@ -4068,10 +4068,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de madera", "Cosas cuquis", "Cosas con metal", "Medios de transporte" ],
-    "DexNum": 283,
-    "VariantNum": 0,
-    "DisplayName": "Flareon",
-    "SearchNames": [ "Flareon" ]
+    "dexNum": 283,
+    "variantNum": 0,
+    "displayName": "Flareon",
+    "searchNames": [ "Flareon" ]
   },
   {
     "name": "Espeon",
@@ -4082,10 +4082,10 @@
     "specialities": [ "Organizar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas extrañas", "Cosas que evocan viento", "Cosas cuquis", "Cosas complicadas", "Cosas que alegran la vista" ],
-    "DexNum": 284,
-    "VariantNum": 0,
-    "DisplayName": "Espeon",
-    "SearchNames": [ "Espeon" ]
+    "dexNum": 284,
+    "variantNum": 0,
+    "displayName": "Espeon",
+    "searchNames": [ "Espeon" ]
   },
   {
     "name": "Umbreon",
@@ -4096,10 +4096,10 @@
     "specialities": [ "Rastrear" ],
     "environment": "Oscuro",
     "preferences": [ "Cosas brillantes", "Cosas lujosas", "Cosas cuquis", "Cosas con texto", "Cosas que alegran la vista" ],
-    "DexNum": 285,
-    "VariantNum": 0,
-    "DisplayName": "Umbreon",
-    "SearchNames": [ "Umbreon" ]
+    "dexNum": 285,
+    "variantNum": 0,
+    "displayName": "Umbreon",
+    "searchNames": [ "Umbreon" ]
   },
   {
     "name": "Leafeon",
@@ -4110,10 +4110,10 @@
     "specialities": [ "Abonar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas de la naturaleza", "Decoraciones florales", "Cosas cuquis", "Cosas con tela", "Cosas curativas" ],
-    "DexNum": 286,
-    "VariantNum": 0,
-    "DisplayName": "Leafeon",
-    "SearchNames": [ "Leafeon" ]
+    "dexNum": 286,
+    "variantNum": 0,
+    "displayName": "Leafeon",
+    "searchNames": [ "Leafeon" ]
   },
   {
     "name": "Glaceon",
@@ -4124,10 +4124,10 @@
     "specialities": [ "Negociar" ],
     "environment": "Fresquito",
     "preferences": [ "Cosas que evocan agua", "Cosas brillantes", "Cosas cuquis", "Cosas con cristal", "Cosas para disfrutar juntos" ],
-    "DexNum": 287,
-    "VariantNum": 0,
-    "DisplayName": "Glaceon",
-    "SearchNames": [ "Glaceon" ]
+    "dexNum": 287,
+    "variantNum": 0,
+    "displayName": "Glaceon",
+    "searchNames": [ "Glaceon" ]
   },
   {
     "name": "Sylveon",
@@ -4138,10 +4138,10 @@
     "specialities": [ "Entretener" ],
     "environment": "Calentito",
     "preferences": [ "Cosas cuquis", "Cosas de la naturaleza", "Cosas con tela", "Cosas ruidosas", "Cosas esfericas" ],
-    "DexNum": 288,
-    "VariantNum": 0,
-    "DisplayName": "Sylveon",
-    "SearchNames": [ "Sylveon" ]
+    "dexNum": 288,
+    "variantNum": 0,
+    "displayName": "Sylveon",
+    "searchNames": [ "Sylveon" ]
   },
   {
     "name": "Kyogre",
@@ -4152,10 +4152,10 @@
     "specialities": [ "(?)" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas lujosas", "Cosas brillantes", "Cosas con cristal" ],
-    "DexNum": 289,
-    "VariantNum": 0,
-    "DisplayName": "Kyogre",
-    "SearchNames": [ "Kyogre" ]
+    "dexNum": 289,
+    "variantNum": 0,
+    "displayName": "Kyogre",
+    "searchNames": [ "Kyogre" ]
   },
   {
     "name": "Raikou",
@@ -4166,10 +4166,10 @@
     "specialities": [ "Electrificar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas que evocan viento", "Cosas brillantes", "Cosas con cristal", "Cosas lujosas" ],
-    "DexNum": 290,
-    "VariantNum": 0,
-    "DisplayName": "Raikou",
-    "SearchNames": [ "Raikou" ]
+    "dexNum": 290,
+    "variantNum": 0,
+    "displayName": "Raikou",
+    "searchNames": [ "Raikou" ]
   },
   {
     "name": "Entei",
@@ -4180,10 +4180,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de piedra", "Cosas con simbolos", "Cosas para entrenar", "Cosas lujosas" ],
-    "DexNum": 291,
-    "VariantNum": 0,
-    "DisplayName": "Entei",
-    "SearchNames": [ "Entei" ]
+    "dexNum": 291,
+    "variantNum": 0,
+    "displayName": "Entei",
+    "searchNames": [ "Entei" ]
   },
   {
     "name": "Suicune",
@@ -4194,10 +4194,10 @@
     "specialities": [ "Humedecer" ],
     "environment": "Humedo",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan mar", "Cosas para limpiar", "Cosas que alegran la vista", "Cosas curativas" ],
-    "DexNum": 292,
-    "VariantNum": 0,
-    "DisplayName": "Suicune",
-    "SearchNames": [ "Suicune" ]
+    "dexNum": 292,
+    "variantNum": 0,
+    "displayName": "Suicune",
+    "searchNames": [ "Suicune" ]
   },
   {
     "name": "Volcanion",
@@ -4208,10 +4208,10 @@
     "specialities": [ "Quemar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas que evocan agua", "Cosas de piedra", "Cosas donde meter cosas", "Cosas con simbolos" ],
-    "DexNum": 293,
-    "VariantNum": 0,
-    "DisplayName": "Volcanion",
-    "SearchNames": [ "Volcanion" ]
+    "dexNum": 293,
+    "variantNum": 0,
+    "displayName": "Volcanion",
+    "searchNames": [ "Volcanion" ]
   },
   {
     "name": "Articuno",
@@ -4222,10 +4222,10 @@
     "specialities": [ "Volar" ],
     "environment": "Fresquito",
     "preferences": [ "Cosas que evocan agua", "Cosas que evocan viento", "Cosas brillantes", "Cosas con simbolos", "Cosas lujosas" ],
-    "DexNum": 294,
-    "VariantNum": 0,
-    "DisplayName": "Articuno",
-    "SearchNames": [ "Articuno" ]
+    "dexNum": 294,
+    "variantNum": 0,
+    "displayName": "Articuno",
+    "searchNames": [ "Articuno" ]
   },
   {
     "name": "Zapdos",
@@ -4236,10 +4236,10 @@
     "specialities": [ "Volar" ],
     "environment": "Iluminado",
     "preferences": [ "Cosas electricas", "Cosas que evocan viento", "Cosas con cristal", "Cosas con simbolos", "Cosas lujosas" ],
-    "DexNum": 295,
-    "VariantNum": 0,
-    "DisplayName": "Zapdos",
-    "SearchNames": [ "Zapdos" ]
+    "dexNum": 295,
+    "variantNum": 0,
+    "displayName": "Zapdos",
+    "searchNames": [ "Zapdos" ]
   },
   {
     "name": "Moltres",
@@ -4250,10 +4250,10 @@
     "specialities": [ "Volar" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas que evocan viento", "Cosas de piedra", "Cosas con simbolos", "Cosas lujosas" ],
-    "DexNum": 296,
-    "VariantNum": 0,
-    "DisplayName": "Moltres",
-    "SearchNames": [ "Moltres" ]
+    "dexNum": 296,
+    "variantNum": 0,
+    "displayName": "Moltres",
+    "searchNames": [ "Moltres" ]
   },
   {
     "name": "Ho-Oh",
@@ -4264,10 +4264,10 @@
     "specialities": [ "(?)" ],
     "environment": "Calentito",
     "preferences": [ "Cosas que evocan fuego", "Cosas de madera", "Cosas que evocan viento", "Cosas de la naturaleza", "Cosas con simbolos" ],
-    "DexNum": 297,
-    "VariantNum": 0,
-    "DisplayName": "Ho-Oh",
-    "SearchNames": [ "Ho-Oh" ]
+    "dexNum": 297,
+    "variantNum": 0,
+    "displayName": "Ho-Oh",
+    "searchNames": [ "Ho-Oh" ]
   },
   {
     "name": "Lugia",
@@ -4278,10 +4278,10 @@
     "specialities": [ "(?)" ],
     "environment": "Humedo",
     "preferences": [ "Cosas extrañas", "Cosas que evocan viento", "Cosas que evocan agua", "Cosas que evocan mar", "Cosas con simbolos" ],
-    "DexNum": 298,
-    "VariantNum": 0,
-    "DisplayName": "Lugia",
-    "SearchNames": [ "Lugia" ]
+    "dexNum": 298,
+    "variantNum": 0,
+    "displayName": "Lugia",
+    "searchNames": [ "Lugia" ]
   },
   {
     "name": "Mewtwo",
@@ -4292,10 +4292,10 @@
     "specialities": ["Teletransportar"],
     "environment": "Oscuro",
     "preferences": ["Cosas extrañas", "Cosas que alegran la vista", "Cosas con texto", "Cosas complicadas", "Cosas de piedra"],
-    "DexNum": 299,
-    "VariantNum": 0,
-    "DisplayName": "Mewtwo",
-    "SearchNames": [ "Mewtwo" ]
+    "dexNum": 299,
+    "variantNum": 0,
+    "displayName": "Mewtwo",
+    "searchNames": [ "Mewtwo" ]
   },
   {
     "name": "Mew",
@@ -4306,10 +4306,10 @@
     "specialities": ["Teletransportar"],
     "environment": "Calentito",
     "preferences": ["Cosas extrañas", "Cosas que alegran la vista", "Cosas lujosas", "Cosas complicadas", "Cosas para jugar"],
-    "DexNum": 300,
-    "VariantNum": 0,
-    "DisplayName": "Mew",
-    "SearchNames": [ "Mew" ]
+    "dexNum": 300,
+    "variantNum": 0,
+    "displayName": "Mew",
+    "searchNames": [ "Mew" ]
   },
   {
     "name": "Hoppip",
@@ -4320,10 +4320,10 @@
     "specialities": ["Abonar"],
     "environment": "Iluminado",
     "preferences": ["Cosas blanditas", "Cosas de la naturaleza", "Cosas que evocan viento", "Decoraciones florales", "Cosas que se menean"],
-    "DexNum": 301,
-    "VariantNum": 0,
-    "DisplayName": "Hoppip",
-    "SearchNames": [ "Hoppip" ]
+    "dexNum": 301,
+    "variantNum": 0,
+    "displayName": "Hoppip",
+    "searchNames": [ "Hoppip" ]
   },
   {
     "name": "Skiploom",
@@ -4334,10 +4334,10 @@
     "specialities": ["Abonar"],
     "environment": "Iluminado",
     "preferences": ["Cosas blanditas", "Cosas de la naturaleza", "Cosas que evocan viento", "Decoraciones florales", "Cosas que giran"],
-    "DexNum": 302,
-    "VariantNum": 0,
-    "DisplayName": "Skiploom",
-    "SearchNames": [ "Skiploom" ]
+    "dexNum": 302,
+    "variantNum": 0,
+    "displayName": "Skiploom",
+    "searchNames": [ "Skiploom" ]
   },
   {
     "name": "Jumpluff",
@@ -4348,10 +4348,10 @@
     "specialities": ["Abonar", "Producir (Pelusa)"],
     "environment": "Iluminado",
     "preferences": ["Cosas blanditas", "Cosas de la naturaleza", "Cosas que evocan viento", "Decoraciones florales", "Cosas esfericas"],
-    "DexNum": 303,
-    "VariantNum": 0,
-    "DisplayName": "Jumpluff",
-    "SearchNames": [ "Jumpluff" ]
+    "dexNum": 303,
+    "variantNum": 0,
+    "displayName": "Jumpluff",
+    "searchNames": [ "Jumpluff" ]
   }
 ]
 
