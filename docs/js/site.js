@@ -175,19 +175,23 @@ function normalizePath(s) {
         });
     }
 
+    function compatibilityValueToColor(value) {
+        return value > 80 ? 'green' : value > 50 ? 'yellow' : 'red';
+    }
+
     function updateHabitatCompatibility() {
         const habitatPopulation = habitat.length;
-        habitatIndicator.classList.remove('green', 'yellow', 'red');
+        habitatIndicator.classList.remove('green', 'yellow', 'red', 'grey');
         if (habitatPopulation === 0) {
-            habitatIndicator.classList.add('green');
+            habitatIndicator.classList.add('grey');
             return;
         }
-        const preferencesInHabitat = getHabitatPreferences();
-        const environmentsInHabitat = getHabitatEnvironments();
+        const preferencesInHabitat = getHabitatPreferencesMap();
+        const environmentsInHabitat = getHabitatEnvironmentsMap();
         const foodsInHabitat = getHabitatFoods();
 
         const habitatCompatibility = calculateCompatibility(preferencesInHabitat, environmentsInHabitat, foodsInHabitat, habitatPopulation);
-        habitatIndicator.classList.add(habitatCompatibility > 80 ? 'green' : habitatCompatibility > 50 ? 'yellow' : 'red');
+        habitatIndicator.classList.add(compatibilityValueToColor(habitatCompatibility));
         if (habitatPopulation === 4) return;
 
         species.forEach(p => {
@@ -200,10 +204,17 @@ function normalizePath(s) {
     }
 
     function calculateCompatibility(preferences, environments, preferredFoods, quantity) {
-        if (quantity < 2) return 100; // habitat vacío, todo es compatible
-        if (quantity >= 4) return 0; // habitat lleno, no hay compatibilidad
+        switch (quantity) {
+            case 0:
+            case 1:
+                return 100;
+            case 2:
+            case 3:
+            case 4:
+            default:
+                return 0;
 
-        return 0;
+        }
     }
 
     // Render del grid (excluye especies que estén en el hábitat)
@@ -237,12 +248,7 @@ function normalizePath(s) {
             if (habitat.length < 4) {
                 const compatibilityIndicator = document.createElement('span');
                 compatibilityIndicator.className = 'compatibility-indicator';
-                if (habitat.length === 0) compatibilityIndicator.classList.add('green');
-                else {
-                    if (p.compatibility > 80) compatibilityIndicator.classList.add('green');
-                    else if (p.compatibility > 50) compatibilityIndicator.classList.add('yellow');
-                    else compatibilityIndicator.classList.add('red');
-                }
+                compatibilityIndicator.classList.add(compatibilityValueToColor(p.compatibility));
                 card.append(compatibilityIndicator);
             }
 
@@ -352,6 +358,7 @@ function normalizePath(s) {
             for (let i = 0; i < pins.length; i++) pins[i] = pinNodes[i];
         }
         updateHabitatStats();
+        updateHabitatCompatibility();
         renderGrid(getFilteredSpecies());
     }
 
@@ -622,7 +629,7 @@ function normalizePath(s) {
     });
 
     // Inicial render
-    refreshView();
     updateHabitatStats();
     updateHabitatCompatibility();
+    refreshView();
 })();

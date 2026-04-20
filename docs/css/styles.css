@@ -351,6 +351,11 @@ html, body, #app {
 .red {
     background-color: red;
 }
+
+.grey{
+    background-color: grey;
+}
+
 /* texto del nombre */
 .poke-name {
     font-weight: 700;
