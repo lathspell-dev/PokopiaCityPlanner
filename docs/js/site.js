@@ -624,5 +624,5 @@ function normalizePath(s) {
     // Inicial render
     refreshView();
     updateHabitatStats();
-
+    updateHabitatCompatibility();
 })();
