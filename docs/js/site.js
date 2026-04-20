@@ -78,7 +78,7 @@ function normalizePath(s) {
     const grid = document.getElementById('pokemon-grid');
     const pins = Array.from(document.querySelectorAll('.pokemon-pin'));
     const habitatStats = document.querySelector('.habitat-stats');
-
+    const habitatIndicator = habitatStats.querySelector('.compatibility-indicator');
     // filtros DOM
     const inputName = document.getElementById('filter-name');
     const selectArea = document.getElementById('filter-area');
@@ -177,10 +177,19 @@ function normalizePath(s) {
 
     function updateHabitatCompatibility() {
         const habitatPopulation = habitat.length;
-        if (habitatPopulation === 4 || habitatPopulation === 0) return;
+        habitatIndicator.classList.remove('green', 'yellow', 'red');
+        if (habitatPopulation === 0) {
+            habitatIndicator.classList.add('green');
+            return;
+        }
         const preferencesInHabitat = getHabitatPreferences();
         const environmentsInHabitat = getHabitatEnvironments();
         const foodsInHabitat = getHabitatFoods();
+
+        const habitatCompatibility = calculateCompatibility(preferencesInHabitat, environmentsInHabitat, foodsInHabitat, habitatPopulation);
+        habitatIndicator.classList.add(habitatCompatibility > 80 ? 'green' : habitatCompatibility > 50 ? 'yellow' : 'red');
+        if (habitatPopulation === 4) return;
+
         species.forEach(p => {
             p.compatibility = calculateCompatibility(
                 new Set(...p.preferences, ...preferencesInHabitat),
@@ -258,7 +267,7 @@ function normalizePath(s) {
             });
 
             grid.appendChild(card);
-        });
+        }); 
     }
 
     // Añadir especie al hábitat: asignar al primer pin vacío
