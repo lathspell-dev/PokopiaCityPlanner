@@ -68,6 +68,7 @@ function normalizePath(s) {
                 specialitySet.add(speciality);
             }
         }
+        p.compatibility = 100;
     });
 
     // Estado del habitat (lista de species objetos)
@@ -174,6 +175,28 @@ function normalizePath(s) {
         });
     }
 
+    function updateHabitatCompatibility() {
+        const habitatPopulation = habitat.length;
+        if (habitatPopulation === 4 || habitatPopulation === 0) return;
+        const preferencesInHabitat = getHabitatPreferences();
+        const environmentsInHabitat = getHabitatEnvironments();
+        const foodsInHabitat = getHabitatFoods();
+        species.forEach(p => {
+            p.compatibility = calculateCompatibility(
+                new Set(...p.preferences, ...preferencesInHabitat),
+                new Set(p.environment, ...environmentsInHabitat),
+                new Set(p.preferredFood, ...foodsInHabitat),
+                habitatPopulation + 1);
+        });
+    }
+
+    function calculateCompatibility(preferences, environments, preferredFoods, quantity) {
+        if (quantity < 2) return 100; // habitat vacío, todo es compatible
+        if (quantity >= 4) return 0; // habitat lleno, no hay compatibilidad
+
+        return 0;
+    }
+
     // Render del grid (excluye especies que estén en el hábitat)
     function renderGrid(items) {
         grid.innerHTML = '';
@@ -199,11 +222,20 @@ function normalizePath(s) {
             nameDiv.className = 'poke-name';
             nameDiv.textContent = p._displayName || p.displayName;
 
-            const compatibilityIndicator = document.createElement('span');
-            compatibilityIndicator.className = 'compatibility-indicator';
-
             // Only image and name per request (no meta)
-            card.append(img, nameDiv, compatibilityIndicator);
+            card.append(img, nameDiv);
+
+            if (habitat.length < 4) {
+                const compatibilityIndicator = document.createElement('span');
+                compatibilityIndicator.className = 'compatibility-indicator';
+                if (habitat.length === 0) compatibilityIndicator.classList.add('green');
+                else {
+                    if (p.compatibility > 80) compatibilityIndicator.classList.add('green');
+                    else if (p.compatibility > 50) compatibilityIndicator.classList.add('yellow');
+                    else compatibilityIndicator.classList.add('red');
+                }
+                card.append(compatibilityIndicator);
+            }
 
             // Click en la card: intentar añadir al hábitat
             card.addEventListener('click', () => {
@@ -336,7 +368,35 @@ function normalizePath(s) {
         return badge;
     }
 
-    function getHabitatPreferences() {
+    function getHabitatFoodsMap() {
+        const foodMap = {};
+        const foodPer = habitat.map(h => h.preferredFood);
+        foodPer.forEach((food, i) => {
+            if (!foodMap[food]) foodMap[food] = new Set();
+            foodMap[food].add(i);
+        });
+        return foodMap;
+    }
+
+    function getHabitatFoods() {
+        return new Set(Object.keys(getHabitatFoodsMap()));
+    }
+
+    function getHabitatEnvironmentsMap() {
+        const envMap = {};
+        const envPer = habitat.map(h => h.environment);
+        envPer.forEach((env, i) => {
+            if (!envMap[env]) envMap[env] = new Set();
+            envMap[env].add(i);
+        });
+        return envMap;
+    }
+
+    function getHabitatEnvironments() {
+        return new Set(Object.keys(getHabitatEnvironmentsMap()));
+    }
+
+    function getHabitatPreferencesMap() {
         const prefsPer = habitat.map(h => h.preferences || []);
         //map pref -> indices of pokemon
         const prefMap = {};
@@ -346,6 +406,10 @@ function normalizePath(s) {
         }));
 
         return prefMap;
+    }
+
+    function getHabitatPreferences() {
+        return new Set(Object.keys(getHabitatPreferencesMap()));
     }
 
     // Actualizar habitat-stats según habitat[]
@@ -380,7 +444,7 @@ function normalizePath(s) {
         //    if (!prefMap[pref]) prefMap[pref] = new Set();
         //    prefMap[pref].add(i);
         //}));
-        const prefMap = getHabitatPreferences();
+        const prefMap = getHabitatPreferencesMap();
 
         //const allPrefs = Object.keys(prefMap);
 
