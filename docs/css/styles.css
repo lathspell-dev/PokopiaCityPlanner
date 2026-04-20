@@ -119,6 +119,12 @@ html, body, #app {
     max-height: stretch;
 }
 
+    .habitat-stats div {
+        vertical-align: middle;
+        display: flex;
+        flex-direction: row;
+    }
+
     .habitat-stats h2 {
         margin: 0 0 12px 0;
         font-size: 18px;
@@ -317,26 +323,33 @@ html, body, #app {
 }
 
 .compatibility-indicator {
+    border-radius: 50%;
+}
+
+.habitat-stats .compatibility-indicator {
+    height: 12px;
+    width: 12px;
+}
+
+.poke-card .compatibility-indicator {
     height: 10px;
     width: 10px;
-    border-radius: 50%;
     position: absolute;
     top: 10px;
     right: 10px;
 }
 
-    .green {
-        background-color: green;
-    }
+.green {
+    background-color: green;
+}
 
-    .yellow {
-        background-color: yellow;
-    }
+.yellow {
+    background-color: yellow;
+}
 
-    .red {
-        background-color: red;
-    }
-
+.red {
+    background-color: red;
+}
 /* texto del nombre */
 .poke-name {
     font-weight: 700;
