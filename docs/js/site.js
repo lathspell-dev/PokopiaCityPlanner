@@ -324,6 +324,7 @@ function normalizePath(s) {
         // push the original species object (keeping _name/_areas normalized)
         habitat.push(specie);
         updateHabitatStats();
+        updateHabitatCompatibility();
         renderGrid(getFilteredSpecies());
     }
 
