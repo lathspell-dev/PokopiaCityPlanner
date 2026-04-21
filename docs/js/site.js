@@ -498,6 +498,10 @@ function normalizePath(s) {
         // Render comunes
         const comunesList = catMap['preferencias'];
         if (comunesList && selectedCommons.length > 0) {
+            selectedCommons.forEach(pref => {
+                console.log(pref);
+                console.log(prefMap[pref].length);
+            });
             selectedCommons.sort((a, b) => (prefMap[b] || []).length - (prefMap[a] || []).length);
             console.log('Selected common preferences:', selectedCommons);
             selectedCommons.forEach(pref => {
