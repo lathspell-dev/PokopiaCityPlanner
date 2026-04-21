@@ -498,17 +498,12 @@ function normalizePath(s) {
         // Render comunes
         const comunesList = catMap['preferencias'];
         if (comunesList && selectedCommons.length > 0) {
-            selectedCommons.forEach(pref => {
-                console.log(pref);
-                console.log(prefMap[pref]);
-                console.log(prefMap[pref].size);
-            });
-            selectedCommons.sort((a, b) => (prefMap[b] || []).size - (prefMap[a] || []).size);
-            console.log('Selected common preferences:', selectedCommons);
-            selectedCommons.forEach(pref => {
-                const specieIndices = Array.from(prefMap[pref] || []).map(i => habitat[i]);
-                const badge = buildBadge(pref, specieIndices);
-                comunesList.appendChild(badge);
+            selectedCommons
+                .sort((a, b) => (prefMap[b] || []).size - (prefMap[a] || []).size)
+                .forEach(pref => {
+                    const specieIndices = Array.from(prefMap[pref] || []).map(i => habitat[i]);
+                    const badge = buildBadge(pref, specieIndices);
+                    comunesList.appendChild(badge);
             });
         }
 
