@@ -500,6 +500,7 @@ function normalizePath(s) {
         if (comunesList && selectedCommons.length > 0) {
             selectedCommons.forEach(pref => {
                 console.log(pref);
+                console.log(prefMap[pref]);
                 console.log(prefMap[pref].length);
             });
             selectedCommons.sort((a, b) => (prefMap[b] || []).length - (prefMap[a] || []).length);
