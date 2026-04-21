@@ -499,7 +499,7 @@ function normalizePath(s) {
         const comunesList = catMap['preferencias'];
         if (comunesList && selectedCommons.length > 0) {
             selectedCommons
-                .sort((a, b) => { a.value.length - b.value.length })
+                .sort((a, b) => a.value.length - b.value.length)
                 .forEach(pref => {
                     const specieIndices = Array.from(prefMap[pref] || []).map(i => habitat[i]);
                     const badge = buildBadge(pref, specieIndices);
