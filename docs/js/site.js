@@ -46,7 +46,7 @@ function normalizePath(s) {
     const specialitySet = new Set();
     const litterSet = new Set();
 
-    const selectedPreferencesMap = {}; // map pref -> count en hábitat, para calcular comunes
+    const selectedPreferencesMap = new Map(); // map pref -> count en hábitat, para calcular comunes
 
     // Normalizar rutas de imagen/icon en memoria
     species.forEach(p => {
