@@ -467,7 +467,7 @@ function normalizePath(s) {
 
         // coverage inicial: 0 por pokemon
         const coverage = new Array(habitat.length).fill(0);
-        const selectedCommons = [];
+        let selectedCommons = [];
         const maxCommons = 6;
 
         const availablePrefs = new Set(Object.keys(prefMap));
@@ -498,7 +498,7 @@ function normalizePath(s) {
         // Render comunes
         const comunesList = catMap['preferencias'];
         if (comunesList && selectedCommons.length > 0) {
-            selectedCommons = selectedCommons.sort((a, b) => (prefMap[b] || []).length - (prefMap[a] || []).length);
+            selectedCommons.sort((a, b) => (prefMap[b] || []).length - (prefMap[a] || []).length);
             console.log('Selected common preferences:', selectedCommons);
             selectedCommons.forEach(pref => {
                 const specieIndices = Array.from(prefMap[pref] || []).map(i => habitat[i]);
