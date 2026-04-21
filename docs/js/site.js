@@ -209,6 +209,7 @@ function normalizePath(s) {
         let num = 0;
         //console.log(preferencesMap);
         for (let [key, value] of preferencesMap) {
+            console.log(key, value);
             num += value.size;
         }
         //preferencesMap.forEach((value, key, map) => { console.log(value); console.log(key); num += value.size; });
