@@ -46,7 +46,7 @@ function normalizePath(s) {
     const specialitySet = new Set();
     const litterSet = new Set();
 
-    const selectedPreferencesMap = new Map(); // map pref -> count en hábitat, para calcular comunes
+    let selectedPreferencesMap = new Map(); // map pref -> count en hábitat, para calcular comunes
 
     // Normalizar rutas de imagen/icon en memoria
     species.forEach(p => {
@@ -192,23 +192,23 @@ function normalizePath(s) {
         const environmentsInHabitat = getHabitatEnvironments();
         const foodsInHabitat = getHabitatFoods();
 
-        const habitatCompatibility = calculateCompatibility(environmentsInHabitat, foodsInHabitat, habitatPopulation);
+        const habitatCompatibility = calculateCompatibility(selectedPreferencesMap, environmentsInHabitat, foodsInHabitat, habitatPopulation);
         habitatIndicator.classList.add(compatibilityValueToColor(habitatCompatibility));
         if (habitatPopulation === 4) return;
 
-        console.log(Species);
+        console.log(species);
         (species || []).forEach(p => {
             p.compatibility = calculateCompatibility(
+                selectHabitatPreferences(habitat.concat(p), 6),
                 new Set(p.environment, ...environmentsInHabitat),
                 new Set(p.preferredFood, ...foodsInHabitat),
                 habitatPopulation + 1);
         });
     }
 
-    function calculateCompatibility(environments, preferredFoods, quantity) {
+    function calculateCompatibility(preferencesMap, environments, preferredFoods, quantity) {
         let num = 0;
-        console.log(selectedPreferencesMap);
-        selectedPreferencesMap.forEach(kvp => { console.log(kvp); num += kvp.value.size; });
+        preferencesMap.forEach(kvp => { num += kvp.value.size; });
         switch (quantity) {
             case 0:
             case 1:
@@ -437,6 +437,45 @@ function normalizePath(s) {
         return new Set(Object.keys(getHabitatPreferencesMap()));
     }
 
+    function selectHabitatPreferences(species, maxAmount)
+    {
+        const coverage = new Array(species.length).fill(0);
+        const selectedPrefMap = new Map();
+        const prefsPer = species.map(h => h.preferences || []);
+        //map pref -> indices of pokemon
+        const prefMap = {};
+        prefsPer.forEach((prefs, i) => prefs.forEach(pref => {
+            if (!prefMap[pref]) prefMap[pref] = new Set();
+            prefMap[pref].add(i);
+        }));
+        const availablePrefs = new Set(Object.keys(prefMap));
+
+        while (Object.keys(selectedPrefMap).length < maxAmount && availablePrefs.size > 0) {
+            // encontrar pref que mejor cubre los pokemons con menor coverage
+            let bestPref = null;
+            let bestScore = -1;
+            let bestTotal = 0;
+            const minCov = Math.min(...coverage);
+            availablePrefs.forEach(pref => {
+                const indices = Array.from(prefMap[pref] || []);
+                // score = cantidad de indices que tienen coverage == minCov (priorizar balance)
+                const score = indices.filter(i => coverage[i] === minCov).length;
+                const total = indices.length;
+                if (score > bestScore || (score === bestScore && total > bestTotal)) {
+                    bestScore = score;
+                    bestPref = pref;
+                    bestTotal = total;
+                }
+            });
+            if (!bestPref) break;
+            selectedPrefMap[bestPref] = prefMap[bestPref];
+            // actualizar coverage
+            (prefMap[bestPref] || []).forEach(i => coverage[i]++);
+            availablePrefs.delete(bestPref);
+        }
+        return selectedPrefMap;
+    }
+
     // Actualizar habitat-stats según habitat[]
     function updateHabitatStats() {
         // limpiar todas las listas dentro de habitat-stats
@@ -466,36 +505,39 @@ function normalizePath(s) {
         //const allPrefs = Object.keys(prefMap);
 
         // coverage inicial: 0 por pokemon
-        const coverage = new Array(habitat.length).fill(0);
-        const selectedCommons = [];
-        const maxCommons = 6;
+        //const coverage = new Array(habitat.length).fill(0);
+        //const selectedCommons = [];
+        //const maxCommons = 6;
 
-        const availablePrefs = new Set(Object.keys(prefMap));
-        selectedPreferencesMap.clear();
-        while (selectedCommons.length < maxCommons && availablePrefs.size > 0) {
-            // encontrar pref que mejor cubre los pokemons con menor coverage
-            let bestPref = null;
-            let bestScore = -1;
-            let bestTotal = 0;
-            const minCov = Math.min(...coverage);
-            availablePrefs.forEach(pref => {
-                const indices = Array.from(prefMap[pref] || []);
-                // score = cantidad de indices que tienen coverage == minCov (priorizar balance)
-                const score = indices.filter(i => coverage[i] === minCov).length;
-                const total = indices.length;
-                if (score > bestScore || (score === bestScore && total > bestTotal)) {
-                    bestScore = score;
-                    bestPref = pref;
-                    bestTotal = total;
-                }
-            });
-            if (!bestPref) break;
-            selectedCommons.push(bestPref);
-            selectedPreferencesMap[bestPref] = prefMap[bestPref];
-            // actualizar coverage
-            (prefMap[bestPref] || []).forEach(i => coverage[i]++);
-            availablePrefs.delete(bestPref);
-        }
+        //const availablePrefs = new Set(Object.keys(prefMap));
+        //selectedPreferencesMap.clear();
+        //while (selectedCommons.length < maxCommons && availablePrefs.size > 0) {
+        //    // encontrar pref que mejor cubre los pokemons con menor coverage
+        //    let bestPref = null;
+        //    let bestScore = -1;
+        //    let bestTotal = 0;
+        //    const minCov = Math.min(...coverage);
+        //    availablePrefs.forEach(pref => {
+        //        const indices = Array.from(prefMap[pref] || []);
+        //        // score = cantidad de indices que tienen coverage == minCov (priorizar balance)
+        //        const score = indices.filter(i => coverage[i] === minCov).length;
+        //        const total = indices.length;
+        //        if (score > bestScore || (score === bestScore && total > bestTotal)) {
+        //            bestScore = score;
+        //            bestPref = pref;
+        //            bestTotal = total;
+        //        }
+        //    });
+        //    if (!bestPref) break;
+        //    selectedCommons.push(bestPref);
+        //    selectedPreferencesMap[bestPref] = prefMap[bestPref];
+        //    // actualizar coverage
+        //    (prefMap[bestPref] || []).forEach(i => coverage[i]++);
+        //    availablePrefs.delete(bestPref);
+        //}
+
+        selectedPreferencesMap = selectHabitatPreferences(habitat, 6);
+        const selectedCommons = Object.keys(selectedPreferencesMap);
 
         // Render comunes
         const comunesList = catMap['preferencias'];
