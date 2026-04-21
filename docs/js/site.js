@@ -46,6 +46,8 @@ function normalizePath(s) {
     const specialitySet = new Set();
     const litterSet = new Set();
 
+    const selectedPreferencesMap = {}; // map pref -> count en hábitat, para calcular comunes
+
     // Normalizar rutas de imagen/icon en memoria
     species.forEach(p => {
         p._image = normalizePath(p.image);
@@ -186,31 +188,35 @@ function normalizePath(s) {
             habitatIndicator.classList.add('grey');
             return;
         }
-        const preferencesInHabitat = getHabitatPreferences();
+
         const environmentsInHabitat = getHabitatEnvironments();
         const foodsInHabitat = getHabitatFoods();
 
-        const habitatCompatibility = calculateCompatibility(preferencesInHabitat, environmentsInHabitat, foodsInHabitat, habitatPopulation);
+        const habitatCompatibility = calculateCompatibility(environmentsInHabitat, foodsInHabitat, habitatPopulation);
         habitatIndicator.classList.add(compatibilityValueToColor(habitatCompatibility));
         if (habitatPopulation === 4) return;
 
         (species || []).forEach(p => {
             p.compatibility = calculateCompatibility(
-                new Set(...p.preferences, ...preferencesInHabitat),
                 new Set(p.environment, ...environmentsInHabitat),
                 new Set(p.preferredFood, ...foodsInHabitat),
                 habitatPopulation + 1);
         });
     }
 
-    function calculateCompatibility(preferences, environments, preferredFoods, quantity) {
+    function calculateCompatibility(environments, preferredFoods, quantity) {
+        let num = 0;
+        selectedPreferencesMap.forEach((pref, indices) => { num += indices.size; });
         switch (quantity) {
             case 0:
             case 1:
                 return 100;
             case 2:
+                return 4.396 * Math.pow(num, 1.3594);
             case 3:
+                return -0.2269 * Math.pow(num, 2) + 10.1035 * num;
             case 4:
+                return 0.0126 * Math.pow(num, 2) + 4.8085 * num;
             default:
                 return 0;
 
@@ -453,24 +459,17 @@ function normalizePath(s) {
         if (habitat.length === 0) return;
 
         // ---- Comunes: preferencias balanceadas ----
-        // preferencias de cada pokemon -> array
-        //const prefsPer = habitat.map(h => h.preferences || []);
-        //// map pref -> indices of pokemon
-        //const prefMap = {};
-        //prefsPer.forEach((prefs, i) => prefs.forEach(pref => {
-        //    if (!prefMap[pref]) prefMap[pref] = new Set();
-        //    prefMap[pref].add(i);
-        //}));
         const prefMap = getHabitatPreferencesMap();
 
         //const allPrefs = Object.keys(prefMap);
 
         // coverage inicial: 0 por pokemon
         const coverage = new Array(habitat.length).fill(0);
-        let selectedCommons = [];
+        const selectedCommons = [];
         const maxCommons = 6;
 
         const availablePrefs = new Set(Object.keys(prefMap));
+        selectedPreferencesMap.clear();
         while (selectedCommons.length < maxCommons && availablePrefs.size > 0) {
             // encontrar pref que mejor cubre los pokemons con menor coverage
             let bestPref = null;
@@ -490,6 +489,7 @@ function normalizePath(s) {
             });
             if (!bestPref) break;
             selectedCommons.push(bestPref);
+            selectedPreferencesMap[bestPref] = prefMap[bestPref];
             // actualizar coverage
             (prefMap[bestPref] || []).forEach(i => coverage[i]++);
             availablePrefs.delete(bestPref);
@@ -506,29 +506,6 @@ function normalizePath(s) {
                     comunesList.appendChild(badge);
             });
         }
-
-        //// ---- Unicas: preferencias que solo un pokemon tenga ----
-        //const maxUnicas = 4;
-        //const chosenPrefs = [];
-        //const unicasList = catMap['únicas'] || catMap['unicas'];
-        //if (unicasList) {
-        //for (let i = 0; i < maxUnicas; i++) {
-        //        const uniquePrefs = [];
-        //        Object.keys(prefMap).forEach(pref => {
-        //                if (selectedCommons.includes(pref) || chosenPrefs.includes(pref)) return; // skip already chosen commons
-        //                const indices = Array.from(prefMap[pref] || []);
-        //                if (indices.length === 1) uniquePrefs.push({ pref, owner: indices[0] });
-        //        });
-        //        if (uniquePrefs.length === 0) break;
-        //        uniquePrefs.sort((a, b) => coverage[a.owner] - coverage[b.owner]);
-        //        const chosenPref = uniquePrefs[0];
-        //        const ownerSpecie = habitat[chosenPref.owner];
-        //        const badge = buildBadge(chosenPref.pref, [ownerSpecie]);
-        //        unicasList.appendChild(badge);
-        //        coverage[chosenPref.owner]++;
-        //        chosenPrefs.push(chosenPref.pref);// marcar como cubierto para balancear siguientes
-        //    }
-        //}
 
         // ---- Comida: agrupar por preferredFood ----
         const comidaMap = {};
