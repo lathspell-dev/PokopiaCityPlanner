@@ -196,7 +196,6 @@ function normalizePath(s) {
         habitatIndicator.classList.add(compatibilityValueToColor(habitatCompatibility));
         if (habitatPopulation === 4) return;
 
-        console.log(species);
         (species || []).forEach(p => {
             p.compatibility = calculateCompatibility(
                 selectHabitatPreferences(habitat.concat(p), 6),
@@ -208,6 +207,7 @@ function normalizePath(s) {
 
     function calculateCompatibility(preferencesMap, environments, preferredFoods, quantity) {
         let num = 0;
+        console.log(preferencesMap);
         preferencesMap.forEach(kvp => { num += kvp.value.size; });
         switch (quantity) {
             case 0:
