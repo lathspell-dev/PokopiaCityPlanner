@@ -496,7 +496,7 @@ function normalizePath(s) {
         }
 
         // Render comunes
-        const comunesList = catMap['comunes'];
+        const comunesList = catMap['preferencias'];
         if (comunesList && selectedCommons.length > 0) {
             selectedCommons.forEach(pref => {
                 const specieIndices = Array.from(prefMap[pref] || []).map(i => habitat[i]);
