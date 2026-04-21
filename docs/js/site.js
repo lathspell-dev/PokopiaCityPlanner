@@ -207,7 +207,7 @@ function normalizePath(s) {
 
     function calculateCompatibility(preferencesMap, environments, preferredFoods, quantity) {
         let num = 0;
-
+        console.log(preferencesMap);
         preferencesMap.forEach((value, key) => { console.log(value); console.log(key); num += value.size; });
         switch (quantity) {
             case 0:
