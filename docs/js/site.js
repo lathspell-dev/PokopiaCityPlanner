@@ -233,7 +233,9 @@ function normalizePath(s) {
     function renderGrid(items) {
         grid.innerHTML = '';
         // items assumed already filtered in getFilteredSpecies
-        items.forEach(p => {
+        items
+            .sort((a, b) => b.compatibility - a.compatibility)
+            .forEach(p => {
             const card = document.createElement('div');
             card.className = 'poke-card';
             card.tabIndex = 0;
