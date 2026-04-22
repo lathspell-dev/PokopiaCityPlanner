@@ -189,6 +189,7 @@ function normalizePath(s) {
         habitatIndicator.classList.remove('green', 'yellow', 'red', 'grey');
         if (habitatPopulation === 0) {
             habitatIndicator.classList.add('grey');
+            (species || []).forEach(p => p.compatibility = 100);
             return;
         }
 
