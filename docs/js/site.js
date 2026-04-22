@@ -195,7 +195,9 @@ function normalizePath(s) {
         const environmentsInHabitat = getHabitatEnvironments();
         const foodsInHabitat = getHabitatFoods();
 
-        const habitatCompatibility = calculateCompatibility(selectHabitatPreferences(habitat), environmentsInHabitat, foodsInHabitat, habitatPopulation);
+        const preferencesMap = selectHabitatPreferences(habitat);
+        const habitatCompatibility = calculateCompatibility(preferencesMap, environmentsInHabitat, foodsInHabitat, habitatPopulation);
+        console.log(preferencesMap);
         console.log("Score: ", habitatCompatibility);
         habitatIndicator.classList.add(compatibilityValueToColor(habitatCompatibility));
         if (habitatPopulation === 4) return;
@@ -211,7 +213,6 @@ function normalizePath(s) {
 
     function calculateCompatibility(preferencesMap, environments, preferredFoods, quantity) {
         let num = 0;
-        console.log(preferencesMap);
         for (let key of (Object.keys(preferencesMap) || [])) {
             num += preferencesMap[key].size;
         }
