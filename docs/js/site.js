@@ -233,7 +233,7 @@ function normalizePath(s) {
                 score = -1.5714 * Math.pow(num, 2) + 43.2857 * num - 195.7143 + 0.5;
                 break;
             case 4:
-                score = -0.7407 * Math.pow(num, 2) + 28.5185 * num - 174.0741 + 0.5;
+                score = -0.6818 * Math.pow(num, 2) + 24.3182 * num - 113.6364 + 0.5;
                 break;
             default:
                 return 0;
