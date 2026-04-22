@@ -277,7 +277,7 @@ html, body, #app {
         padding: 8px 10px;
         border-radius: 4px;
         border: 0;
-        background: var(--erase_color);
+        background: var(--accent);
         color: #012;
         cursor: pointer;
         margin: 0 -3px;
