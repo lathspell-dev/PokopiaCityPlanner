@@ -210,7 +210,6 @@ function normalizePath(s) {
             console.log("foods: ", foods);
             console.log("Score: ", p.compatibility);
         });
-        console.log("species updated: ", species);
     }
 
     function calculateCompatibility(preferencesMap, environments, preferredFoods, quantity) {
