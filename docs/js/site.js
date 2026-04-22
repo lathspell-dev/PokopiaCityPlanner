@@ -201,8 +201,10 @@ function normalizePath(s) {
         if (habitatPopulation === 4) return;
         (species || []).forEach(p => {
             const preferences = selectHabitatPreferences(habitat.concat(p), 6);
-            const environments = new Set(p.environment, ...environmentsInHabitat);
-            const foods = new Set(p.preferredFood, ...foodsInHabitat);
+            const environments = new Set(environmentsInHabitat);
+            environments.add(p.environment);
+            const foods = new Set(foodsInHabitat);
+            foods.add(p.preferredFood);
             p.compatibility = calculateCompatibility(preferences, environments, foods, habitatPopulation + 1);
             console.log(p);
             console.log("preferences: ", preferences);
