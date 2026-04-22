@@ -4,7 +4,7 @@
     --panel: #0b1220;
     --muted: #a8b0bf;
     --accent: #7dd3fc;
-    --erase_color: #D6183B;
+    --erase_color: #ff4d4d;
     --special-bg: rgba(255,205,75,0.06); /* fondo para pokémon "Especial" en la búsqueda */
     --special-border: rgba(255,205,75,0.16);
     --stat-title-size: 15px;
@@ -285,7 +285,7 @@ html, body, #app {
     }
 
         .filter-row button .fa {
-            font-size: 20px;
+            font-size: 16px;
         }
 
 /* grid de pokemons */
