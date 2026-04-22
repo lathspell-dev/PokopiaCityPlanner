@@ -87,9 +87,8 @@ function normalizePath(s) {
     // filtros DOM
     const inputName = document.getElementById('filter-name');
     const selectArea = document.getElementById('filter-area');
-    for (const area of Array.from(specialitySet)) {
+    const clearArea = document.getElementById('clear-area');
 
-    }
     const selectSpeciality = document.getElementById('filter-speciality');
     for (const speciality of Array.from(specialitySet).sort()) {
         const option = document.createElement("option");
@@ -97,6 +96,7 @@ function normalizePath(s) {
         option.textContent = speciality;
         selectSpeciality.appendChild(option);
     }
+    const clearSpeciality = document.getElementById('clear-speciality');
 
     const selectLitter = document.getElementById('filter-speciality-litter');
     for (const litter of Array.from(litterSet).sort()) {
@@ -105,11 +105,12 @@ function normalizePath(s) {
         option.textContent = litter;
         selectLitter.appendChild(option);
     }
+    const clearLitter = document.getElementById('clear-speciality-litter');
 
     //const selectTrait = null; // deshabilitado por ahora, no hay traits en el JSON
     const excludeEspecialDiv = document.getElementById('exclude-especial-div');
     const excludeEspecialCheckbox = document.getElementById("exclude-especial");
-    const btnClear = document.getElementById('clear-filters');
+    //const btnClear = document.getElementById('clear-filters');
 
     // Inicio: ocultar pins (habitat vacío)
     pins.forEach(pin => pin.style.display = 'none');
@@ -645,7 +646,7 @@ function normalizePath(s) {
     }
 
     function selectSpecialityChanged() {
-        selectLitter.style.display = selectSpeciality.value === "Producir" ? 'inline-block' : 'none';
+        selectLitter.style.display = clearLitter.style.display = selectSpeciality.value === "Producir" ? 'inline-block' : 'none';
         refreshView();
     }
 
@@ -666,20 +667,33 @@ function normalizePath(s) {
     if (selectLitter) selectLitter.addEventListener('change', selectSpecialityLitterChanged);
     if (selectSpeciality) {
         selectSpeciality.addEventListener('change', selectSpecialityChanged);
-        selectLitter.style.display = selectSpeciality.value === "Producir" ? 'inline-block' : 'none';
+        selectLitter.style.display = clearLitter.style.display = selectSpeciality.value === "Producir" ? 'inline-block' : 'none';
     }
-    if (btnClear) btnClear.addEventListener('click', () => {
-        if (inputName) inputName.value = '';
-        if (selectArea) selectArea.value = '';
+    if (clearSpeciality) clearSpeciality.addEventListener('click', () => {
         if (selectSpeciality) selectSpeciality.value = '';
-        if (selectLitter) {
-            selectLitter.value = '';
-            selectLitter.style.display = 'none';
-        }
-        if (excludeEspecialCheckbox) excludeEspecialCheckbox.checked = false;
-        if (excludeEspecialDiv) excludeEspecialDiv.style.display = 'none';
-        refreshView();
+        selectSpecialityChanged();
     });
+    if (clearLitter) clearLitter.addEventListener('click', () => {
+        if (selectLitter) selectLitter.value = '';
+        selectSpecialityLitterChanged();
+    });
+    if (clearArea) clearArea.addEventListener('click', () => {
+        if (selectArea) selectArea.value = '';
+        selectAreaChanged();
+    });
+
+    //if (btnClear) btnClear.addEventListener('click', () => {
+    //    if (inputName) inputName.value = '';
+    //    if (selectArea) selectArea.value = '';
+    //    if (selectSpeciality) selectSpeciality.value = '';
+    //    if (selectLitter) {
+    //        selectLitter.value = '';
+    //        selectLitter.style.display = 'none';
+    //    }
+    //    if (excludeEspecialCheckbox) excludeEspecialCheckbox.checked = false;
+    //    if (excludeEspecialDiv) excludeEspecialDiv.style.display = 'none';
+    //    refreshView();
+    //});
 
     // Inicial render
     updateHabitatStats();
