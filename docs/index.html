@@ -129,9 +129,12 @@
             <section class="filters">
                 <div class="filter-row">
                     <input id="filter-name" placeholder="Filtrar por nombre" type="text">
-                    <select id="filter-speciality">
-                        <option value="" selected hidden>Especialidad</option>
-                    </select>
+                    <div>
+                        <select id="filter-speciality">
+                            <option value="" selected hidden>Especialidad</option>
+                        </select>
+                        <button id="clear-filters" type="button"><i class="fa-solid fa-trash"></i></button>
+                    </div>
                     <select id="filter-speciality-litter">
                         <option value="" selected hidden>Material producido</option>
                     </select>
