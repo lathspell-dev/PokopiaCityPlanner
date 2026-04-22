@@ -243,7 +243,9 @@ function normalizePath(s) {
         if (environments.has("Calentito") && environments.has("Fresquito")) score -= 20;
         if (environments.has("Humedo") && environments.has("Seco")) score -= 20;
         if (environments.has("Oscuro") && environments.has("Calentito")) score -= 10;
+        if (environments.size == 1) score += 5;
         if (environments.size >= 3) score -= 5;
+        if (preferredFoods.size == 1) score += 5;
         if (preferredFoods.size >= 3) score -= 10;
         return score;
     }
@@ -253,7 +255,9 @@ function normalizePath(s) {
         grid.innerHTML = '';
         // items assumed already filtered in getFilteredSpecies
         items
-            .sort((a, b) => b.compatibility - a.compatibility)
+            .sort((a, b) => habitat.length > 0
+                ? b.compatibility - a.compatibility
+                : b.dexNum != a.dexNum ? a.dexNum - b.dexNum : a.variantNum - b.variantNum)
             .forEach(p => {
             const card = document.createElement('div');
             card.className = 'poke-card';
