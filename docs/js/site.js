@@ -195,7 +195,7 @@ function normalizePath(s) {
         const environmentsInHabitat = getHabitatEnvironments();
         const foodsInHabitat = getHabitatFoods();
 
-        const habitatCompatibility = calculateCompatibility(selectedPreferencesMap, environmentsInHabitat, foodsInHabitat, habitatPopulation);
+        const habitatCompatibility = calculateCompatibility(selectHabitatPreferences(habitat), environmentsInHabitat, foodsInHabitat, habitatPopulation);
         habitatIndicator.classList.add(compatibilityValueToColor(habitatCompatibility));
         if (habitatPopulation === 4) return;
 
