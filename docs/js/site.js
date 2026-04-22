@@ -195,7 +195,7 @@ function normalizePath(s) {
         const environmentsInHabitat = getHabitatEnvironments();
         const foodsInHabitat = getHabitatFoods();
 
-        const preferencesMap = selectHabitatPreferences(habitat);
+        const preferencesMap = selectHabitatPreferences(habitat, 6);
         const habitatCompatibility = calculateCompatibility(preferencesMap, environmentsInHabitat, foodsInHabitat, habitatPopulation);
         console.log(preferencesMap);
         console.log("Score: ", habitatCompatibility);
