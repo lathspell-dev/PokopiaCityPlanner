@@ -181,7 +181,7 @@ function normalizePath(s) {
     }
 
     function compatibilityValueToColor(value) {
-        return value > greenThreshold ? 'green' : value > yellowThreshold ? 'yellow' : 'red';
+        return value >= greenThreshold ? 'green' : value >= yellowThreshold ? 'yellow' : 'red';
     }
 
     function updateHabitatCompatibility() {
