@@ -239,10 +239,10 @@ function normalizePath(s) {
                 return 0;
         }
         score = Math.max(0, Math.min(100, score));
-        if (environments.has("oscuro") && environments.has("iluminado")) score -= 20;
-        if (environments.has("calentito") && environments.has("fresquito")) score -= 20;
-        if (environments.has("humedo") && environments.has("seco")) score -= 20;
-        if (environments.has("oscuro") && environments.has("calentito")) score -= 10;
+        if (environments.has("Oscuro") && environments.has("Iluminado")) score -= 20;
+        if (environments.has("Calentito") && environments.has("Fresquito")) score -= 20;
+        if (environments.has("Humedo") && environments.has("Seco")) score -= 20;
+        if (environments.has("Oscuro") && environments.has("Calentito")) score -= 10;
         if (environments.size >= 3) score -= 5;
         if (preferredFoods.size >= 3) score -= 10;
         return score;
