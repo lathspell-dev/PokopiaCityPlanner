@@ -3392,7 +3392,7 @@
     "image": "data/images/plusle-full.png",
     "icon": "data/icons/plusle-icon.png",
     "originalAreas": [ "Islas Aisladas" ],
-    "preferredFood": "",
+    "preferredFood": "Dulce",
     "specialities": [ "Electrificar" ],
     "environment": "Iluminado",
     "preferences": [ "C. electricas", "C. con cristal", "C. blanditas", "C. cuquis", "C. para disfrutar juntos" ],
