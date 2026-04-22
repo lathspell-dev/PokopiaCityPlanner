@@ -269,15 +269,20 @@ html, body, #app {
 }
 
 /* botón limpiar */
-.filter-row button {
-    padding: 4px;
-    border-radius: 0 8px 8px 0;
-    border: 0;
-    background: var(--erase_color);
-    color: #012;
-    cursor: pointer;
-    margin: 0 0 0 -8px;
-}
+    .filter-row button {
+        padding: 8px 12px;
+        border-radius: 0 8px 8px 0;
+        border: 0;
+        background: var(--erase_color);
+        color: #012;
+        cursor: pointer;
+        margin: 0 0 0 -8px;
+        z-index: -1;
+    }
+
+        .filter-row button i{
+            padding: 8px 12px;
+        }
 
 /* grid de pokemons */
 .pokemon-grid {
