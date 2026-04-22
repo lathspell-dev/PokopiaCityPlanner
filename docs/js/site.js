@@ -1,5 +1,5 @@
-const greenThreshold = 80;
-const yellowThreshold = 50;
+const greenThreshold = 80.0;
+const yellowThreshold = 50.0;
 
 // Carga de datos desde JSON y lógica del hábitat (añadir/quitar, stats)
 async function tryFetch(url) {
