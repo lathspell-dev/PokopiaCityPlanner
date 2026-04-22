@@ -1,3 +1,6 @@
+const greenThreshold = 80;
+const yellowThreshold = 50;
+
 // Carga de datos desde JSON y lógica del hábitat (añadir/quitar, stats)
 async function tryFetch(url) {
     try {
@@ -178,7 +181,7 @@ function normalizePath(s) {
     }
 
     function compatibilityValueToColor(value) {
-        return value > 80 ? 'green' : value > 50 ? 'yellow' : 'red';
+        return value > greenThreshold ? 'green' : value > yellowThreshold ? 'yellow' : 'red';
     }
 
     function updateHabitatCompatibility() {
@@ -211,22 +214,33 @@ function normalizePath(s) {
         for (let key of (Object.keys(preferencesMap) || [])) {
             num += preferencesMap[key].size;
         }
-        //preferencesMap.forEach((value, key, map) => { console.log(value); console.log(key); num += value.size; });
+
+        let score = 0;
         switch (quantity) {
             case 0:
                 return 100;
             case 1:
                 return 100;
             case 2:
-                return 4.396 * Math.pow(num, 1.3594);
+                score = -(20.0 / 3) * Math.pow(num, 2) + 130 * num - (1600 / 3);
+                break;
             case 3:
-                return -0.2269 * Math.pow(num, 2) + 10.1035 * num;
+                score = -1.5714 * Math.pow(num, 2) + 43.2857 * num - 195.7143;
+                break;
             case 4:
-                return 0.0126 * Math.pow(num, 2) + 4.8085 * num;
+                score = -0.7407 * Math.pow(num, 2) + 28.5185 * num - 174.0741;
+                break;
             default:
                 return 0;
-
         }
+        score = Math.max(0, Math.min(100, score));
+        if (environments.has("oscuro") && environments.has("iluminado")) score -= 20;
+        if (environments.has("calentito") && environments.has("fresquito")) score -= 20;
+        if (environments.has("humedo") && environments.has("seco")) score -= 20;
+        if (environments.has("oscuro") && environments.has("calentito")) score -= 10;
+        if (environments.size >= 3) score -= 5;
+        if (preferredFoods.size >= 3) score -= 10;
+        return score;
     }
 
     // Render del grid (excluye especies que estén en el hábitat)
