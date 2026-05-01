@@ -454,6 +454,7 @@ function normalizePath(s) {
 
     function getHabitatPreferencesMap() {
         const prefsPer = habitat.map(h => h.preferences || []);
+
         //map pref -> indices of pokemon
         const prefMap = {};
         prefsPer.forEach((prefs, i) => prefs.forEach(pref => {
@@ -473,6 +474,7 @@ function normalizePath(s) {
         const coverage = new Array(species.length).fill(0);
         const selectedPrefMap = new Map();
         const prefsPer = species.map(h => h.preferences || []);
+
         //map pref -> indices of pokemon
         const prefMap = {};
         prefsPer.forEach((prefs, i) => prefs.forEach(pref => {
@@ -532,41 +534,6 @@ function normalizePath(s) {
 
         // ---- Comunes: preferencias balanceadas ----
         const prefMap = getHabitatPreferencesMap();
-
-        //const allPrefs = Object.keys(prefMap);
-
-        // coverage inicial: 0 por pokemon
-        //const coverage = new Array(habitat.length).fill(0);
-        //const selectedCommons = [];
-        //const maxCommons = 6;
-
-        //const availablePrefs = new Set(Object.keys(prefMap));
-        //selectedPreferencesMap.clear();
-        //while (selectedCommons.length < maxCommons && availablePrefs.size > 0) {
-        //    // encontrar pref que mejor cubre los pokemons con menor coverage
-        //    let bestPref = null;
-        //    let bestScore = -1;
-        //    let bestTotal = 0;
-        //    const minCov = Math.min(...coverage);
-        //    availablePrefs.forEach(pref => {
-        //        const indices = Array.from(prefMap[pref] || []);
-        //        // score = cantidad de indices que tienen coverage == minCov (priorizar balance)
-        //        const score = indices.filter(i => coverage[i] === minCov).length;
-        //        const total = indices.length;
-        //        if (score > bestScore || (score === bestScore && total > bestTotal)) {
-        //            bestScore = score;
-        //            bestPref = pref;
-        //            bestTotal = total;
-        //        }
-        //    });
-        //    if (!bestPref) break;
-        //    selectedCommons.push(bestPref);
-        //    selectedPreferencesMap[bestPref] = prefMap[bestPref];
-        //    // actualizar coverage
-        //    (prefMap[bestPref] || []).forEach(i => coverage[i]++);
-        //    availablePrefs.delete(bestPref);
-        //}
-
         selectedPreferencesMap = selectHabitatPreferences(habitat, 6);
         const selectedCommons = Object.keys(selectedPreferencesMap);
 
@@ -681,19 +648,6 @@ function normalizePath(s) {
         if (selectArea) selectArea.value = '';
         selectAreaChanged();
     });
-
-    //if (btnClear) btnClear.addEventListener('click', () => {
-    //    if (inputName) inputName.value = '';
-    //    if (selectArea) selectArea.value = '';
-    //    if (selectSpeciality) selectSpeciality.value = '';
-    //    if (selectLitter) {
-    //        selectLitter.value = '';
-    //        selectLitter.style.display = 'none';
-    //    }
-    //    if (excludeEspecialCheckbox) excludeEspecialCheckbox.checked = false;
-    //    if (excludeEspecialDiv) excludeEspecialDiv.style.display = 'none';
-    //    refreshView();
-    //});
 
     // Inicial render
     updateHabitatStats();
